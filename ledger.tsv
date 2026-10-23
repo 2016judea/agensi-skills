@@ -23,3 +23,12 @@ mpls-permits	~/.claude/skills/mpls-permits	list	his repo paths, a named contract
 research-paper-essay	~/.claude/skills/research-paper-essay	list	his name, byline, Substack URL, sibling skill refs	
 search-console-setup	~/.claude/skills/search-console-setup	list	rewritten: Vercel team id + slug, GBP place id, his legal/brand name, DNS/mail topology, his sites, quotes, memory refs	
 sec-financials	~/Desktop/trading-harness (public) + ~/.claude/skills/sec-financials	list	used the already-public harness copy (UA from env, not his email) + one trap from the global copy, de-tickered	
+buffett-checklist	~/Desktop/trading-harness/.claude/skills (public repo)	list	already sanitised in the public harness; memory-link syntax converted	
+etrade-pull	~/Desktop/trading-harness (public) [global copy has his account details, not used]	list	harness copy + bundled client scripts; no credentials (read from your .env)	
+intrinsic-value	~/Desktop/trading-harness (public)	list	harness copy + owner_earnings.py/compare.py/sec_financials.py bundled	
+order-check	~/Desktop/trading-harness (public) [global copy not used]	list	harness copy + scripts; one limit price removed from a docstring	
+portfolio-review	~/Desktop/trading-harness (public) [global copy not used]	list	harness copy; example-account dollar figure removed	
+price-history	~/Desktop/trading-harness (public)	list	harness copy + price_history.py	
+realized-pnl	~/Desktop/trading-harness (public)	list	harness copy + scripts; one of his trade details removed from a comment	
+rebalance-plan	~/Desktop/trading-harness (public)	list	harness copy + rebalance.py + example targets (fictional)	
+trade-journal	~/Desktop/trading-harness (public)	list	harness copy + JOURNAL.template.md (placeholders only)	

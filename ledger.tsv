@@ -44,3 +44,5 @@ just-do-it	~/.claude/skills/okay-mom (renamed)	list	his name; renamed from okay-
 session-intent	~/.claude/skills/session-intent	list	rewritten as a method + PostHog traps: his private repo, his pages/visitor anecdotes, key locations removed	
 vercel-api	~/.claude/skills/vercel-api	list	rewritten: team id + slug, his project list, product names, his paid-data exposure incident anonymised	
 site-analytics	~/.claude/skills/site-analytics	list	his PostHog public key + project id + cohort + IP, his site list, opt-out host allowlist -> placeholders; Vercel pull.py (his sites) dropped	
+stripe-dashboard	~/.claude/skills/stripe-dashboard	list	both Stripe account ids, his phone digits, org/brand names, link counts, his campaign paths, memory refs	
+product-paywall	~/.claude/skills/product-paywall	list	rewritten: his product names + sales/visitor stats, Zoho account id + send-cap paths, router URL, repo paths, his quote, outreach ledger details	

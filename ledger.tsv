@@ -46,3 +46,24 @@ vercel-api	~/.claude/skills/vercel-api	list	rewritten: team id + slug, his proje
 site-analytics	~/.claude/skills/site-analytics	list	his PostHog public key + project id + cohort + IP, his site list, opt-out host allowlist -> placeholders; Vercel pull.py (his sites) dropped	
 stripe-dashboard	~/.claude/skills/stripe-dashboard	list	both Stripe account ids, his phone digits, org/brand names, link counts, his campaign paths, memory refs	
 product-paywall	~/.claude/skills/product-paywall	list	rewritten: his product names + sales/visitor stats, Zoho account id + send-cap paths, router URL, repo paths, his quote, outreach ledger details	
+aetas-nova-issue	~/.claude/skills/aetas-nova-issue	skip		his own magazine built from his own writing; nothing usable survives without his corpus
+aidan-voice	~/.claude/skills/aidan-voice	skip		his personal writing voice, measured off his Substack
+contacts	~/.claude/skills/contacts	skip		his phone book (contacts.json) and message history; the generic reader ships inside thread-wall
+doors	~/.claude/skills/doors	skip		his social/dating life and local venues
+glean-issue	~/.claude/skills/glean-issue (+ writing-topology copy)	skip		his printed magazine pipeline, site, archive and readers
+demand-signals	~/.claude/skills/demand-signals	skip		query guide for his private DuckDB of job postings/asks; useless without his database
+outreach-ledger	~/.claude/skills/outreach-ledger	skip		his outreach ledger (every send + recipients); private data
+pessimists-archive	~/.claude/skills/pessimists-archive	skip		query guide for his private DuckDB; corpus is third-party clippings
+price-signals	~/.claude/skills/price-signals	skip		query guide for his private prices DuckDB
+quotations-corpus	~/.claude/skills/quotations-corpus	skip		his saved book passages and personal site
+the-upward-glance	~/.claude/skills/the-upward-glance (+ writing-topology copy)	skip		his personal quote collection
+thesis-corpus	~/.claude/skills/thesis-corpus	skip		corpus of his own ideas from notes/ChatGPT/texts
+vintage-ebay-shopping	~/.claude/skills/vintage-ebay-shopping	skip		his personal clothing taste and eBay account
+what-to-read	~/.claude/skills/what-to-read	skip		his reading history, reviews and quotes corpus
+annotate-film	~/.claude/skills/annotate-film	skip		curates his own film scans and rebuilds his personal-site gallery
+jony-ive	~/.claude/skills/jony-ive	skip		persona of a real person grounded strictly in third-party copyrighted transcripts; corpus cannot ship and nothing survives without it
+benedict-evans	~/.claude/skills/benedict-evans	skip		persona of a real person grounded in his copyrighted essays/newsletters; corpus cannot ship
+marc-andreessen	~/.claude/skills/marc-andreessen	skip		persona of a real person grounded in copyrighted interviews/essays; corpus cannot ship
+shelf-ideation	~/.claude/skills/shelf-ideation	skip		ideation through his business's four product shelves and private stores; nothing generic survives
+linkedin-message	~/.claude/skills/linkedin-message	skip		batch InMail automation against LinkedIn's no-bots terms, built around his named prospects and Premium account; not something to distribute
+browser-as-you	~/.claude/skills/browser-as-aidan (renamed)	list	renamed; his accounts/emails, Substack handles, memory refs, Instagram scraping section (third-party ToS) and his directory-filing history removed; added the empty-profile + OAuth-PKCE notes from this session	

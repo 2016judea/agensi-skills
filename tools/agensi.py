@@ -27,7 +27,13 @@ def call(name, args):
     r = json.loads(raw)
     if 'error' in r: return r
     res = r['result']
-    return res.get('structuredContent') or '\n'.join(c.get('text', '') for c in res.get('content', []))
+    if res.get('structuredContent'):
+        return res['structuredContent']
+    txt = '\n'.join(c.get('text', '') for c in res.get('content', []))
+    try:
+        return json.loads(txt)
+    except ValueError:
+        return txt
 
 if __name__ == '__main__':
     out = call(sys.argv[1], json.loads(sys.argv[2]) if len(sys.argv) > 2 else {})

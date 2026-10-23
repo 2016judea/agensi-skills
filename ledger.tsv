@@ -41,3 +41,6 @@ apple-photos	~/.claude/skills/apple-photos	list	his album names, Film-album hist
 photo-touchup	~/.claude/skills/photo-touchup	list	photos "of Aidan", his dating-profile anecdote generalised, his paths	
 thread-wall	~/.claude/skills/thread-wall (+ contacts/read_messages.py)	list	a friend's name + his texting anecdote, a real phone number in the usage line, /Users path; reader bundled	
 just-do-it	~/.claude/skills/okay-mom (renamed)	list	his name; renamed from okay-mom	
+session-intent	~/.claude/skills/session-intent	list	rewritten as a method + PostHog traps: his private repo, his pages/visitor anecdotes, key locations removed	
+vercel-api	~/.claude/skills/vercel-api	list	rewritten: team id + slug, his project list, product names, his paid-data exposure incident anonymised	
+site-analytics	~/.claude/skills/site-analytics	list	his PostHog public key + project id + cohort + IP, his site list, opt-out host allowlist -> placeholders; Vercel pull.py (his sites) dropped	

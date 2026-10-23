@@ -2,3 +2,5 @@
 search-console-setup	(an LLC / got an EIN|an EIN does nothing|Never put the EIN|carries the LLC|appending "LLC"|Acme and Co LLC)
 site-analytics	(__POSTHOG_KEY__|public .phc_. key)
 browser-as-you	<sub>\.substack\.com
+leonardo	(Leonardo_da|93_Codex)
+sms-native-product	(one EIN|EIN\.\*\* Risk)

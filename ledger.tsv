@@ -75,3 +75,5 @@ skill-autoload-hook	~/.claude/hooks/channel_skill.py + settings.json UserPromptS
 records-request	~/.claude/skills/records-request	list	rewritten: his name/LLC/email/signature, an official's quoted reply, his quotes, repo paths, Mailgun domain, memory/journal refs	
 sms-native-product	~/.claude/skills/sms-native-product	list	rewritten: his project (Call Her) name/repo/journal, his quotes, his dating-product specifics, business name, key-grep over his paths	
 distribution-channel	~/.claude/skills/distribution-channel	list	rewritten and condensed: his outreach ledger, revenue, named recipients (incl. people texted), his quotes, products, repo paths, memory refs; kept the method (vouchers, obligation inboxes, super users, rules)	
+ux-gift-sweep	~/.claude/skills/ux-gift-sweep (+ findings.md)	list	his verbatim email copy replaced with a neutral template (his prose not reused), his prices, named business, his repo/ledger paths, Mailgun domain + bounce stats, memory refs	
+counterparty-gift	~/.claude/skills/counterparty-gift	list	rewritten: seven named recipient businesses, his business/site/Zoho ids, signature line, repo paths, journal/memory refs	

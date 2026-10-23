@@ -11,7 +11,7 @@ for d in "$@"; do
   allow=$(awk -F'\t' -v n="$name" '$1==n{print $2}' "$(dirname "$0")/allow.txt" | paste -sd'|' -)
   [ -n "$allow" ] && h=$(echo "$h" | grep -vE "$allow")
   h=$(echo "$h" | sed '/^$/d')
-  bin=$(find "$d" -type f ! -name '*.md' ! -name '*.py' ! -name '*.sh' ! -name '*.js' ! -name '*.mjs' ! -name '*.ts' ! -name '*.txt' ! -name '*.json' ! -name '*.swift' ! -name '*.html' ! -name '*.css' ! -name '*.toml' ! -name '*.yaml' ! -name '*.yml')
+  bin=$(find "$d" -type f ! -name '*.md' ! -name '*.py' ! -name '*.sh' ! -name '*.js' ! -name '*.mjs' ! -name '*.ts' ! -name '*.txt' ! -name '*.json' ! -name '*.swift' ! -name '*.html' ! -name '*.css' ! -name '*.toml' ! -name '*.yaml' ! -name '*.yml' ! -name '*.applescript')
   if [ -n "$h$bin" ]; then echo "FAIL $d"; echo "$h" | head -40; [ -n "$bin" ] && echo "non-text: $bin"; rc=1; else echo "PASS $d"; fi
 done
 exit $rc

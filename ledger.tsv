@@ -79,3 +79,6 @@ ux-gift-sweep	~/.claude/skills/ux-gift-sweep (+ findings.md)	list	his verbatim e
 counterparty-gift	~/.claude/skills/counterparty-gift	list	rewritten: seven named recipient businesses, his business/site/Zoho ids, signature line, repo paths, journal/memory refs	
 leonardo	~/.claude/skills/leonardo	list	shipped SKILL.md + prompts + plate.py + CREDITS/meta; the 15 sheet images and the 245k-word notebook corpus NOT shipped (images fetched from Commons by a new fetch_sheets.py; text pointed at Project Gutenberg); his sites/brands, memory refs, paths removed	
 shakespeare-marginalia	~/.claude/skills/shakespeare-marginalia	skip		a pointer to his own public GitHub repo (identifies him) for his literature product; nothing usable without that repo
+quote-wallpapers	~/.claude/skills/quote-wallpapers	list	his Notion DB id, his album/phone, memory refs; hard-coded slur list in build_render_set.py replaced by a user blocklist file; make-art path configurable	
+annotate-inspo	~/.claude/skills/annotate-inspo	skip		his inspiration boards, his friends' board names and file-naming conventions, his personal-site lane; nothing generic survives
+lomo-likes	~/.claude/skills/lomo-likes	skip		scrapes his own Lomography likes by reusing his Cloudflare clearance cookie (46MB of others' photos); bot-wall circumvention on a third-party site, not distributable

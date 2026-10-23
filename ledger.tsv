@@ -32,3 +32,6 @@ price-history	~/Desktop/trading-harness (public)	list	harness copy + price_histo
 realized-pnl	~/Desktop/trading-harness (public)	list	harness copy + scripts; one of his trade details removed from a comment	
 rebalance-plan	~/Desktop/trading-harness (public)	list	harness copy + rebalance.py + example targets (fictional)	
 trade-journal	~/Desktop/trading-harness (public)	list	harness copy + JOURNAL.template.md (placeholders only)	
+sector-acceleration	~/.claude/skills/sector-acceleration + ~/Desktop/trading-journal scripts	list	his repo paths, his book/firewall/JOURNAL refs, dated calls; scripts bundled (sector_momentum, kalshi_macro, harness price_history)	
+thirty-day-catalyst	~/.claude/skills/thirty-day-catalyst + ~/Desktop/trading-journal scripts	list	his quote/thesis attribution, his HELD holdings set and KILLED research ledger emptied in screener.py, RMD/JOURNAL/RESEARCH-PLAN refs	
+portfolio-journal	~/.claude/skills/portfolio-journal	skip		superseded by trade-journal (public harness); the rest is his positions, tickers held, fills and repo paths

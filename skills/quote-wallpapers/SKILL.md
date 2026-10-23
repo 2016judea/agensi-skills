@@ -33,8 +33,7 @@ muted film-horizon gradients.
    backgrounds; text in the lower ~55% so the clock zone stays clear. Fonts come from macOS
    `/System/Library/Fonts/Supplemental/` (Futura etc.); swap paths on other systems.
 5. **Delivery.** Default: hand over `<cards_dir>` (AirDrop / Files). Photo Shuffle needs a Photos
-   album, so if asked: `osascript scripts/import_to_photos.applescript <cards_dir> "Literary
-   Quotes"` — that puts generated art in the photo library, so do it only on request.
+   album, so if asked: `scripts/import_to_photos.sh <cards_dir> "Literary Quotes"` — that puts generated art in the photo library, so do it only on request.
 6. **On iPhone:** Settings -> Wallpaper -> Add New Wallpaper -> **Photo Shuffle** -> the album ->
    frequency.
 

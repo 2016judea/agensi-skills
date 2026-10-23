@@ -1,3 +1,7 @@
+#!/bin/bash
+# Import every PNG in a folder into a Photos album (created if missing).
+# Usage: import_to_photos.sh <cards_dir> "<Album Name>"
+osascript - "$1" "$2" <<'APPLESCRIPT'
 on run argv
   set folderPath to item 1 of argv
   set albumName to item 2 of argv
@@ -14,3 +18,4 @@ on run argv
   end tell
   return "imported " & (count of theFiles) & " into " & albumName
 end run
+APPLESCRIPT

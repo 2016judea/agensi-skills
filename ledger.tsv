@@ -82,3 +82,24 @@ shakespeare-marginalia	~/.claude/skills/shakespeare-marginalia	skip		a pointer t
 quote-wallpapers	~/.claude/skills/quote-wallpapers	list	his Notion DB id, his album/phone, memory refs; hard-coded slur list in build_render_set.py replaced by a user blocklist file; make-art path configurable	
 annotate-inspo	~/.claude/skills/annotate-inspo	skip		his inspiration boards, his friends' board names and file-naming conventions, his personal-site lane; nothing generic survives
 lomo-likes	~/.claude/skills/lomo-likes	skip		scrapes his own Lomography likes by reusing his Cloudflare clearance cookie (46MB of others' photos); bot-wall circumvention on a third-party site, not distributable
+instagram-pull	~/.claude/skills/instagram-pull (appeared mid-session)	skip		pulls his own Instagram account's photos to his site; his handle and personal archive
+assessment-ratio-study	~/Desktop/bricks/.claude/skills/assessment-ratio-study	list	his county data paths/recipe, memory refs, peer-session anecdote; IAAO method generalised	
+substack-export	~/Desktop/writing-topology/.claude/skills/substack-export (+ script)	list	his two newsletter subdomains as defaults, Notion archive workflow, his corpus notes; script now requires --sub	
+goodreads-fetch	~/Desktop/writing-topology/.claude/skills/goodreads-fetch (+ script)	list	his Goodreads user id default, his reading anecdotes/quotes in comments, his site page pipeline; script now requires --user-id	
+agent-voice-training	~/Desktop/bricks/.claude/skills/agent-voice-training	skip		trains his business's chat agent against its own prompt, transcripts and copy rules; repo-specific
+chat-usage-report	~/Desktop/bricks/.claude/skills/chat-usage-report	skip		usage report for his site's beta chat (visitor transcripts); repo-specific and touches visitor data
+platform-dataset	~/Desktop/bricks/.claude/skills/platform-dataset	skip		his data platform's build/licence pipeline; repo-specific
+platform-qa	~/Desktop/bricks/.claude/skills/platform-qa	skip		QA of his live site; repo-specific
+platform-tool	~/Desktop/bricks/.claude/skills/platform-tool	skip		productionising tools on his site; repo-specific
+evans-lens	~/Desktop/trading-journal/.claude/skills/evans-lens	skip		lens built on a real analyst's (Benedict Evans) published work, applied to his portfolio
+buffett-checklist (trading-journal copy)	~/Desktop/trading-journal/.claude/skills/buffett-checklist	skip		duplicate; the public trading-harness version is listed
+intrinsic-value (trading-journal/global copies)	~/Desktop/trading-journal + ~/.claude/skills	skip		duplicate; the public trading-harness version is listed
+sec-financials (trading-journal copy)	~/Desktop/trading-journal/.claude/skills/sec-financials	skip		duplicate; listed once
+etrade-pull/order-check/portfolio-review (global copies)	~/.claude/skills	skip		duplicates carrying his account details; the public trading-harness versions are listed
+corpus-refresh	~/Desktop/writing-topology/.claude/skills/corpus-refresh	skip		refreshes his personal reading/writing corpus into his Notion
+intellectual-history-analysis	~/Desktop/writing-topology/.claude/skills/intellectual-history-analysis	skip		analysis of his own reading and writing life
+primary-source-library	~/Desktop/writing-topology/.claude/skills/primary-source-library	skip		full-text library of the books he has read (copyrighted texts)
+site-page	~/Desktop/writing-topology/.claude/skills/site-page	skip		page template for his personal website
+study-guide	~/Desktop/writing-topology/.claude/skills/study-guide	skip		his personal site's STUDY section
+study-review	~/Desktop/writing-topology/.claude/skills/study-review	skip		his personal site's STUDY section
+make-art/glean-issue/site-analytics/the-upward-glance (writing-topology copies)	~/Desktop/writing-topology/.claude/skills	skip		duplicates of global skills (handled above)

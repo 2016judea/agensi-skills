@@ -4,3 +4,4 @@ site-analytics	(__POSTHOG_KEY__|public .phc_. key)
 browser-as-you	<sub>\.substack\.com
 leonardo	(Leonardo_da|93_Codex)
 sms-native-product	(one EIN|EIN\.\*\* Risk)
+substack-export	(<sub>\.substack\.com|\{sub\}\.substack\.com)

@@ -74,3 +74,4 @@ zoho-send-cap	~/.claude/hooks/zoho_send_cap.py + settings.json PreToolUse	list	h
 skill-autoload-hook	~/.claude/hooks/channel_skill.py + settings.json UserPromptSubmit	list	hook generalised (skill + pattern configurable via env) and renamed; his quotes removed	
 records-request	~/.claude/skills/records-request	list	rewritten: his name/LLC/email/signature, an official's quoted reply, his quotes, repo paths, Mailgun domain, memory/journal refs	
 sms-native-product	~/.claude/skills/sms-native-product	list	rewritten: his project (Call Her) name/repo/journal, his quotes, his dating-product specifics, business name, key-grep over his paths	
+distribution-channel	~/.claude/skills/distribution-channel	list	rewritten and condensed: his outreach ledger, revenue, named recipients (incl. people texted), his quotes, products, repo paths, memory refs; kept the method (vouchers, obligation inboxes, super users, rules)	

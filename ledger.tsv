@@ -1,0 +1,6 @@
+apple-notes	~/.claude/skills/apple-notes	list	personal trigger phrasing, example queries naming real meetings	
+axioms	~/.claude/skills/axioms	list	instance ledger + bricks harness (prove.py, ledger json) dropped; his quotes, store paths, product names removed	
+beautify	~/.claude/skills/beautify	list	site name in a grounding note	
+brand-direction-plates	~/.claude/skills/brand-direction-plates	list	real client business name -> fictional example; delivery paths, photo-library + memory refs removed	
+build-remote-mcp-server	~/.claude/skills/build-remote-mcp-server	list	project/repo names, his git emails + Vercel committer story generalised, memory refs	
+claude-usage-mining	~/.claude/skills/claude-usage-mining	list	/Users path, his usage baseline numbers, VIGIL project refs, repo names, memory refs	

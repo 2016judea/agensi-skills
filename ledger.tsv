@@ -35,3 +35,5 @@ trade-journal	~/Desktop/trading-harness (public)	list	harness copy + JOURNAL.tem
 sector-acceleration	~/.claude/skills/sector-acceleration + ~/Desktop/trading-journal scripts	list	his repo paths, his book/firewall/JOURNAL refs, dated calls; scripts bundled (sector_momentum, kalshi_macro, harness price_history)	
 thirty-day-catalyst	~/.claude/skills/thirty-day-catalyst + ~/Desktop/trading-journal scripts	list	his quote/thesis attribution, his HELD holdings set and KILLED research ledger emptied in screener.py, RMD/JOURNAL/RESEARCH-PLAN refs	
 portfolio-journal	~/.claude/skills/portfolio-journal	skip		superseded by trade-journal (public harness); the rest is his positions, tickers held, fills and repo paths
+entry-timing	~/.claude/skills/entry-timing	list	rewritten: his firewall/sleeve/account refs, his RMD fills and share counts, memory links, repo paths; recognition/price_history/kalshi scripts bundled (scrubbed copies)	
+execute-trade-plan	~/.claude/skills/execute-trade-plan	list	rewritten: all his balances, earmarks, positions, fills and journal quotes replaced with anonymised examples	

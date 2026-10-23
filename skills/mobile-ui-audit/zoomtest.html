@@ -1,0 +1,6 @@
+<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1"><title>zoom control</title>
+<body style="font-family:-apple-system;margin:20px"><h1 style="font-size:20px">12px input control</h1>
+<p>Tap the field. If iOS zooms, this text gets bigger and the right edge leaves the screen.</p>
+<input id="a" style="font-size:12px;width:90%;padding:10px" placeholder="12px field">
+<p style="margin-top:40px">RIGHT EDGE MARKER →→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→→ END</p>
+<p id="s"></p><script>setInterval(()=>{document.getElementById('s').textContent='scale '+(visualViewport?visualViewport.scale.toFixed(2):'?')+' offsetLeft '+(visualViewport?Math.round(visualViewport.offsetLeft):'?')+' scrollX '+Math.round(scrollX)},300)</script></body>

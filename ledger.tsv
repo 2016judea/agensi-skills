@@ -69,3 +69,6 @@ linkedin-message	~/.claude/skills/linkedin-message	skip		batch InMail automation
 browser-as-you	~/.claude/skills/browser-as-aidan (renamed)	list	renamed; his accounts/emails, Substack handles, memory refs, Instagram scraping section (third-party ToS) and his directory-filing history removed; added the empty-profile + OAuth-PKCE notes from this session	
 gcal	~/.claude/skills/gcal	list	his calendar address, GCP project id, his trading-checkpoint anecdotes and quotes, local token paths, memory/journal refs	
 business-inbox	~/.claude/skills/business-inbox	list	his business email, Zoho account + folder ids, Mail.app account UUID, named counties/utilities, repo paths, his send-block history	
+pending-queue	~/.claude/hooks/pending.py + settings.json SessionStart	list	hook packaged as a skill; his quote + name removed from docstring/output	
+zoho-send-cap	~/.claude/hooks/zoho_send_cap.py + settings.json PreToolUse	list	hook packaged as a skill; his mailbox address, block dates, Mailgun/skill refs, his timezone removed	
+skill-autoload-hook	~/.claude/hooks/channel_skill.py + settings.json UserPromptSubmit	list	hook generalised (skill + pattern configurable via env) and renamed; his quotes removed	

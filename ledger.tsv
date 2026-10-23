@@ -20,3 +20,6 @@ reddit-mining	~/.claude/skills/reddit-mining	list	/Users path, his repos/project
 outscraper-pull	~/.claude/skills/outscraper-pull	list	rewritten: his repo script paths, journal/memory refs, his platform licence + approvals, "his call" framing	
 reel-render	~/.claude/skills/reel-render	list	his repo paths, name, business-specific reel rules	
 mpls-permits	~/.claude/skills/mpls-permits	list	his repo paths, a named contractor (person), a specific address, project names	
+research-paper-essay	~/.claude/skills/research-paper-essay	list	his name, byline, Substack URL, sibling skill refs	
+search-console-setup	~/.claude/skills/search-console-setup	list	rewritten: Vercel team id + slug, GBP place id, his legal/brand name, DNS/mail topology, his sites, quotes, memory refs	
+sec-financials	~/Desktop/trading-harness (public) + ~/.claude/skills/sec-financials	list	used the already-public harness copy (UA from env, not his email) + one trap from the global copy, de-tickered	

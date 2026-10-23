@@ -24,7 +24,7 @@ TAIL       invariant: geometry, type bed, negatives, brand invariants
 ```
 
 **The brand invariants go in the TAIL, not the STEM.** For a business called
-"Riverside Pegasus Automotive" (a worked example) that would be: *"The subject is a winged horse (Pegasus) and the world of
+"Acme Pegasus Garage" (a worked example) that would be: *"The subject is a winged horse (Pegasus) and the world of
 automobiles and machines — both must be unmistakable."* Put in the TAIL they hold
 across five wildly different languages; put in each STEM they drift.
 
@@ -37,7 +37,7 @@ three things and nothing else:
 |---|---|---|
 | the **mark** | Pegasus | the constant — in the TAIL, present in every plate |
 | the **trade** | Automotive | the second TAIL invariant — machines must be legible |
-| the **place** | Riverside | tone only; do not draw landmarks you have not verified |
+| the **place** | Springfield | tone only; do not draw landmarks you have not verified |
 
 Place is the one to hold loosely. A blind build has no licence to put a specific
 bridge or skyline in a plate — get it wrong and the plate is worse than generic.
@@ -46,7 +46,7 @@ bridge or skyline in a plate — get it wrong and the plate is worse than generi
 
 Five is the right number, and not because it is a round one. Each plate should be
 the best answer for a *different* surface, so the client can pick by use rather than
-by taste. The five registers that spanned the space on the grounding run:
+by taste. Five registers that span the space well:
 
 | register | what it claims | the surface it wins |
 |---|---|---|
@@ -65,7 +65,7 @@ costumes.
 
 `image-riff`'s vantage law survives intact here and is easy to forget once the
 languages are doing the visible work. Five directions that all frame the mark the
-same way crop identically and therefore do the same job. On the grounding run:
+same way crop identically and therefore do the same job. A spread that works:
 looking **up** at the underside · **down** a street at road level · flat-on with **no
 horizon** · flat **side profile** · low **three-quarter** breaking the horizon.
 
@@ -79,7 +79,7 @@ choice, so it belongs in the invariant TAIL and you do not ask about it:
 
 Say *region*, not "lower third" — a fixed band contorts compositions that want to be
 built the other way up, and the model negotiates a soft version cleanly. It still
-loses sometimes (the woodcut plate filled its bottom with wrecked cars); note the
+loses sometimes ; note the
 miss in the rank rather than re-generating over it.
 
 ## The engine returns the ARTEFACT, not the art
@@ -107,8 +107,7 @@ Two lines fix it, and both are needed:
    plate, no chipping, no wall behind it."*
 
 **Before re-generating, try the crop.** An artefact photo is usually rescued by
-cutting *inside* the object — the enamel plate's hero cut (`432,235 → 5072,2845` off
-a 5504×3072 master) removed every screw hole and chip and left clean flat artwork.
+cutting *inside* the object — a hero cut taken well inside the plate's edges removed every screw hole and chip and left clean flat artwork.
 That is a crop decision, which is your job anyway; a re-gen is $0.24 and a new
 composition you may like less.
 

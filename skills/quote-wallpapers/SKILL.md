@@ -12,7 +12,7 @@ rotates through.
 ## Aesthetic that works
 
 Serif/Didot themes read as boring on a lock screen. The keeper is **brutalist**: left-aligned
-Futura, a single `#e8542b` orange accent rule, tracked small-caps author + book, lots of negative
+Futura, a single orange accent rule, tracked small-caps author + book, lots of negative
 space — over **bold high-contrast art**: saturated colour-fields with a hard black wedge
 (vermilion/oxblood work best), eclipses/celestial, stark B&W, surreal double-exposures. Not
 muted film-horizon gradients.

@@ -51,10 +51,10 @@ Look at the extracted file before spending a 4K gen on it. See `claude-usage-min
 the transcript layout.
 
 ## Prompt craft
-- Name the medium + palette up front and keep it consistent across a set. Two house styles
-  that work: *"35mm film photograph, visible film grain, muted sun-faded palette of ochre
+- Name the medium + palette up front and keep it consistent across a set. Two styles
+  that work well: *"35mm film photograph, visible film grain, muted sun-faded palette of ochre
   and dusty blue, soft natural light, analog imperfection, contemplative, vertical."* and,
-  for print plates, *bone paper, near-black ink, a single `#e8542b` accent, risograph
+  for print plates, *bone paper, near-black ink, a single hot-orange accent, risograph
   texture, flat full-bleed*.
 - For overlay-friendly backgrounds: ask for **deep negative space** where the text will sit,
   dark/low-contrast zones, and a single light source / light-leak for interest.
@@ -74,8 +74,8 @@ the transcript layout.
   apply the uniform-vs-asymmetric test:
 
   ```
-  p1-well      DARK run  L132  R1264  T0   B848   asymmetric -> art (crushed shade)
-  p4-blocks    DARK run  L97   R83    T84  B86    UNIFORM    -> real frame, crop it
+  plate-A      DARK run  L132  R1264  T0   B848   asymmetric -> art (crushed shade)
+  plate-B      DARK run  L97   R83    T84  B86    UNIFORM    -> real frame, crop it
   ```
 
   Crop the **max plus clearance** for corner rounding (150px worked), then restore the

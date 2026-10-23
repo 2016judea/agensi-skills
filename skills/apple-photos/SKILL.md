@@ -15,8 +15,8 @@ python3 scripts/photos.py list-albums
 python3 scripts/photos.py list --album Vacation                    # index, filename, date — tab-separated
 python3 scripts/photos.py count --album Vacation
 python3 scripts/photos.py export --album Vacation --out ~/Pictures/export --start 60 --end 76
-python3 scripts/photos.py import --file ~/Pictures/edit.jpg --album Vacation --date "October 24, 2020 2:17:17 PM"
-python3 scripts/photos.py set-date --album Vacation --filename edit.jpg --date "October 24, 2020 2:17:17 PM"
+python3 scripts/photos.py import --file ~/Pictures/edit.jpg --album Vacation --date "January 15, 2024 9:30:00 AM"
+python3 scripts/photos.py set-date --album Vacation --filename edit.jpg --date "January 15, 2024 9:30:00 AM"
 ```
 
 ## Workflow for "do you see X in my [album] album"
@@ -56,15 +56,14 @@ reserves deletion for the user in the UI. Don't burn a session working around
 it, and never report that a script deleted anything.
 
 The workaround that does work: `make new album` + `add {…} to album` to corral
-the condemned, then the user opens it and does Cmd-A, Delete. Confirmed end-to-end
-(a library went 1004 -> 997).
+the condemned, then the user opens it and does Cmd-A, Delete. Confirmed end-to-end.
 
 **Address media items by `id`, never by album index, whenever the operation
 could change the album.** Indices renumber the moment anything is deleted, so
 an index-addressed batch operates on the wrong photos partway through. Get ids
 with `id of m` while iterating `media items of album "X"`.
 
-**Filenames are not unique within an album.** A 1,000-photo album had 7
+**Filenames are not unique within an album.** A large album can have
 filenames appearing twice (re-imports months apart, pixel-identical). Exporting
 a whole album into one flat folder lets Photos silently collide them — export in
 per-batch subfolders and verify each batch's file count against the expected
@@ -89,7 +88,7 @@ stable key across runs.
   `date` column `list` prints rather than assuming index order.
 - **Date strings are parsed by AppleScript's locale-aware `date "..."` coercion** — the format
   that reliably works on a US-English Mac is `"Month DD, YYYY H:MM:SS AM/PM"` (e.g.
-  `"October 24, 2020 2:17:17 PM"`), which is also exactly the format `list`'s date column prints
+  `"January 15, 2024 9:30:00 AM"`), which is also exactly the format `list`'s date column prints
   in (minus the weekday) — copy from there when you need to match an original photo's timestamp.
 - **`import` needs an absolute POSIX path** — the script resolves `~` and relative paths for you;
   if you ever bypass it, Photos' `import` command will fail silently on a bad path rather than

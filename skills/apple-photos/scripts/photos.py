@@ -9,15 +9,15 @@ Subcommands:
   list        --album NAME
   count       --album NAME
   export      --album NAME --out DIR [--start N] [--end M]   # 1-indexed, inclusive; omit both = all
-  import      --file PATH [--album NAME] [--date "October 24, 2020 2:17:17 PM"]
-  set-date    --album NAME --filename NAME --date "October 24, 2020 2:17:17 PM"
+  import      --file PATH [--album NAME] [--date "January 15, 2024 9:30:00 AM"]
+  set-date    --album NAME --filename NAME --date "January 15, 2024 9:30:00 AM"
 
 Examples:
   python3 photos.py list-albums
   python3 photos.py list --album Vacation
   python3 photos.py export --album Vacation --out ~/Pictures/export --start 60 --end 76
-  python3 photos.py import --file ~/Pictures/retouched.jpg --album Vacation --date "October 24, 2020 2:17:17 PM"
-  python3 photos.py set-date --album Vacation --filename retouched.jpg --date "October 24, 2020 2:17:17 PM"
+  python3 photos.py import --file ~/Pictures/retouched.jpg --album Vacation --date "January 15, 2024 9:30:00 AM"
+  python3 photos.py set-date --album Vacation --filename retouched.jpg --date "January 15, 2024 9:30:00 AM"
 """
 import argparse
 import subprocess

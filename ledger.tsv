@@ -37,3 +37,7 @@ thirty-day-catalyst	~/.claude/skills/thirty-day-catalyst + ~/Desktop/trading-jou
 portfolio-journal	~/.claude/skills/portfolio-journal	skip		superseded by trade-journal (public harness); the rest is his positions, tickers held, fills and repo paths
 entry-timing	~/.claude/skills/entry-timing	list	rewritten: his firewall/sleeve/account refs, his RMD fills and share counts, memory links, repo paths; recognition/price_history/kalshi scripts bundled (scrubbed copies)	
 execute-trade-plan	~/.claude/skills/execute-trade-plan	list	rewritten: all his balances, earmarks, positions, fills and journal quotes replaced with anonymised examples	
+apple-photos	~/.claude/skills/apple-photos	list	his album names, Film-album history, his Mac setup, memory refs	
+photo-touchup	~/.claude/skills/photo-touchup	list	photos "of Aidan", his dating-profile anecdote generalised, his paths	
+thread-wall	~/.claude/skills/thread-wall (+ contacts/read_messages.py)	list	a friend's name + his texting anecdote, a real phone number in the usage line, /Users path; reader bundled	
+just-do-it	~/.claude/skills/okay-mom (renamed)	list	his name; renamed from okay-mom	

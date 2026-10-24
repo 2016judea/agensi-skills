@@ -2,373 +2,373 @@
  "quote-wallpapers-for-iphone": {
   "name": "Quote Wallpapers for iPhone",
   "url": "https://agensi.io/skills/quote-wallpapers-for-iphone",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "zoho-send-cap-hook": {
   "name": "Zoho Send Cap Hook",
   "url": "https://agensi.io/skills/zoho-send-cap-hook",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "vercel-api": {
   "name": "Vercel API",
   "url": "https://agensi.io/skills/vercel-api",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "ux-gift-sweep": {
   "name": "UX Gift Sweep",
   "url": "https://agensi.io/skills/ux-gift-sweep",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "trade-journal": {
   "name": "Trade Journal",
   "url": "https://agensi.io/skills/trade-journal",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "imessage-thread-to-wall-of-text": {
   "name": "iMessage Thread to Wall of Text",
   "url": "https://agensi.io/skills/imessage-thread-to-wall-of-text",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "30-day-catalyst-screen": {
   "name": "30-Day Catalyst Screen",
   "url": "https://agensi.io/skills/30-day-catalyst-screen",
-  "review": "pending",
-  "security": "fail"
+  "review": "live",
+  "security": "approved"
  },
  "think-big": {
   "name": "Think Big",
   "url": "https://agensi.io/skills/think-big",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "substack-export": {
   "name": "Substack Export",
   "url": "https://agensi.io/skills/substack-export",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "stripe-dashboard-operations": {
   "name": "Stripe Dashboard Operations",
   "url": "https://agensi.io/skills/stripe-dashboard-operations",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "sms-native-product": {
   "name": "SMS-Native Product",
   "url": "https://agensi.io/skills/sms-native-product",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "skill-autoload-hook": {
   "name": "Skill Autoload Hook",
   "url": "https://agensi.io/skills/skill-autoload-hook",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "site-analytics-posthog-vercel": {
   "name": "Site Analytics (PostHog + Vercel)",
   "url": "https://agensi.io/skills/site-analytics-posthog-vercel",
-  "review": "pending",
-  "security": "fail"
+  "review": "live",
+  "security": "approved"
  },
  "session-intent-scoring-posthog": {
   "name": "Session Intent Scoring (PostHog)",
   "url": "https://agensi.io/skills/session-intent-scoring-posthog",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "sector-acceleration-scan": {
   "name": "Sector Acceleration Scan",
   "url": "https://agensi.io/skills/sector-acceleration-scan",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "sec-financials-xbrl": {
   "name": "SEC Financials (XBRL)",
   "url": "https://agensi.io/skills/sec-financials-xbrl",
-  "review": "pending",
-  "security": "fail"
+  "review": "live",
+  "security": "approved"
  },
  "search-console-setup": {
   "name": "Search Console Setup",
   "url": "https://agensi.io/skills/search-console-setup",
-  "review": "pending",
-  "security": "fail"
+  "review": "live",
+  "security": "approved"
  },
  "research-paper-to-essay": {
   "name": "Research Paper to Essay",
   "url": "https://agensi.io/skills/research-paper-to-essay",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "reframe": {
   "name": "Reframe",
   "url": "https://agensi.io/skills/reframe",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "reel-render-deterministic-video-from-canvas": {
   "name": "Reel Render: Deterministic Video from Canvas",
   "url": "https://agensi.io/skills/reel-render-deterministic-video-from-canvas",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "reddit-mining-no-auth": {
   "name": "Reddit Mining (No Auth)",
   "url": "https://agensi.io/skills/reddit-mining-no-auth",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "public-records-request": {
   "name": "Public Records Request",
   "url": "https://agensi.io/skills/public-records-request",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "rebalance-plan": {
   "name": "Rebalance Plan",
   "url": "https://agensi.io/skills/rebalance-plan",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "realized-p-l-and-exit-counterfactuals": {
   "name": "Realized P&L and Exit Counterfactuals",
   "url": "https://agensi.io/skills/realized-p-l-and-exit-counterfactuals",
-  "review": "pending",
-  "security": "pass"
+  "review": "rejected",
+  "security": "scanning"
  },
  "product-paywall-with-stripe": {
   "name": "Product Paywall with Stripe",
   "url": "https://agensi.io/skills/product-paywall-with-stripe",
-  "review": "pending",
-  "security": "fail"
+  "review": "live",
+  "security": "approved"
  },
  "price-history-and-seasonality": {
   "name": "Price History and Seasonality",
   "url": "https://agensi.io/skills/price-history-and-seasonality",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "portfolio-review": {
   "name": "Portfolio Review",
   "url": "https://agensi.io/skills/portfolio-review",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "photo-touch-up": {
   "name": "Photo Touch-Up",
   "url": "https://agensi.io/skills/photo-touch-up",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "pending-queue-hook": {
   "name": "Pending Queue Hook",
   "url": "https://agensi.io/skills/pending-queue-hook",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "outscraper-google-data-pulls": {
   "name": "Outscraper Google Data Pulls",
   "url": "https://agensi.io/skills/outscraper-google-data-pulls",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "order-check-are-my-stops-live": {
   "name": "Order Check: Are My Stops Live?",
   "url": "https://agensi.io/skills/order-check-are-my-stops-live",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "minneapolis-building-permits-query": {
   "name": "Minneapolis Building Permits Query",
   "url": "https://agensi.io/skills/minneapolis-building-permits-query",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "mobile-ui-audit-ios-android": {
   "name": "Mobile UI Audit (iOS + Android)",
   "url": "https://agensi.io/skills/mobile-ui-audit-ios-android",
-  "review": "pending",
-  "security": "fail"
+  "review": "live",
+  "security": "approved"
  },
  "mcp-stack-field-guide": {
   "name": "MCP Stack Field Guide",
   "url": "https://agensi.io/skills/mcp-stack-field-guide",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "make-art-with-gemini-image-api": {
   "name": "Make Art with Gemini Image API",
   "url": "https://agensi.io/skills/make-art-with-gemini-image-api",
-  "review": "pending",
-  "security": "fail"
+  "review": "live",
+  "security": "approved"
  },
  "ship-a-native-macos-menu-bar-app": {
   "name": "Ship a Native macOS Menu Bar App",
   "url": "https://agensi.io/skills/ship-a-native-macos-menu-bar-app",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "leonardo-study-sheets": {
   "name": "Leonardo Study Sheets",
   "url": "https://agensi.io/skills/leonardo-study-sheets",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "leadership-teardown": {
   "name": "Leadership Teardown",
   "url": "https://agensi.io/skills/leadership-teardown",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "just-do-it-okay-mom": {
   "name": "Just Do It (Okay Mom)",
   "url": "https://agensi.io/skills/just-do-it-okay-mom",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "intrinsic-value-owner-earnings": {
   "name": "Intrinsic Value (Owner Earnings)",
   "url": "https://agensi.io/skills/intrinsic-value-owner-earnings",
-  "review": "pending",
-  "security": "fail"
+  "review": "live",
+  "security": "approved"
  },
  "image-riff-art-in-a-reference-s-style": {
   "name": "Image Riff: Art in a Reference's Style",
   "url": "https://agensi.io/skills/image-riff-art-in-a-reference-s-style",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "goodreads-shelf-export": {
   "name": "Goodreads Shelf Export",
   "url": "https://agensi.io/skills/goodreads-shelf-export",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "github-scout-find-tools-before-building": {
   "name": "GitHub Scout: Find Tools Before Building",
   "url": "https://agensi.io/skills/github-scout-find-tools-before-building",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "google-calendar-via-api": {
   "name": "Google Calendar via API",
   "url": "https://agensi.io/skills/google-calendar-via-api",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "execute-a-pre-committed-trade-plan": {
   "name": "Execute a Pre-Committed Trade Plan",
   "url": "https://agensi.io/skills/execute-a-pre-committed-trade-plan",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "e-trade-account-pull": {
   "name": "E*TRADE Account Pull",
   "url": "https://agensi.io/skills/e-trade-account-pull",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "stock-entry-timing-teardown": {
   "name": "Stock Entry-Timing Teardown",
   "url": "https://agensi.io/skills/stock-entry-timing-teardown",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "dream-divergent-idea-recombination": {
   "name": "Dream: Divergent Idea Recombination",
   "url": "https://agensi.io/skills/dream-divergent-idea-recombination",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "distribution-channel-picker": {
   "name": "Distribution Channel Picker",
   "url": "https://agensi.io/skills/distribution-channel-picker",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "crystallize-turn-a-session-into-a-skill": {
   "name": "Crystallize: Turn a Session into a Skill",
   "url": "https://agensi.io/skills/crystallize-turn-a-session-into-a-skill",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "next-customers-lead-list-from-public-records": {
   "name": "Next-Customers Lead List from Public Records",
   "url": "https://agensi.io/skills/next-customers-lead-list-from-public-records",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "claude-code-usage-mining": {
   "name": "Claude Code Usage Mining",
   "url": "https://agensi.io/skills/claude-code-usage-mining",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "business-inbox-to-zero-zoho": {
   "name": "Business Inbox to Zero (Zoho)",
   "url": "https://agensi.io/skills/business-inbox-to-zero-zoho",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "build-a-remote-mcp-server-on-cloudflare": {
   "name": "Build a Remote MCP Server on Cloudflare",
   "url": "https://agensi.io/skills/build-a-remote-mcp-server-on-cloudflare",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "buffett-checklist": {
   "name": "Buffett Checklist",
   "url": "https://agensi.io/skills/buffett-checklist",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "browser-as-you-drive-your-logged-in-chrome": {
   "name": "Browser As You: Drive Your Logged-In Chrome",
   "url": "https://agensi.io/skills/browser-as-you-drive-your-logged-in-chrome",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "brand-direction-plates": {
   "name": "Brand Direction Plates",
   "url": "https://agensi.io/skills/brand-direction-plates",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "beautify-prototype-ui-directions-live": {
   "name": "Beautify: Prototype UI Directions Live",
   "url": "https://agensi.io/skills/beautify-prototype-ui-directions-live",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "axioms-falsify-your-data-s-laws": {
   "name": "Axioms: Falsify Your Data's Laws",
   "url": "https://agensi.io/skills/axioms-falsify-your-data-s-laws",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "property-assessment-ratio-study": {
   "name": "Property Assessment Ratio Study",
   "url": "https://agensi.io/skills/property-assessment-ratio-study",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "apple-photos-via-applescript": {
   "name": "Apple Photos via AppleScript",
   "url": "https://agensi.io/skills/apple-photos-via-applescript",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "apple-notes-search": {
   "name": "Apple Notes Search",
   "url": "https://agensi.io/skills/apple-notes-search",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  }
 }

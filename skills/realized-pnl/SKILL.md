@@ -26,6 +26,21 @@ python backtest_holding.py    # for every loss taken: what if it had been held?
 `load.py` does the normalizing (epoch → datetime, trades split from cash) and is
 importable: `from load import trades, cash`.
 
+## Network access
+
+`realized_pnl.py` and `load.py` are offline: they read only `data/transactions.csv`.
+Only `backtest_holding.py` goes online, through `etrade.py`, to fetch live quotes. It
+talks to E*TRADE's own API and nothing else:
+
+| host | used for |
+|---|---|
+| `api.etrade.com` | market quotes (`/v1/market/quote`), OAuth request/access tokens |
+| `apisb.etrade.com` | the same, against E*TRADE's sandbox when `ETRADE_ENV` is not `prod` |
+| `us.etrade.com` | the authorize page you open in your browser to approve access |
+
+It reads only your E*TRADE consumer key/secret and tokens from your `.env`, signs
+requests with them, and sends nothing else anywhere: no telemetry, no third-party host.
+
 ## Rules
 
 - **The in-window total is not lifetime performance.** Sells whose matching buys

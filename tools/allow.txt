@@ -15,3 +15,4 @@ broker-diligence-prep	(brickandmortar\.dev|Brick & Mortar)
 market-opportunity-scan	(brickandmortar\.dev|Brick & Mortar)
 find-the-public-record	(brickandmortar\.dev|Brick & Mortar)
 twin-cities-property-records	(brickandmortar\.dev|Brick & Mortar)
+gmail-read	gmail/v1/users/me

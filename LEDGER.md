@@ -5,7 +5,7 @@ Every global skill, repo-local skill and hook, what happened to it, and why. Gen
 
 Creator profile: https://agensi.io/creators/brick-mortar (display name "Brick & Mortar").
 
-**Listed: 140 · Skipped: 103.** All listings are Free. Review status is as of the last
+**Listed: 141 · Skipped: 103.** All listings are Free. Review status is as of the last
 `my_skills` read; a security status of `fail` is Agensi's automated scan (env var + network
 heuristics on tools that legitimately call an API with your own key) and goes to human review.
 
@@ -61,6 +61,7 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | gcal | `~/.claude/skills/gcal` | y | https://agensi.io/skills/google-calendar-via-api | live / approved | his calendar address, GCP project id, his trading-checkpoint anecdotes and quotes, local token paths, memory/journal refs |
 | gemini-web-search | `~/Desktop/bricks/.claude/skills/gemini-web-search (deleted; from git)` | y | https://agensi.io/skills/gemini-grounded-web-search | pending / pass | repo paths, 'in this repo' routing rule, links to retired skills removed; model list made env-overridable |
 | github-scout | `~/.claude/skills/github-scout` | y | https://agensi.io/skills/github-scout-find-tools-before-building | live / approved | his CLAUDE.md/BUSINESS.md tenets, launchd plist path, project names + notes paths |
+| gmail-read | `agensi-skills/skills/gmail-read (new, built for Agensi)` | y | https://agensi.io/skills/gmail-read-search-threads-attachments | pending / fail | built public from the start; no mailbox content, placeholders only (you@example.com) |
 | goodreads-fetch | `~/Desktop/writing-topology/.claude/skills/goodreads-fetch (+ script)` | y | https://agensi.io/skills/goodreads-shelf-export | live / approved | his Goodreads user id default, his reading anecdotes/quotes in comments, his site page pipeline; script now requires --user-id |
 | html-to-press-pdf | `~/Desktop/bricks/.claude/skills/html-to-press-pdf (deleted; from git)` | y | https://agensi.io/skills/html-to-press-ready-pdf | live / approved | shipped as-is (already generic); stray .gitignore removed |
 | image-riff | `~/.claude/skills/image-riff` | y | https://agensi.io/skills/image-riff-art-in-a-reference-s-style | live / approved | rewritten: his quotes, his YouTube channel handle, client name, Photos-album history, memory links, Desktop paths, artist anecdote |

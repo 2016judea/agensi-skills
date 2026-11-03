@@ -677,5 +677,11 @@
   "url": "https://agensi.io/skills/two-issue-direct-mail-playbook-pilot",
   "review": "pending",
   "security": "pass"
+ },
+ "gmail-read": {
+  "name": "Gmail Read: Search, Threads, Attachments",
+  "url": "https://agensi.io/skills/gmail-read-search-threads-attachments",
+  "review": "pending",
+  "security": "fail"
  }
 }

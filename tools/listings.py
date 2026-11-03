@@ -140,4 +140,5 @@ L = {
  "lead-with-the-ceiling-raiser": ("Lead with the Ceiling-Raiser", ["strategy", "decision-making", "brainstorming"]),
  "open-preloaded-with-an-example": ("Open Pre-Loaded with an Example", ["ui-ux", "product", "onboarding"]),
  "check-the-premise-not-adoption": ("Check the Premise, Not Adoption", ["brainstorming", "data-analysis", "product"]),
+ "gmail-read": ('Gmail Read: Search, Threads, Attachments', ['email', 'api', 'productivity']),
 }

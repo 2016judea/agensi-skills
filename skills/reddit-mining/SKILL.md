@@ -8,6 +8,14 @@ description: >-
   login-gates search, so WebSearch/WebFetch can't do this directly). Use
   whenever a task needs genuine Reddit discussion instead of a secondhand AI
   paraphrase of it.
+compatibility: >-
+  Python 3, standard library only. Network access to one host:
+  arctic-shift.photon-reddit.com (the public Arctic Shift Reddit archive). No key, no login.
+allowed-tools: Bash(python3:*) Read
+metadata:
+  network-hosts: "arctic-shift.photon-reddit.com"
+  network-purpose: "read public Reddit posts and comments from the Arctic Shift archive"
+  version: "1.1"
 ---
 
 # Reddit mining
@@ -20,6 +28,15 @@ complaints, "X vs Y" arguments).
 `scripts/reddit_pull.py` reads the **Arctic Shift** archive
 (`arctic-shift.photon-reddit.com`) — a free, no-auth mirror of the Reddit
 corpus. No app, no key, no login.
+
+Nothing here bundles, hosts or resells Reddit data: the script queries the public
+archive from your own machine, and Reddit's terms (and Arctic Shift's) govern what you
+do with what you pull.
+
+`scripts/reddit_tally.py` counts a pull (themes, phrases, asks over time, tools,
+thread digests) so no number in a report is the model's estimate. The task skills built
+on this one use it: `reddit-pain-points`, `reddit-demand-check`, `reddit-tool-stack`,
+`reddit-competitor-chatter`, `reddit-customer-language`, `reddit-thread-digest`.
 
 ## Why every other route is dead (verified 2026-08-16)
 
@@ -36,7 +53,17 @@ Don't re-test these. Each was checked directly and failed:
 
 ## Two constraints that dictate the design
 
-### 1. A window is truncated at ~260 rows, and it truncates SILENTLY
+### 1. A request returns at most ~100 rows, and drops the rest SILENTLY
+
+**Current fix (2026-11-03): every window is paged oldest-first.** `page_window()` asks
+with `sort=asc`, then moves `after` to the newest timestamp seen, until a page comes back
+short: one request per 100 rows, nothing dropped, no floor. It replaced date-coverage
+splitting, which bottomed out at one day: a single day of r/smallbusiness held 166 posts
+and the splitter kept 100 of them, so every busy day lost about 40%. Two traps found on
+the way: `after` is exclusive (restart one second early, de-duplicate by id), and a split
+midpoint with microseconds (`14:25:07.5`) is rejected as an invalid date, which reads as
+a failed window. Same day, same 166 posts, in 4s instead of 9s; a year of r/restaurateur
+gives the identical 1,237. The history below is why each earlier version lied.
 
 **Measured 2026-08-23, and it had been quietly halving every pull before that.**
 `limit` is rejected above 100 (`"'limit' must be between 1 and 100"`), so
@@ -140,9 +167,21 @@ python3 scripts/reddit_pull.py \
 | `--subreddits` | required, space-separated, no `r/` prefix |
 | `--queries` | keywords matched **locally**, any-match, case-insensitive. Omit to keep everything in range. |
 | `--after` / `--before` | `YYYY-MM-DD`. Defaults to the last 3 years — **narrow this**, it's the main cost driver. |
-| `--window-days` | chunk size, default 90. Lower it for very busy subs. |
+| `--window-days` | progress-report chunk, default 90 (paging makes it irrelevant to completeness) |
 | `--top` | keep N top-scoring matches per sub (default 40) |
+| `--top 0` | keep **every** match. Use it whenever you will count anything. |
 | `--comments N` | fetch N top comments per kept thread (default 5 when bare) |
+| `--comments-for K` | with `--comments`: only the K most-commented kept threads (each costs 1-4s) |
+| `--stats FILE` | write posts scanned per subreddit per month: the denominator for any rate |
+| `--thread ID_or_URL` | one thread: the post plus every comment, with depth and parent |
+
+### Per-thread comments come from `/comments/tree`, not search (2026-11-03)
+
+`comments/search?link_id=` stops at 100 rows: a 302-comment thread returned exactly
+100, so "top N by score" from it was the top N of an arbitrary 100. `comments/tree`
+with a large limit returned all 303 in about 4 seconds. `top_comments()` and
+`--thread` use the tree and fall back to search only if it fails. Comments now carry
+`id`, `author`, `created` and a `permalink`, so a quote can always be linked.
 
 **Run it in the background** and dump to a
 scratchpad file. Scanning a busy sub over a year is tens of thousands of posts
@@ -190,9 +229,8 @@ clinical trial data, with Reddit supplying only voice.)*
   (not just keyword search), read the response body first — the shutdown
   notice will be in it — then check the dead-routes table above before
   assuming a transient fault.
-- Windows returning exactly 1000 posts are auto-split, because a silent cap
-  would read as complete coverage. If you see `hit the 1000 cap and cannot be
-  split further` on stderr, the results for that day are genuinely truncated.
+- If stderr shows `page did not advance — truncated` or `gave up on`, that slice of
+  the range is genuinely missing; say so next to any count that includes it.
 
 ## Origin
 

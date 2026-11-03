@@ -140,5 +140,11 @@ L = {
  "lead-with-the-ceiling-raiser": ("Lead with the Ceiling-Raiser", ["strategy", "decision-making", "brainstorming"]),
  "open-preloaded-with-an-example": ("Open Pre-Loaded with an Example", ["ui-ux", "product", "onboarding"]),
  "check-the-premise-not-adoption": ("Check the Premise, Not Adoption", ["brainstorming", "data-analysis", "product"]),
+ "reddit-pain-points": ('Reddit Pain Points: Counted and Linked', ['market-research', 'research', 'small-business']),
+ "reddit-demand-check": ('Reddit Demand Check: Does Anyone Ask for X?', ['market-research', 'ideation', 'research']),
+ "reddit-tool-stack": ('Reddit Tool Stack by Role', ['market-research', 'research', 'analysis']),
+ "reddit-competitor-chatter": ('Reddit Competitor Chatter', ['market-research', 'strategy', 'research']),
+ "reddit-customer-language": ('Reddit Customer Language for Copy', ['marketing', 'writing', 'market-research']),
+ "reddit-thread-digest": ('Reddit Thread Digest with Links', ['research', 'productivity', 'analysis']),
  "gmail-read": ('Gmail Read: Search, Threads, Attachments', ['email', 'api', 'productivity']),
 }

@@ -241,4 +241,10 @@ never-hamstring-by-pattern	~/.claude/skills/never-hamstring-by-pattern	list	his 
 lead-with-the-ceiling-raiser	~/.claude/skills/lead-with-the-ceiling-raiser	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
 open-preloaded-with-an-example	~/.claude/skills/open-preloaded-with-an-example	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
 check-the-premise-not-adoption	~/.claude/skills/check-the-premise-not-adoption	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+reddit-pain-points	agensi-skills/skills/reddit-pain-points (new, public-only task skill on reddit-mining)	list	built for Agensi; no personal data; samples are short public quotes with permalinks	
+reddit-demand-check	agensi-skills/skills/reddit-demand-check (new, public-only task skill on reddit-mining)	list	built for Agensi; no personal data; samples are short public quotes with permalinks	
+reddit-tool-stack	agensi-skills/skills/reddit-tool-stack (new, public-only task skill on reddit-mining)	list	built for Agensi; no personal data; samples are short public quotes with permalinks	
+reddit-competitor-chatter	agensi-skills/skills/reddit-competitor-chatter (new, public-only task skill on reddit-mining)	list	built for Agensi; no personal data; samples are short public quotes with permalinks	
+reddit-customer-language	agensi-skills/skills/reddit-customer-language (new, public-only task skill on reddit-mining)	list	built for Agensi; no personal data; samples are short public quotes with permalinks	
+reddit-thread-digest	agensi-skills/skills/reddit-thread-digest (new, public-only task skill on reddit-mining)	list	built for Agensi; no personal data; samples are short public quotes with permalinks	
 gmail-read	agensi-skills/skills/gmail-read (new, built for Agensi)	list	built public from the start; no mailbox content, placeholders only (you@example.com)	

@@ -2,86 +2,86 @@
  "twin-cities-property-records": {
   "name": "Twin Cities Property Records",
   "url": "https://agensi.io/skills/twin-cities-property-records",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "find-the-public-record": {
   "name": "Find the Public Record",
   "url": "https://agensi.io/skills/find-the-public-record",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "market-opportunity-scan": {
   "name": "Market Opportunity Scan",
   "url": "https://agensi.io/skills/market-opportunity-scan",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "business-buyer-pre-diligence": {
   "name": "Business Buyer Pre-Diligence",
   "url": "https://agensi.io/skills/business-buyer-pre-diligence",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "local-pricing-benchmark": {
   "name": "Local Pricing Benchmark",
   "url": "https://agensi.io/skills/local-pricing-benchmark",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "local-visibility-audit": {
   "name": "Local Visibility Audit",
   "url": "https://agensi.io/skills/local-visibility-audit",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "review-intelligence": {
   "name": "Review Intelligence",
   "url": "https://agensi.io/skills/review-intelligence",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "competitor-landscape-map": {
   "name": "Competitor Landscape Map",
   "url": "https://agensi.io/skills/competitor-landscape-map",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "small-business-teardown": {
   "name": "Small Business Teardown",
   "url": "https://agensi.io/skills/small-business-teardown",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "mixam-print-order-prep": {
   "name": "Mixam Print Order Prep",
   "url": "https://agensi.io/skills/mixam-print-order-prep",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "chrome-bookmarks-via-applescript": {
   "name": "Chrome Bookmarks via AppleScript",
   "url": "https://agensi.io/skills/chrome-bookmarks-via-applescript",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "jobber-api-and-app-marketplace": {
   "name": "Jobber API and App Marketplace",
   "url": "https://agensi.io/skills/jobber-api-and-app-marketplace",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "square-pos-api-and-app-marketplace": {
   "name": "Square POS API and App Marketplace",
   "url": "https://agensi.io/skills/square-pos-api-and-app-marketplace",
-  "review": "pending",
-  "security": "pass"
+  "review": "live",
+  "security": "approved"
  },
  "clover-pos-api-and-app-market": {
   "name": "Clover POS API and App Market",
   "url": "https://agensi.io/skills/clover-pos-api-and-app-market",
-  "review": "pending",
-  "security": "pending"
+  "review": "live",
+  "security": "approved"
  },
  "quote-wallpapers-for-iphone": {
   "name": "Quote Wallpapers for iPhone",
@@ -683,5 +683,425 @@
   "url": "https://agensi.io/skills/gmail-read-search-threads-attachments",
   "review": "pending",
   "security": "fail"
+ },
+ "reddit-thread-digest-with-links": {
+  "name": "Reddit Thread Digest with Links",
+  "url": "https://agensi.io/skills/reddit-thread-digest-with-links",
+  "review": "pending",
+  "security": "pass"
+ },
+ "reddit-customer-language-for-copy": {
+  "name": "Reddit Customer Language for Copy",
+  "url": "https://agensi.io/skills/reddit-customer-language-for-copy",
+  "review": "pending",
+  "security": "pass"
+ },
+ "reddit-competitor-chatter": {
+  "name": "Reddit Competitor Chatter",
+  "url": "https://agensi.io/skills/reddit-competitor-chatter",
+  "review": "pending",
+  "security": "pass"
+ },
+ "reddit-tool-stack-by-role": {
+  "name": "Reddit Tool Stack by Role",
+  "url": "https://agensi.io/skills/reddit-tool-stack-by-role",
+  "review": "pending",
+  "security": "pass"
+ },
+ "reddit-demand-check-does-anyone-ask-for-x": {
+  "name": "Reddit Demand Check: Does Anyone Ask for X?",
+  "url": "https://agensi.io/skills/reddit-demand-check-does-anyone-ask-for-x",
+  "review": "pending",
+  "security": "pass"
+ },
+ "gmail-read-search-threads-attachments": {
+  "name": "Gmail Read: Search, Threads, Attachments",
+  "url": "https://agensi.io/skills/gmail-read-search-threads-attachments",
+  "review": "pending",
+  "security": "fail"
+ },
+ "reddit-pain-points-counted-and-linked": {
+  "name": "Reddit Pain Points: Counted and Linked",
+  "url": "https://agensi.io/skills/reddit-pain-points-counted-and-linked",
+  "review": "pending",
+  "security": "pass"
+ },
+ "check-the-premise-not-adoption": {
+  "name": "Check the Premise, Not Adoption",
+  "url": "https://agensi.io/skills/check-the-premise-not-adoption",
+  "review": "live",
+  "security": "approved"
+ },
+ "open-pre-loaded-with-an-example": {
+  "name": "Open Pre-Loaded with an Example",
+  "url": "https://agensi.io/skills/open-pre-loaded-with-an-example",
+  "review": "live",
+  "security": "approved"
+ },
+ "lead-with-the-ceiling-raiser": {
+  "name": "Lead with the Ceiling-Raiser",
+  "url": "https://agensi.io/skills/lead-with-the-ceiling-raiser",
+  "review": "live",
+  "security": "approved"
+ },
+ "never-hamstring-an-idea-by-pattern": {
+  "name": "Never Hamstring an Idea by Pattern",
+  "url": "https://agensi.io/skills/never-hamstring-an-idea-by-pattern",
+  "review": "live",
+  "security": "approved"
+ },
+ "a-brainstorm-is-not-a-build": {
+  "name": "A Brainstorm Is Not a Build",
+  "url": "https://agensi.io/skills/a-brainstorm-is-not-a-build",
+  "review": "live",
+  "security": "approved"
+ },
+ "answer-their-framing": {
+  "name": "Answer Their Framing",
+  "url": "https://agensi.io/skills/answer-their-framing",
+  "review": "live",
+  "security": "approved"
+ },
+ "the-brief-s-numbers-are-the-spec": {
+  "name": "The Brief's Numbers Are the Spec",
+  "url": "https://agensi.io/skills/the-brief-s-numbers-are-the-spec",
+  "review": "live",
+  "security": "approved"
+ },
+ "interview-don-t-ghostwrite": {
+  "name": "Interview, Don't Ghostwrite",
+  "url": "https://agensi.io/skills/interview-don-t-ghostwrite",
+  "review": "live",
+  "security": "approved"
+ },
+ "no-gloss-on-their-material": {
+  "name": "No Gloss on Their Material",
+  "url": "https://agensi.io/skills/no-gloss-on-their-material",
+  "review": "live",
+  "security": "approved"
+ },
+ "use-their-copy-verbatim": {
+  "name": "Use Their Copy Verbatim",
+  "url": "https://agensi.io/skills/use-their-copy-verbatim",
+  "review": "live",
+  "security": "approved"
+ },
+ "draw-the-digest-don-t-list-it": {
+  "name": "Draw the Digest, Don't List It",
+  "url": "https://agensi.io/skills/draw-the-digest-don-t-list-it",
+  "review": "live",
+  "security": "approved"
+ },
+ "find-the-spread-before-drawing": {
+  "name": "Find the Spread Before Drawing",
+  "url": "https://agensi.io/skills/find-the-spread-before-drawing",
+  "review": "live",
+  "security": "approved"
+ },
+ "colour-tells-the-story": {
+  "name": "Colour Tells the Story",
+  "url": "https://agensi.io/skills/colour-tells-the-story",
+  "review": "live",
+  "security": "approved"
+ },
+ "one-identity-per-publication": {
+  "name": "One Identity per Publication",
+  "url": "https://agensi.io/skills/one-identity-per-publication",
+  "review": "live",
+  "security": "approved"
+ },
+ "show-the-quiet-option-too": {
+  "name": "Show the Quiet Option Too",
+  "url": "https://agensi.io/skills/show-the-quiet-option-too",
+  "review": "live",
+  "security": "approved"
+ },
+ "sexy-not-scholarly": {
+  "name": "Sexy, Not Scholarly",
+  "url": "https://agensi.io/skills/sexy-not-scholarly",
+  "review": "live",
+  "security": "approved"
+ },
+ "art-is-chosen-never-filler": {
+  "name": "Art Is Chosen, Never Filler",
+  "url": "https://agensi.io/skills/art-is-chosen-never-filler",
+  "review": "live",
+  "security": "approved"
+ },
+ "no-dead-white-space": {
+  "name": "No Dead White Space",
+  "url": "https://agensi.io/skills/no-dead-white-space",
+  "review": "live",
+  "security": "approved"
+ },
+ "reading-first-magazine-layout": {
+  "name": "Reading-First Magazine Layout",
+  "url": "https://agensi.io/skills/reading-first-magazine-layout",
+  "review": "live",
+  "security": "approved"
+ },
+ "ship-the-approved-prototype-verbatim": {
+  "name": "Ship the Approved Prototype Verbatim",
+  "url": "https://agensi.io/skills/ship-the-approved-prototype-verbatim",
+  "review": "live",
+  "security": "approved"
+ },
+ "breadth-after-a-miss": {
+  "name": "Breadth After a Miss",
+  "url": "https://agensi.io/skills/breadth-after-a-miss",
+  "review": "live",
+  "security": "approved"
+ },
+ "inspect-every-page-before-you-show-it": {
+  "name": "Inspect Every Page Before You Show It",
+  "url": "https://agensi.io/skills/inspect-every-page-before-you-show-it",
+  "review": "live",
+  "security": "approved"
+ },
+ "rank-the-creative-set": {
+  "name": "Rank the Creative Set",
+  "url": "https://agensi.io/skills/rank-the-creative-set",
+  "review": "live",
+  "security": "approved"
+ },
+ "judge-at-full-size-before-the-pick": {
+  "name": "Judge at Full Size Before the Pick",
+  "url": "https://agensi.io/skills/judge-at-full-size-before-the-pick",
+  "review": "live",
+  "security": "approved"
+ },
+ "vary-the-interaction-hold-the-skin": {
+  "name": "Vary the Interaction, Hold the Skin",
+  "url": "https://agensi.io/skills/vary-the-interaction-hold-the-skin",
+  "review": "live",
+  "security": "approved"
+ },
+ "vary-the-premise-not-the-layout": {
+  "name": "Vary the Premise, Not the Layout",
+  "url": "https://agensi.io/skills/vary-the-premise-not-the-layout",
+  "review": "live",
+  "security": "approved"
+ },
+ "ask-the-style-question-once": {
+  "name": "Ask the Style Question Once",
+  "url": "https://agensi.io/skills/ask-the-style-question-once",
+  "review": "live",
+  "security": "approved"
+ },
+ "worth-it-pressure-test-a-task-first": {
+  "name": "Worth It? Pressure-Test a Task First",
+  "url": "https://agensi.io/skills/worth-it-pressure-test-a-task-first",
+  "review": "live",
+  "security": "approved"
+ },
+ "gemini-grounded-web-search": {
+  "name": "Gemini Grounded Web Search",
+  "url": "https://agensi.io/skills/gemini-grounded-web-search",
+  "review": "live",
+  "security": "approved"
+ },
+ "dropbox-refresh-token-permanently": {
+  "name": "Dropbox Refresh Token, Permanently",
+  "url": "https://agensi.io/skills/dropbox-refresh-token-permanently",
+  "review": "live",
+  "security": "approved"
+ },
+ "two-issue-direct-mail-playbook-pilot": {
+  "name": "Two-Issue Direct Mail Playbook Pilot",
+  "url": "https://agensi.io/skills/two-issue-direct-mail-playbook-pilot",
+  "review": "live",
+  "security": "approved"
+ },
+ "meta-ad-performance-read": {
+  "name": "Meta Ad Performance Read",
+  "url": "https://agensi.io/skills/meta-ad-performance-read",
+  "review": "live",
+  "security": "approved"
+ },
+ "meta-ads-launch-via-api-paused": {
+  "name": "Meta Ads Launch via API (Paused)",
+  "url": "https://agensi.io/skills/meta-ads-launch-via-api-paused",
+  "review": "live",
+  "security": "approved"
+ },
+ "sector-benchmark-research-cache": {
+  "name": "Sector Benchmark Research Cache",
+  "url": "https://agensi.io/skills/sector-benchmark-research-cache",
+  "review": "live",
+  "security": "approved"
+ },
+ "small-business-financial-deep-dive": {
+  "name": "Small Business Financial Deep Dive",
+  "url": "https://agensi.io/skills/small-business-financial-deep-dive",
+  "review": "live",
+  "security": "approved"
+ },
+ "melville-annotated-shakespeare-edition": {
+  "name": "Melville-Annotated Shakespeare Edition",
+  "url": "https://agensi.io/skills/melville-annotated-shakespeare-edition",
+  "review": "live",
+  "security": "approved"
+ },
+ "sba-loan-foia-data-and-borrower-tests": {
+  "name": "SBA Loan FOIA Data and Borrower Tests",
+  "url": "https://agensi.io/skills/sba-loan-foia-data-and-borrower-tests",
+  "review": "live",
+  "security": "approved"
+ },
+ "vertical-market-agent-on-public-records": {
+  "name": "Vertical Market Agent on Public Records",
+  "url": "https://agensi.io/skills/vertical-market-agent-on-public-records",
+  "review": "live",
+  "security": "approved"
+ },
+ "spec-website-sale-to-local-businesses": {
+  "name": "Spec Website Sale to Local Businesses",
+  "url": "https://agensi.io/skills/spec-website-sale-to-local-businesses",
+  "review": "live",
+  "security": "approved"
+ },
+ "anomaly-opener-outreach": {
+  "name": "Anomaly-Opener Outreach",
+  "url": "https://agensi.io/skills/anomaly-opener-outreach",
+  "review": "live",
+  "security": "approved"
+ },
+ "synthetic-reader-panel-for-ads-and-deliverables": {
+  "name": "Synthetic Reader Panel for Ads and Deliverables",
+  "url": "https://agensi.io/skills/synthetic-reader-panel-for-ads-and-deliverables",
+  "review": "live",
+  "security": "approved"
+ },
+ "role-litmus-persona-test-your-product": {
+  "name": "Role Litmus: Persona Test Your Product",
+  "url": "https://agensi.io/skills/role-litmus-persona-test-your-product",
+  "review": "live",
+  "security": "approved"
+ },
+ "small-business-pulse-check": {
+  "name": "Small Business Pulse Check",
+  "url": "https://agensi.io/skills/small-business-pulse-check",
+  "review": "live",
+  "security": "approved"
+ },
+ "strategic-brief-from-public-data": {
+  "name": "Strategic Brief from Public Data",
+  "url": "https://agensi.io/skills/strategic-brief-from-public-data",
+  "review": "live",
+  "security": "approved"
+ },
+ "business-broker-listing-brief": {
+  "name": "Business Broker Listing Brief",
+  "url": "https://agensi.io/skills/business-broker-listing-brief",
+  "review": "live",
+  "security": "approved"
+ },
+ "cre-owner-prospecting-dossier": {
+  "name": "CRE Owner Prospecting Dossier",
+  "url": "https://agensi.io/skills/cre-owner-prospecting-dossier",
+  "review": "live",
+  "security": "approved"
+ },
+ "cre-income-property-broker-brief": {
+  "name": "CRE Income Property Broker Brief",
+  "url": "https://agensi.io/skills/cre-income-property-broker-brief",
+  "review": "live",
+  "security": "approved"
+ },
+ "flip-deal-feed-70-rule-screener": {
+  "name": "Flip Deal Feed: 70% Rule Screener",
+  "url": "https://agensi.io/skills/flip-deal-feed-70-rule-screener",
+  "review": "live",
+  "security": "approved"
+ },
+ "discovery-call-problem-map": {
+  "name": "Discovery Call Problem Map",
+  "url": "https://agensi.io/skills/discovery-call-problem-map",
+  "review": "live",
+  "security": "approved"
+ },
+ "plain-hook-first-copy-voice": {
+  "name": "Plain Hook-First Copy Voice",
+  "url": "https://agensi.io/skills/plain-hook-first-copy-voice",
+  "review": "live",
+  "security": "approved"
+ },
+ "ascii-charts-for-plain-text-embeds": {
+  "name": "ASCII Charts for Plain-Text Embeds",
+  "url": "https://agensi.io/skills/ascii-charts-for-plain-text-embeds",
+  "review": "live",
+  "security": "approved"
+ },
+ "corpus-signal-mining-backtest-before-ship": {
+  "name": "Corpus Signal Mining + Backtest Before Ship",
+  "url": "https://agensi.io/skills/corpus-signal-mining-backtest-before-ship",
+  "review": "live",
+  "security": "approved"
+ },
+ "html-to-press-ready-pdf": {
+  "name": "HTML to Press-Ready PDF",
+  "url": "https://agensi.io/skills/html-to-press-ready-pdf",
+  "review": "live",
+  "security": "approved"
+ },
+ "trade-vocabulary-for-operator-copy": {
+  "name": "Trade Vocabulary for Operator Copy",
+  "url": "https://agensi.io/skills/trade-vocabulary-for-operator-copy",
+  "review": "live",
+  "security": "approved"
+ },
+ "sales-closer-lens-honest-persuasion": {
+  "name": "Sales Closer Lens (Honest Persuasion)",
+  "url": "https://agensi.io/skills/sales-closer-lens-honest-persuasion",
+  "review": "live",
+  "security": "approved"
+ },
+ "product-visionary-lens": {
+  "name": "Product Visionary Lens",
+  "url": "https://agensi.io/skills/product-visionary-lens",
+  "review": "live",
+  "security": "approved"
+ },
+ "industrial-design-critic-lens": {
+  "name": "Industrial Design Critic Lens",
+  "url": "https://agensi.io/skills/industrial-design-critic-lens",
+  "review": "live",
+  "security": "approved"
+ },
+ "tech-economist-lens": {
+  "name": "Tech Economist Lens",
+  "url": "https://agensi.io/skills/tech-economist-lens",
+  "review": "live",
+  "security": "approved"
+ },
+ "test-it-prove-a-shipped-change-works": {
+  "name": "Test It: Prove a Shipped Change Works",
+  "url": "https://agensi.io/skills/test-it-prove-a-shipped-change-works",
+  "review": "live",
+  "security": "approved"
+ },
+ "overnight-job-unattended-agent-runs": {
+  "name": "Overnight Job: Unattended Agent Runs",
+  "url": "https://agensi.io/skills/overnight-job-unattended-agent-runs",
+  "review": "live",
+  "security": "approved"
+ },
+ "vice-president-vision-to-shipped-no-approval-stops": {
+  "name": "Vice President: Vision to Shipped, No Approval Stops",
+  "url": "https://agensi.io/skills/vice-president-vision-to-shipped-no-approval-stops",
+  "review": "live",
+  "security": "approved"
+ },
+ "federal-labor-and-business-formation-data": {
+  "name": "Federal Labor and Business Formation Data",
+  "url": "https://agensi.io/skills/federal-labor-and-business-formation-data",
+  "review": "live",
+  "security": "approved"
+ },
+ "vercel-env-vars-via-api": {
+  "name": "Vercel Env Vars via API",
+  "url": "https://agensi.io/skills/vercel-env-vars-via-api",
+  "review": "live",
+  "security": "approved"
  }
 }

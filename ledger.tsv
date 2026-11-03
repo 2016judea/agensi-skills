@@ -248,3 +248,10 @@ reddit-competitor-chatter	agensi-skills/skills/reddit-competitor-chatter (new, p
 reddit-customer-language	agensi-skills/skills/reddit-customer-language (new, public-only task skill on reddit-mining)	list	built for Agensi; no personal data; samples are short public quotes with permalinks	
 reddit-thread-digest	agensi-skills/skills/reddit-thread-digest (new, public-only task skill on reddit-mining)	list	built for Agensi; no personal data; samples are short public quotes with permalinks	
 gmail-read	agensi-skills/skills/gmail-read (new, built for Agensi)	list	built public from the start; no mailbox content, placeholders only (you@example.com)	
+mac-messages	agensi-skills/skills/mac-messages (new, built for Agensi; decoder from the local messages archive script)	list	built public from the start; tested live on macOS 26 chat.db, synthetic examples only, no names/numbers	
+mac-mail	agensi-skills/skills/mac-mail (new, built for Agensi)	list	built public from the start; tested live on Mail V10, synthetic examples only	
+mac-contacts	agensi-skills/skills/mac-contacts (new, built for Agensi)	list	built public from the start; tested live on AddressBook-v22, synthetic examples only	
+mac-calendar	agensi-skills/skills/mac-calendar (new, built for Agensi)	list	built public from the start; tested live on Calendar.sqlitedb, synthetic examples only	
+mac-reminders	agensi-skills/skills/mac-reminders (new, built for Agensi)	list	built public from the start; lists read live, reminder queries tested on a synthetic copy of the store (Mac had 0 reminders)	
+mac-safari-history	agensi-skills/skills/mac-safari-history (new, built for Agensi)	list	built public from the start; tested live on History.db + Bookmarks.plist, synthetic examples only	
+mac-screen-time	agensi-skills/skills/mac-screen-time (new, built for Agensi)	list	built public from the start; tested live on knowledgeC.db, generic app names in examples	

@@ -147,4 +147,11 @@ L = {
  "reddit-customer-language": ('Reddit Customer Language for Copy', ['marketing', 'writing', 'market-research']),
  "reddit-thread-digest": ('Reddit Thread Digest with Links', ['research', 'productivity', 'analysis']),
  "gmail-read": ('Gmail Read: Search, Threads, Attachments', ['email', 'api', 'productivity']),
+ "mac-messages": ('Mac Messages: Search iMessage, SMS and RCS', ['macos', 'imessage', 'sqlite']),
+ "mac-mail": ('Mac Mail: Search and Read Apple Mail Locally', ['macos', 'email', 'sqlite']),
+ "mac-contacts": ('Mac Contacts: Search and Export, E.164', ['macos', 'contacts', 'sqlite']),
+ "mac-calendar": ('Mac Calendar: Events with Recurrences', ['macos', 'calendar', 'sqlite']),
+ "mac-reminders": ('Mac Reminders: Open, Due and Done', ['macos', 'productivity', 'sqlite']),
+ "mac-safari-history": ('Safari History and Bookmarks', ['macos', 'browser', 'sqlite']),
+ "mac-screen-time": ('Mac Screen Time: Hours per App', ['macos', 'productivity', 'analytics']),
 }

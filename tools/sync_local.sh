@@ -16,4 +16,9 @@ for p in $(/usr/bin/python3 -c "import json;print(' '.join(p['name'] for p in js
   fi
 done
 /usr/bin/python3 tools/drift.py --pending >/dev/null
+# usage snapshot: commits itself so the time series survives other sessions' work in this tree
+if /usr/bin/python3 tools/usage.py --pending >/dev/null; then
+  git add usage/agensi.tsv usage/benchmark.tsv
+  git commit -q -m "usage: daily Agensi snapshot $(date +%F)" -- usage/agensi.tsv usage/benchmark.tsv 2>/dev/null && git push -q 2>/dev/null
+fi
 exit 0

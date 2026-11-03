@@ -30,7 +30,13 @@
     "federal-labor-data",
     "engagement-outreach",
     "strategic-brief",
-    "vice-president"
+    "vice-president",
+    "deep-dive-report",
+    "sector-enrichment",
+    "sector-playbook-pilot",
+    "spec-site-sale",
+    "trade-vocabulary",
+    "vertical-market-agent"
    ]
   },
   "bm-reddit-research": {
@@ -107,7 +113,9 @@
     "vercel-env",
     "pending-queue",
     "skill-autoload-hook",
-    "overnight-job"
+    "overnight-job",
+    "meta-ads-launch",
+    "meta-ad-performance"
    ]
   },
   "bm-creative": {
@@ -126,7 +134,8 @@
     "thread-wall",
     "ascii-charts",
     "html-to-press-pdf",
-    "copy-voice"
+    "copy-voice",
+    "melville-annotated-shakespeare"
    ]
   }
  }

@@ -20,6 +20,7 @@
     "./copy-voice",
     "./html-to-press-pdf",
     "./image-riff",
+    "./melville-annotated-shakespeare",
     "./photo-touchup",
     "./quote-wallpapers",
     "./reel-render",
@@ -35,13 +36,11 @@
    "source": "./skills",
    "strict": false,
    "skills": [
-    "./industrial-design-critic",
     "./leadership-teardown",
     "./product-visionary",
     "./role-litmus",
     "./sales-closer",
-    "./simulate-campaign",
-    "./tech-economist"
+    "./simulate-campaign"
    ]
   },
   {
@@ -59,6 +58,8 @@
     "./goodreads-fetch",
     "./mac-menu-bar-app",
     "./mcp-stack",
+    "./meta-ad-performance",
+    "./meta-ads-launch",
     "./overnight-job",
     "./pending-queue",
     "./product-paywall",
@@ -68,6 +69,23 @@
     "./substack-export",
     "./vercel-env",
     "./zoho-send-cap"
+   ]
+  },
+  {
+   "name": "bm-reddit-research",
+   "description": "What people actually say on Reddit, read free from a public archive on your own machine: pain points, demand checks, tool stacks, competitor chatter, customer language, thread digests.",
+   "author": {
+    "name": "Brick & Mortar"
+   },
+   "source": "./skills",
+   "strict": false,
+   "skills": [
+    "./reddit-competitor-chatter",
+    "./reddit-customer-language",
+    "./reddit-demand-check",
+    "./reddit-pain-points",
+    "./reddit-thread-digest",
+    "./reddit-tool-stack"
    ]
   },
   {
@@ -86,6 +104,7 @@
     "./business-teardown",
     "./competitor-landscape",
     "./cre-broker-brief",
+    "./deep-dive-report",
     "./engagement-outreach",
     "./federal-labor-data",
     "./find-the-public-record",
@@ -96,9 +115,15 @@
     "./pricing-benchmark",
     "./prospect-discovery",
     "./review-intelligence",
+    "./sba-loans",
+    "./sector-enrichment",
+    "./sector-playbook-pilot",
     "./small-business-pulse",
+    "./spec-site-sale",
     "./strategic-brief",
+    "./trade-vocabulary",
     "./twin-cities-property-records",
+    "./vertical-market-agent",
     "./vice-president"
    ]
   },
@@ -119,11 +144,9 @@
     "./reframe",
     "./research-paper-essay",
     "./sms-native-product",
-    "./spec-site-sale",
     "./test-it",
     "./think-big",
     "./tool-skill-template",
-    "./trade-vocabulary",
     "./ux-gift-sweep",
     "./worth-it"
    ]

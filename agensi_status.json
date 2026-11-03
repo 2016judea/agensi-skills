@@ -455,5 +455,227 @@
   "url": "https://agensi.io/skills/apple-notes-search",
   "review": "live",
   "security": "approved"
+ },
+ "dropbox-token": {
+  "name": "Dropbox Refresh Token, Permanently",
+  "url": "https://agensi.io/skills/dropbox-refresh-token-permanently",
+  "review": "pending",
+  "security": "fail"
+ },
+ "gemini-web-search": {
+  "name": "Gemini Grounded Web Search",
+  "url": "https://agensi.io/skills/gemini-grounded-web-search",
+  "review": "pending",
+  "security": "pass"
+ },
+ "vercel-env": {
+  "name": "Vercel Env Vars via API",
+  "url": "https://agensi.io/skills/vercel-env-vars-via-api",
+  "review": "live",
+  "security": "approved"
+ },
+ "federal-labor-data": {
+  "name": "Federal Labor and Business Formation Data",
+  "url": "https://agensi.io/skills/federal-labor-and-business-formation-data",
+  "review": "live",
+  "security": "approved"
+ },
+ "worth-it": {
+  "name": "Worth It? Pressure-Test a Task First",
+  "url": "https://agensi.io/skills/worth-it-pressure-test-a-task-first",
+  "review": "pending",
+  "security": "pass"
+ },
+ "vice-president": {
+  "name": "Vice President: Vision to Shipped, No Approval Stops",
+  "url": "https://agensi.io/skills/vice-president-vision-to-shipped-no-approval-stops",
+  "review": "live",
+  "security": "approved"
+ },
+ "overnight-job": {
+  "name": "Overnight Job: Unattended Agent Runs",
+  "url": "https://agensi.io/skills/overnight-job-unattended-agent-runs",
+  "review": "live",
+  "security": "approved"
+ },
+ "test-it": {
+  "name": "Test It: Prove a Shipped Change Works",
+  "url": "https://agensi.io/skills/test-it-prove-a-shipped-change-works",
+  "review": "live",
+  "security": "approved"
+ },
+ "tech-economist": {
+  "name": "Tech Economist Lens",
+  "url": "https://agensi.io/skills/tech-economist-lens",
+  "review": "live",
+  "security": "approved"
+ },
+ "industrial-design-critic": {
+  "name": "Industrial Design Critic Lens",
+  "url": "https://agensi.io/skills/industrial-design-critic-lens",
+  "review": "live",
+  "security": "approved"
+ },
+ "product-visionary": {
+  "name": "Product Visionary Lens",
+  "url": "https://agensi.io/skills/product-visionary-lens",
+  "review": "live",
+  "security": "approved"
+ },
+ "sales-closer": {
+  "name": "Sales Closer Lens (Honest Persuasion)",
+  "url": "https://agensi.io/skills/sales-closer-lens-honest-persuasion",
+  "review": "live",
+  "security": "approved"
+ },
+ "trade-vocabulary": {
+  "name": "Trade Vocabulary for Operator Copy",
+  "url": "https://agensi.io/skills/trade-vocabulary-for-operator-copy",
+  "review": "live",
+  "security": "approved"
+ },
+ "html-to-press-pdf": {
+  "name": "HTML to Press-Ready PDF",
+  "url": "https://agensi.io/skills/html-to-press-ready-pdf",
+  "review": "live",
+  "security": "approved"
+ },
+ "corpus-signal-mining": {
+  "name": "Corpus Signal Mining + Backtest Before Ship",
+  "url": "https://agensi.io/skills/corpus-signal-mining-backtest-before-ship",
+  "review": "live",
+  "security": "approved"
+ },
+ "ascii-charts": {
+  "name": "ASCII Charts for Plain-Text Embeds",
+  "url": "https://agensi.io/skills/ascii-charts-for-plain-text-embeds",
+  "review": "live",
+  "security": "approved"
+ },
+ "tool-skill-template": {
+  "name": "Tool Skill Template",
+  "url": "https://agensi.io/skills/tool-skill-template",
+  "review": "live",
+  "security": "approved"
+ },
+ "copy-voice": {
+  "name": "Plain Hook-First Copy Voice",
+  "url": "https://agensi.io/skills/plain-hook-first-copy-voice",
+  "review": "live",
+  "security": "approved"
+ },
+ "prospect-discovery": {
+  "name": "Discovery Call Problem Map",
+  "url": "https://agensi.io/skills/discovery-call-problem-map",
+  "review": "live",
+  "security": "approved"
+ },
+ "flip-deal-feed": {
+  "name": "Flip Deal Feed: 70% Rule Screener",
+  "url": "https://agensi.io/skills/flip-deal-feed-70-rule-screener",
+  "review": "live",
+  "security": "approved"
+ },
+ "cre-broker-brief": {
+  "name": "CRE Income Property Broker Brief",
+  "url": "https://agensi.io/skills/cre-income-property-broker-brief",
+  "review": "live",
+  "security": "approved"
+ },
+ "broker-prospecting-dossier": {
+  "name": "CRE Owner Prospecting Dossier",
+  "url": "https://agensi.io/skills/cre-owner-prospecting-dossier",
+  "review": "live",
+  "security": "approved"
+ },
+ "broker-listing-report": {
+  "name": "Business Broker Listing Brief",
+  "url": "https://agensi.io/skills/business-broker-listing-brief",
+  "review": "live",
+  "security": "approved"
+ },
+ "strategic-brief": {
+  "name": "Strategic Brief from Public Data",
+  "url": "https://agensi.io/skills/strategic-brief-from-public-data",
+  "review": "live",
+  "security": "approved"
+ },
+ "small-business-pulse": {
+  "name": "Small Business Pulse Check",
+  "url": "https://agensi.io/skills/small-business-pulse-check",
+  "review": "live",
+  "security": "approved"
+ },
+ "role-litmus": {
+  "name": "Role Litmus: Persona Test Your Product",
+  "url": "https://agensi.io/skills/role-litmus-persona-test-your-product",
+  "review": "live",
+  "security": "approved"
+ },
+ "simulate-campaign": {
+  "name": "Synthetic Reader Panel for Ads and Deliverables",
+  "url": "https://agensi.io/skills/synthetic-reader-panel-for-ads-and-deliverables",
+  "review": "live",
+  "security": "approved"
+ },
+ "engagement-outreach": {
+  "name": "Anomaly-Opener Outreach",
+  "url": "https://agensi.io/skills/anomaly-opener-outreach",
+  "review": "live",
+  "security": "approved"
+ },
+ "spec-site-sale": {
+  "name": "Spec Website Sale to Local Businesses",
+  "url": "https://agensi.io/skills/spec-website-sale-to-local-businesses",
+  "review": "live",
+  "security": "approved"
+ },
+ "vertical-market-agent": {
+  "name": "Vertical Market Agent on Public Records",
+  "url": "https://agensi.io/skills/vertical-market-agent-on-public-records",
+  "review": "live",
+  "security": "approved"
+ },
+ "sba-loans": {
+  "name": "SBA Loan FOIA Data and Borrower Tests",
+  "url": "https://agensi.io/skills/sba-loan-foia-data-and-borrower-tests",
+  "review": "live",
+  "security": "approved"
+ },
+ "melville-annotated-shakespeare": {
+  "name": "Melville-Annotated Shakespeare Edition",
+  "url": "https://agensi.io/skills/melville-annotated-shakespeare-edition",
+  "review": "live",
+  "security": "approved"
+ },
+ "deep-dive-report": {
+  "name": "Small Business Financial Deep Dive",
+  "url": "https://agensi.io/skills/small-business-financial-deep-dive",
+  "review": "pending",
+  "security": "pass"
+ },
+ "sector-enrichment": {
+  "name": "Sector Benchmark Research Cache",
+  "url": "https://agensi.io/skills/sector-benchmark-research-cache",
+  "review": "pending",
+  "security": "pass"
+ },
+ "meta-ads-launch": {
+  "name": "Meta Ads Launch via API (Paused)",
+  "url": "https://agensi.io/skills/meta-ads-launch-via-api-paused",
+  "review": "pending",
+  "security": "pass"
+ },
+ "meta-ad-performance": {
+  "name": "Meta Ad Performance Read",
+  "url": "https://agensi.io/skills/meta-ad-performance-read",
+  "review": "pending",
+  "security": "fail"
+ },
+ "sector-playbook-pilot": {
+  "name": "Two-Issue Direct Mail Playbook Pilot",
+  "url": "https://agensi.io/skills/two-issue-direct-mail-playbook-pilot",
+  "review": "pending",
+  "security": "pass"
  }
 }

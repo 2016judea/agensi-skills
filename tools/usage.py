@@ -9,18 +9,15 @@ a time series, not a guess. Agensi's `uses` counts every use or download by some
 
 Usage: usage.py              snapshot today (idempotent), print the 30-day leaders
        usage.py --report     print only, no snapshot
-       usage.py --pending    snapshot, and queue one pending item a week while a skill or skillset is over the bar
 
-The bar (Claude's default, 11/03, revise once there is data): 50 uses in 30 days for one skill, or 100 for a
-skillset (a plugin in themes.json). Why: Agensi as a whole made 41 paid sales in its first 8 weeks, so a price
-on a skill that a handful of people touch measures nothing; our best skill had 5 uses in its first 11 days.
+There is no threshold. Aidan reads this when he checks in and decides what "real usage" means then (11/03).
 """
 import csv, datetime, json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 from agensi import call
 
-SKILL_BAR, SET_BAR, WINDOW = 50, 100, 30
+WINDOW = 30
 U = os.path.join(ROOT, "usage")
 os.makedirs(U, exist_ok=True)
 A, B = os.path.join(U, "agensi.tsv"), os.path.join(U, "benchmark.tsv")
@@ -76,7 +73,7 @@ for s, g in gain.items():
     sets[theme(s)] = sets.get(theme(s), 0) + g
 
 bench = [r for r in rows(B) if r["date"] == max((r["date"] for r in rows(B)), default="")]
-print(f"usage since {since}, last {WINDOW} days (bar: {SKILL_BAR} a skill, {SET_BAR} a skillset)")
+print(f"usage since {since}, last {WINDOW} days")
 for s in sorted(gain, key=lambda s: -gain[s])[:10]:
     print(f"  {gain[s]:5d}  {total[s]:6d} all-time  {s}")
 for g, n in sorted(sets.items(), key=lambda x: -x[1]):
@@ -85,15 +82,3 @@ if bench:
     print(f"  scale: Agensi #1 {bench[0]['slug']} {bench[0]['install_count']} installs, "
           f"#{bench[-1]['rank']} {bench[-1]['install_count']}")
 
-over = [(s, gain[s]) for s in gain if gain[s] >= SKILL_BAR] + [(g, n) for g, n in sets.items() if n >= SET_BAR]
-if "--pending" in sys.argv and over:
-    pf = os.path.expanduser("~/.claude/pending.json")
-    items = json.load(open(pf))
-    week = (today - datetime.timedelta(days=7)).isoformat()
-    if not any(str(i.get("id", "")).startswith("skill-monetize-") and i.get("due", "") > week for i in items):
-        items.append({"id": f"skill-monetize-{today}", "due": today.isoformat(), "project": "agensi-skills",
-                      "what": "Over the usage bar, consider a price: " + ", ".join(f"{s} ({n}/30d)" for s, n in over),
-                      "how": "cd ~/Desktop/agensi-skills && python3 tools/usage.py --report; follow skill-publishing "
-                             "'Monetize from data': bring Aidan the curve, the comparable prices, and one proposed "
-                             "price and shape. He sets the price."})
-        json.dump(items, open(pf, "w"), indent=1)

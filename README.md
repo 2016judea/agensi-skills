@@ -15,8 +15,7 @@ the decision ledger, not the originals (those stay where they live and were neve
   outside the repo in `~/.config/agensi/`). Logs to `submissions.jsonl`.
 
 - `tools/usage.py` — daily snapshot of external uses per listing into `usage/`, the data a price waits on.
-  Every listing starts free; one over the bar (50 uses/30 days, or 100 for a skillset) queues a monetize
-  review. See the `skill-publishing` skill.
+  Every listing starts free; Aidan reads the usage when he checks in and decides on any price.
 
 Scrub rules: no personal identifiers, no other real people, no private life or money, no secrets,
 no data files or copyrighted corpora; generalise rather than gut; skip what doesn't survive.

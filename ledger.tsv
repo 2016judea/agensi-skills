@@ -248,6 +248,16 @@ reddit-competitor-chatter	agensi-skills/skills/reddit-competitor-chatter (new, p
 reddit-customer-language	agensi-skills/skills/reddit-customer-language (new, public-only task skill on reddit-mining)	list	built for Agensi; no personal data; samples are short public quotes with permalinks	
 reddit-thread-digest	agensi-skills/skills/reddit-thread-digest (new, public-only task skill on reddit-mining)	list	built for Agensi; no personal data; samples are short public quotes with permalinks	
 gmail-read	agensi-skills/skills/gmail-read (new, built for Agensi)	list	built public from the start; no mailbox content, placeholders only (you@example.com)	
+mac-spotlight	agensi-skills/skills/mac-spotlight (new, built for Agensi)	list	built public from the start; commands tested live on macOS 26, generic examples only, no personal data	
+mac-launchd	agensi-skills/skills/mac-launchd (new, built for Agensi)	list	built public from the start; commands tested live on macOS 26, generic examples only, no personal data	
+mac-defaults	agensi-skills/skills/mac-defaults (new, built for Agensi)	list	built public from the start; commands tested live on macOS 26, generic examples only, no personal data	
+mac-permissions	agensi-skills/skills/mac-permissions (new, built for Agensi)	list	built public from the start; commands tested live on macOS 26, generic examples only, no personal data	
+mac-automation	agensi-skills/skills/mac-automation (new, built for Agensi)	list	built public from the start; commands tested live on macOS 26, generic examples only, no personal data	
+mac-screenshots	agensi-skills/skills/mac-screenshots (new, built for Agensi)	list	built public from the start; commands tested live on macOS 26, generic examples only, no personal data	
+mac-system-health	agensi-skills/skills/mac-system-health (new, built for Agensi)	list	built public from the start; commands tested live on macOS 26, generic examples only, no personal data	
+mac-network	agensi-skills/skills/mac-network (new, built for Agensi)	list	built public from the start; commands tested live on macOS 26, generic examples only, no personal data	
+mac-keychain	agensi-skills/skills/mac-keychain (new, built for Agensi)	list	built public from the start; commands tested live on macOS 26, generic examples only, no personal data	
+mac-app-install	agensi-skills/skills/mac-app-install (new, built for Agensi)	list	built public from the start; commands tested live on macOS 26, generic examples only, no personal data	
 mac-messages	agensi-skills/skills/mac-messages (new, built for Agensi; decoder from the local messages archive script)	list	built public from the start; tested live on macOS 26 chat.db, synthetic examples only, no names/numbers	
 mac-mail	agensi-skills/skills/mac-mail (new, built for Agensi)	list	built public from the start; tested live on Mail V10, synthetic examples only	
 mac-contacts	agensi-skills/skills/mac-contacts (new, built for Agensi)	list	built public from the start; tested live on AddressBook-v22, synthetic examples only	

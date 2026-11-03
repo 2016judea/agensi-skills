@@ -28,6 +28,34 @@
    ]
   },
   {
+   "name": "bm-mac",
+   "description": "Read your Mac's own data on-device: Messages, Mail, Contacts, Calendar, Reminders, Safari, Notes, Photos \u2014 and the OS tools around them.",
+   "author": {
+    "name": "Brick & Mortar"
+   },
+   "source": "./skills",
+   "strict": false,
+   "skills": [
+    "./mac-app-install",
+    "./mac-automation",
+    "./mac-calendar",
+    "./mac-contacts",
+    "./mac-defaults",
+    "./mac-keychain",
+    "./mac-launchd",
+    "./mac-mail",
+    "./mac-messages",
+    "./mac-network",
+    "./mac-permissions",
+    "./mac-reminders",
+    "./mac-safari-history",
+    "./mac-screen-time",
+    "./mac-screenshots",
+    "./mac-spotlight",
+    "./mac-system-health"
+   ]
+  },
+  {
    "name": "bm-personas",
    "description": "Reasoning lenses as personas: a tech economist, an industrial-design critic, a product visionary, a sales closer, and synthetic customers to test an idea on.",
    "author": {
@@ -55,6 +83,7 @@
     "./build-remote-mcp-server",
     "./dropbox-token",
     "./gemini-web-search",
+    "./gmail-read",
     "./goodreads-fetch",
     "./mac-menu-bar-app",
     "./mcp-stack",

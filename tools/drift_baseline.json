@@ -1,0 +1,138 @@
+{
+ "apple-notes": {
+  "original": "~/.claude/skills/apple-notes/SKILL.md",
+  "sha256": "48cfc3f612c195228f282b3c82cf334ede7703f3d066c7d20b171dd3c01a3e2d"
+ },
+ "apple-photos": {
+  "original": "~/.claude/skills/apple-photos/SKILL.md",
+  "sha256": "b58915713b08353ff0987462ee5155f61462b52af6329beccf384f99a429fb8a"
+ },
+ "assessment-ratio-study": {
+  "original": "~/Desktop/bricks/.claude/skills/assessment-ratio-study/SKILL.md",
+  "sha256": "1d8f40d5e51164c7061423ee2a9fc68b4f1ed12da855de84312b00b2e3c8bab1"
+ },
+ "beautify": {
+  "original": "~/.claude/skills/beautify/SKILL.md",
+  "sha256": "100b46dbe176d0ad96df673dc4e1a30391bc6b26ce2c6e68fb5504a1bef3a4cd"
+ },
+ "browser-as-you": {
+  "original": "~/.claude/skills/browser-as-aidan/SKILL.md",
+  "sha256": "42c952a61a72dcedef9e89988c2d5869514fa13738a89bad01793f2384c79561"
+ },
+ "business-inbox": {
+  "original": "~/.claude/skills/business-inbox/SKILL.md",
+  "sha256": "656008d04ee35b44a9dd26100487f4af3ee6a7e333190492cb24efe33a7708e0"
+ },
+ "chrome-bookmarks": {
+  "original": "~/.claude/skills/chrome-bookmarks/SKILL.md",
+  "sha256": "a2004120a5cfb8ca2b9a26adfa6607a9da166d4b2e32f0c6b3e99e05b54259ec"
+ },
+ "claude-usage-mining": {
+  "original": "~/.claude/skills/claude-usage-mining/SKILL.md",
+  "sha256": "2bb28957c5d7c0bbcc771e00453bee954624b37fcf1e3bf24113324e44e2f98b"
+ },
+ "clover-api": {
+  "original": "~/.claude/skills/clover-api/SKILL.md",
+  "sha256": "1214c4c7dcf175a7e8739b1081fed2c7d63e17909d7a01b476c1aea9482b90f2"
+ },
+ "crystallize": {
+  "original": "~/.claude/skills/crystallize/SKILL.md",
+  "sha256": "6a78718ec93bb68484bea5694f68c78ad1a6fefcd8332228c932aa10f55d047c"
+ },
+ "distribution-channel": {
+  "original": "~/.claude/skills/distribution-channel/SKILL.md",
+  "sha256": "bfbf3dd87cc5124f41f0a771437b5afe581ecf1c56425997ee8b9b2c40d2fa42"
+ },
+ "entry-timing": {
+  "original": "~/.claude/skills/entry-timing/SKILL.md",
+  "sha256": "e5b995bb7188471fb59fbe234beb8a5d79e4ee05992ac8c9f7f9f735efc15fb6"
+ },
+ "execute-trade-plan": {
+  "original": "~/.claude/skills/execute-trade-plan/SKILL.md",
+  "sha256": "6146eedd0e936c8975d6aab962a332148436c1937dadb92654b409cecff5c953"
+ },
+ "gcal": {
+  "original": "~/.claude/skills/gcal/SKILL.md",
+  "sha256": "4e58225a05bbd9b9e50a41fdcdb4f84dd02defcfe075c693de39f2be5f0b7173"
+ },
+ "github-scout": {
+  "original": "~/.claude/skills/github-scout/SKILL.md",
+  "sha256": "f1d6c640f7c13e9914c0c85e2fd9ba9ed634a8b23fa605d5101896d1b656ebf2"
+ },
+ "jobber-api": {
+  "original": "~/.claude/skills/jobber-api/SKILL.md",
+  "sha256": "52c86157982c9cd02ec63d9c9a52d28696c4926c5d2e1bf5c2327d74cd7bae67"
+ },
+ "leonardo": {
+  "original": "~/.claude/skills/leonardo/SKILL.md",
+  "sha256": "67f6e4973627320763a2967d07d3f08d769fb8b20c61c25adc90ff31e1d2ce81"
+ },
+ "make-art": {
+  "original": "~/.claude/skills/make-art/SKILL.md",
+  "sha256": "c723e488cda116c92945670a3035d9720f8bc756d87767a272d4c0806f312522"
+ },
+ "mixam-order": {
+  "original": "~/.claude/skills/mixam-order/SKILL.md",
+  "sha256": "921c3deeb7574977c4555892c4a71d085416d89e449fad004861d6ce084b3f7c"
+ },
+ "mobile-ui-audit": {
+  "original": "~/.claude/skills/mobile-ui-audit/SKILL.md",
+  "sha256": "3217177f8586c49ead3d218393c935be3bbf2814e588d78c9c16f3e1f371aecf"
+ },
+ "mpls-permits": {
+  "original": "~/.claude/skills/mpls-permits/SKILL.md",
+  "sha256": "5140c3ac39550f262b108aad53079c76e30dec817038240138c06165338742dd"
+ },
+ "pending-queue": {
+  "original": "~/.claude/hooks/pending.py",
+  "sha256": "da14bfa6b4d436d0639760ebf90696ba62534945f0d553e0b20890f4a46538e6"
+ },
+ "records-request": {
+  "original": "~/.claude/skills/records-request/SKILL.md",
+  "sha256": "8f5665bfe69a7c0d4a23cccf88a085227c78c43c39c57679954ac9cf5c84caf9"
+ },
+ "reddit-mining": {
+  "original": "~/.claude/skills/reddit-mining/SKILL.md",
+  "sha256": "1a51fb241bd8bfb8dcbed5a585f49ed64c4b223c2714a238440efa63d5a0fd41"
+ },
+ "sec-financials": {
+  "original": "~/.claude/skills/sec-financials/SKILL.md",
+  "sha256": "3c4840bce1182a6d508aeb57954d5b1a8b6afcacac53fe4f0aa24ac8fc48e954"
+ },
+ "sector-acceleration": {
+  "original": "~/.claude/skills/sector-acceleration/SKILL.md",
+  "sha256": "30004764f02f62cc52c2acb3bfb5f802598730a165ca76858d8d649fd7a08c5d"
+ },
+ "site-analytics": {
+  "original": "~/.claude/skills/site-analytics/SKILL.md",
+  "sha256": "180c38e38b7d2542f2a6f249e999873e75edca4cd9667bb73a19f8201370d83b"
+ },
+ "skill-autoload-hook": {
+  "original": "~/.claude/hooks/channel_skill.py",
+  "sha256": "62968306c34144d99c1cec5750310334d5b3d3c4fe30057028037585fd271e70"
+ },
+ "square-api": {
+  "original": "~/.claude/skills/square-api/SKILL.md",
+  "sha256": "afff80491c826fe290f3ccf2218ac0d5bc05aa8e053d0db04ab96a06bd6d3e1f"
+ },
+ "stripe-dashboard": {
+  "original": "~/.claude/skills/stripe-dashboard/SKILL.md",
+  "sha256": "2f73702996781ee3ea850654cf0a07908924752f835e13530cf48f9f6454783f"
+ },
+ "substack-export": {
+  "original": "~/Desktop/writing-topology/.claude/skills/substack-export/SKILL.md",
+  "sha256": "f313c3c438a64a6825913384d27d26837e8038cc5147dfed094f80c2fb051230"
+ },
+ "thirty-day-catalyst": {
+  "original": "~/.claude/skills/thirty-day-catalyst/SKILL.md",
+  "sha256": "1f2cf43f57a97f82c33d0f1023437200d33bc31df40fe6d0468ed1a1867d486a"
+ },
+ "vercel-api": {
+  "original": "~/.claude/skills/vercel-api/SKILL.md",
+  "sha256": "f2fce7b4462e358bd8862fc0b24b3aaac72b61382058026e5efe5001d33ed0f8"
+ },
+ "zoho-send-cap": {
+  "original": "~/.claude/hooks/zoho_send_cap.py",
+  "sha256": "1d1c33930be27b2e2f3327be0809ebde9ed010de8270fec489888935ad713fd2"
+ }
+}

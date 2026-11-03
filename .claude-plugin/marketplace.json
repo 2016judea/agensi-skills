@@ -1,0 +1,148 @@
+{
+ "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+ "name": "brick-mortar-skills",
+ "description": "Brick & Mortar's agent skills: small-business research, Reddit research, platform APIs, trading, personas, creative tools.",
+ "owner": {
+  "name": "Brick & Mortar"
+ },
+ "plugins": [
+  {
+   "name": "bm-creative",
+   "description": "Making things look right: AI art, riffs on a reference, study sheets, brand directions, deterministic video, wallpapers, photo touch-up, UI directions and mobile audits.",
+   "author": {
+    "name": "Brick & Mortar"
+   },
+   "source": "./skills",
+   "strict": false,
+   "skills": [
+    "./ascii-charts",
+    "./brand-direction-plates",
+    "./copy-voice",
+    "./html-to-press-pdf",
+    "./image-riff",
+    "./photo-touchup",
+    "./quote-wallpapers",
+    "./reel-render",
+    "./thread-wall"
+   ]
+  },
+  {
+   "name": "bm-personas",
+   "description": "Reasoning lenses as personas: a tech economist, an industrial-design critic, a product visionary, a sales closer, and synthetic customers to test an idea on.",
+   "author": {
+    "name": "Brick & Mortar"
+   },
+   "source": "./skills",
+   "strict": false,
+   "skills": [
+    "./industrial-design-critic",
+    "./leadership-teardown",
+    "./product-visionary",
+    "./role-litmus",
+    "./sales-closer",
+    "./simulate-campaign",
+    "./tech-economist"
+   ]
+  },
+  {
+   "name": "bm-platforms",
+   "description": "Working notes for the APIs and dashboards a small software business runs on: Clover, Square, Jobber, Stripe, Vercel, PostHog, Search Console, Google Calendar, Zoho, Apple apps, Chrome, Mixam, remote MCP servers.",
+   "author": {
+    "name": "Brick & Mortar"
+   },
+   "source": "./skills",
+   "strict": false,
+   "skills": [
+    "./build-remote-mcp-server",
+    "./dropbox-token",
+    "./gemini-web-search",
+    "./goodreads-fetch",
+    "./mac-menu-bar-app",
+    "./mcp-stack",
+    "./overnight-job",
+    "./pending-queue",
+    "./product-paywall",
+    "./search-console-setup",
+    "./session-intent",
+    "./skill-autoload-hook",
+    "./substack-export",
+    "./vercel-env",
+    "./zoho-send-cap"
+   ]
+  },
+  {
+   "name": "bm-small-business",
+   "description": "Small-business research on top of the Small Business Intelligence MCP server: teardowns, competitor maps, review and pricing reads, local visibility, buyer diligence, public records.",
+   "author": {
+    "name": "Brick & Mortar"
+   },
+   "source": "./skills",
+   "strict": false,
+   "skills": [
+    "./assessment-ratio-study",
+    "./broker-diligence-prep",
+    "./broker-listing-report",
+    "./broker-prospecting-dossier",
+    "./business-teardown",
+    "./competitor-landscape",
+    "./cre-broker-brief",
+    "./engagement-outreach",
+    "./federal-labor-data",
+    "./find-the-public-record",
+    "./flip-deal-feed",
+    "./local-visibility-audit",
+    "./market-opportunity-scan",
+    "./outscraper-pull",
+    "./pricing-benchmark",
+    "./prospect-discovery",
+    "./review-intelligence",
+    "./small-business-pulse",
+    "./strategic-brief",
+    "./twin-cities-property-records",
+    "./vice-president"
+   ]
+  },
+  {
+   "name": "bm-toolkit",
+   "description": "General method skills: turning sessions into skills, falsifying a dataset's laws, reframing, divergent ideas, distribution, research-paper essays and more.",
+   "author": {
+    "name": "Brick & Mortar"
+   },
+   "source": "./skills",
+   "strict": false,
+   "skills": [
+    "./axioms",
+    "./corpus-signal-mining",
+    "./counterparty-gift",
+    "./dream",
+    "./just-do-it",
+    "./reframe",
+    "./research-paper-essay",
+    "./sms-native-product",
+    "./spec-site-sale",
+    "./test-it",
+    "./think-big",
+    "./tool-skill-template",
+    "./trade-vocabulary",
+    "./ux-gift-sweep",
+    "./worth-it"
+   ]
+  },
+  {
+   "name": "bm-trading",
+   "description": "A brokerage-account harness: pull positions, check stops, review the book, realized P&L, entry timing, intrinsic value, sector and catalyst screens.",
+   "author": {
+    "name": "Brick & Mortar"
+   },
+   "source": "./skills",
+   "strict": false,
+   "skills": [
+    "./buffett-checklist",
+    "./price-history",
+    "./realized-pnl",
+    "./rebalance-plan",
+    "./trade-journal"
+   ]
+  }
+ ]
+}

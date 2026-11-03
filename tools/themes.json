@@ -1,0 +1,133 @@
+{
+ "_note": "Which plugin each skill ships in. Prefix rules first, then explicit lists; anything unmatched goes to the default. build_marketplace.py prints unmatched names so a new skill gets placed on purpose.",
+ "default": "bm-toolkit",
+ "plugins": {
+  "bm-small-business": {
+   "description": "Small-business research on top of the Small Business Intelligence MCP server: teardowns, competitor maps, review and pricing reads, local visibility, buyer diligence, public records.",
+   "prefixes": [
+    "twin-cities-",
+    "broker-",
+    "prospect-",
+    "cre-",
+    "small-business-",
+    "flip-"
+   ],
+   "names": [
+    "business-teardown",
+    "competitor-landscape",
+    "review-intelligence",
+    "local-visibility-audit",
+    "pricing-benchmark",
+    "broker-diligence-prep",
+    "market-opportunity-scan",
+    "find-the-public-record",
+    "mpls-permits",
+    "assessment-ratio-study",
+    "records-request",
+    "outscraper-pull",
+    "sba-loans",
+    "next-customers",
+    "federal-labor-data",
+    "engagement-outreach",
+    "strategic-brief",
+    "vice-president"
+   ]
+  },
+  "bm-reddit-research": {
+   "description": "What people actually say on Reddit, read free from a public archive on your own machine: pain points, demand checks, tool stacks, competitor chatter, customer language, thread digests.",
+   "prefixes": [
+    "reddit-"
+   ],
+   "names": []
+  },
+  "bm-trading": {
+   "description": "A brokerage-account harness: pull positions, check stops, review the book, realized P&L, entry timing, intrinsic value, sector and catalyst screens.",
+   "prefixes": [],
+   "names": [
+    "etrade-pull",
+    "order-check",
+    "portfolio-review",
+    "realized-pnl",
+    "intrinsic-value",
+    "buffett-checklist",
+    "price-history",
+    "rebalance-plan",
+    "trade-journal",
+    "sector-acceleration",
+    "thirty-day-catalyst",
+    "entry-timing",
+    "execute-trade-plan",
+    "sec-financials"
+   ]
+  },
+  "bm-personas": {
+   "description": "Reasoning lenses as personas: a tech economist, an industrial-design critic, a product visionary, a sales closer, and synthetic customers to test an idea on.",
+   "prefixes": [
+    "persona-"
+   ],
+   "names": [
+    "tech-economist",
+    "industrial-design-critic",
+    "product-visionary",
+    "sales-closer",
+    "leadership-teardown",
+    "simulate-campaign",
+    "role-litmus"
+   ]
+  },
+  "bm-platforms": {
+   "description": "Working notes for the APIs and dashboards a small software business runs on: Clover, Square, Jobber, Stripe, Vercel, PostHog, Search Console, Google Calendar, Zoho, Apple apps, Chrome, Mixam, remote MCP servers.",
+   "prefixes": [
+    "apple-"
+   ],
+   "names": [
+    "clover-api",
+    "square-api",
+    "jobber-api",
+    "vercel-api",
+    "stripe-dashboard",
+    "site-analytics",
+    "search-console-setup",
+    "gcal",
+    "business-inbox",
+    "chrome-bookmarks",
+    "mixam-order",
+    "build-remote-mcp-server",
+    "mcp-stack",
+    "browser-as-you",
+    "zoho-send-cap",
+    "product-paywall",
+    "session-intent",
+    "claude-usage-mining",
+    "mac-menu-bar-app",
+    "substack-export",
+    "goodreads-fetch",
+    "dropbox-token",
+    "gemini-web-search",
+    "vercel-env",
+    "pending-queue",
+    "skill-autoload-hook",
+    "overnight-job"
+   ]
+  },
+  "bm-creative": {
+   "description": "Making things look right: AI art, riffs on a reference, study sheets, brand directions, deterministic video, wallpapers, photo touch-up, UI directions and mobile audits.",
+   "prefixes": [],
+   "names": [
+    "make-art",
+    "image-riff",
+    "leonardo",
+    "brand-direction-plates",
+    "reel-render",
+    "quote-wallpapers",
+    "photo-touchup",
+    "beautify",
+    "mobile-ui-audit",
+    "thread-wall",
+    "ascii-charts",
+    "html-to-press-pdf",
+    "copy-voice"
+   ]
+  }
+ }
+}

@@ -6,6 +6,15 @@ description: >-
   on every loss they took. Use when asked "how have I actually done", "what were my
   worst trades", "should I have held", "does cutting losers cost me money", or when
   a portfolio review needs behavior rather than holdings.
+compatibility: >-
+  Python 3. Network access only for backtest_holding.py, which fetches quotes from
+  E*TRADE's own API (api.etrade.com, apisb.etrade.com; us.etrade.com is the browser page the user opens to authorize) with the user's own OAuth keys.
+  realized_pnl.py and load.py are fully offline.
+allowed-tools: Bash(python3:*) Read
+metadata:
+  network-hosts: "api.etrade.com apisb.etrade.com us.etrade.com"
+  network-purpose: "OAuth 1.0a request token and live quotes for the hold-vs-sell counterfactual"
+  version: "1.2"
 ---
 
 # Reconstruct realized P&L

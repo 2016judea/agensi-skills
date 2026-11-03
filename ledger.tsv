@@ -214,3 +214,30 @@ persona-tony	~/Desktop/bricks/.claude/skills/persona-tony (deleted; from git)	sk
 persona-yara	~/Desktop/bricks/.claude/skills/persona-yara (deleted; from git)	skip		folded into simulate-campaign as personas/yara.md (fictional, place names removed)
 persona-acquirer	~/Desktop/bricks/.claude/skills/persona-acquirer (deleted; from git)	skip		folded into simulate-campaign as personas/acquirer.md (fictional, place names removed)
 persona-broker	~/Desktop/bricks/.claude/skills/persona-broker (deleted; from git)	skip		folded into simulate-campaign as personas/broker.md (fictional, place names removed)
+ask-the-style-question	~/.claude/skills/ask-the-style-question	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+vary-the-premise	~/.claude/skills/vary-the-premise	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+vary-the-interaction	~/.claude/skills/vary-the-interaction	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+judge-at-full-size	~/.claude/skills/judge-at-full-size	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+rank-the-creative-set	~/.claude/skills/rank-the-creative-set	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+inspect-before-you-show	~/.claude/skills/inspect-before-you-show	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+breadth-after-a-miss	~/.claude/skills/breadth-after-a-miss	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+ship-the-prototype-verbatim	~/.claude/skills/ship-the-prototype-verbatim	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+reading-first-layout	~/.claude/skills/reading-first-layout	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+no-dead-white-space	~/.claude/skills/no-dead-white-space	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+art-is-chosen-not-filler	~/.claude/skills/art-is-chosen-not-filler	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+sexy-not-scholarly	~/.claude/skills/sexy-not-scholarly	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+show-the-quiet-option	~/.claude/skills/show-the-quiet-option	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+one-identity-per-publication	~/.claude/skills/one-identity-per-publication	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+colour-tells-the-story	~/.claude/skills/colour-tells-the-story	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+find-the-spread-before-drawing	~/.claude/skills/find-the-spread-before-drawing	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+draw-the-digest	~/.claude/skills/draw-the-digest	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+their-copy-verbatim	~/.claude/skills/their-copy-verbatim	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+no-gloss-on-their-material	~/.claude/skills/no-gloss-on-their-material	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+interview-dont-ghostwrite	~/.claude/skills/interview-dont-ghostwrite	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+brief-numbers-are-the-spec	~/.claude/skills/brief-numbers-are-the-spec	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+answer-their-framing	~/.claude/skills/answer-their-framing	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+brainstorm-is-not-a-build	~/.claude/skills/brainstorm-is-not-a-build	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+never-hamstring-by-pattern	~/.claude/skills/never-hamstring-by-pattern	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+lead-with-the-ceiling-raiser	~/.claude/skills/lead-with-the-ceiling-raiser	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+open-preloaded-with-an-example	~/.claude/skills/open-preloaded-with-an-example	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
+check-the-premise-not-adoption	~/.claude/skills/check-the-premise-not-adoption	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	

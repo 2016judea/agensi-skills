@@ -137,6 +137,39 @@
     "copy-voice",
     "melville-annotated-shakespeare"
    ]
+  },
+  "bm-creative-direction": {
+   "description": "How a creative round runs and what good looks like: ask the style once, vary the premise, rank the set, ship the prototype verbatim, reading-first layout, colour that tells the story, their words verbatim, and how to brainstorm without overreaching.",
+   "prefixes": [],
+   "names": [
+    "ask-the-style-question",
+    "vary-the-premise",
+    "vary-the-interaction",
+    "judge-at-full-size",
+    "rank-the-creative-set",
+    "inspect-before-you-show",
+    "breadth-after-a-miss",
+    "ship-the-prototype-verbatim",
+    "reading-first-layout",
+    "no-dead-white-space",
+    "art-is-chosen-not-filler",
+    "sexy-not-scholarly",
+    "show-the-quiet-option",
+    "one-identity-per-publication",
+    "colour-tells-the-story",
+    "find-the-spread-before-drawing",
+    "draw-the-digest",
+    "their-copy-verbatim",
+    "no-gloss-on-their-material",
+    "interview-dont-ghostwrite",
+    "brief-numbers-are-the-spec",
+    "answer-their-framing",
+    "brainstorm-is-not-a-build",
+    "never-hamstring-by-pattern",
+    "lead-with-the-ceiling-raiser",
+    "open-preloaded-with-an-example",
+    "check-the-premise-not-adoption"
+   ]
   }
  }
 }

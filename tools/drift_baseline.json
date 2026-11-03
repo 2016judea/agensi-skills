@@ -1,4 +1,8 @@
 {
+ "answer-their-framing": {
+  "original": "~/.claude/skills/answer-their-framing/SKILL.md",
+  "sha256": "4ff5cdefa94758f03ece9b576e897ad264488d47417e07548c8dbe36363e5cb8"
+ },
  "apple-notes": {
   "original": "~/.claude/skills/apple-notes/SKILL.md",
   "sha256": "48cfc3f612c195228f282b3c82cf334ede7703f3d066c7d20b171dd3c01a3e2d"
@@ -6,6 +10,14 @@
  "apple-photos": {
   "original": "~/.claude/skills/apple-photos/SKILL.md",
   "sha256": "b58915713b08353ff0987462ee5155f61462b52af6329beccf384f99a429fb8a"
+ },
+ "art-is-chosen-not-filler": {
+  "original": "~/.claude/skills/art-is-chosen-not-filler/SKILL.md",
+  "sha256": "74b8b38f162e18c96e6578cc5042302365e8497905abad646111d185593c1093"
+ },
+ "ask-the-style-question": {
+  "original": "~/.claude/skills/ask-the-style-question/SKILL.md",
+  "sha256": "53ced36a81d524f723599ddee0847959be22f7067022401e04a888719a80731b"
  },
  "assessment-ratio-study": {
   "original": "~/Desktop/bricks/.claude/skills/assessment-ratio-study/SKILL.md",
@@ -15,6 +27,18 @@
   "original": "~/.claude/skills/beautify/SKILL.md",
   "sha256": "100b46dbe176d0ad96df673dc4e1a30391bc6b26ce2c6e68fb5504a1bef3a4cd"
  },
+ "brainstorm-is-not-a-build": {
+  "original": "~/.claude/skills/brainstorm-is-not-a-build/SKILL.md",
+  "sha256": "71bfc0e745e62edd14ea36d3cbce2ce96f1420944555936c1496bb2d1985ef7d"
+ },
+ "breadth-after-a-miss": {
+  "original": "~/.claude/skills/breadth-after-a-miss/SKILL.md",
+  "sha256": "89f6f10d735f7dca3b90288e03ccc6807e36a67d3e0868761245a8099adc31f6"
+ },
+ "brief-numbers-are-the-spec": {
+  "original": "~/.claude/skills/brief-numbers-are-the-spec/SKILL.md",
+  "sha256": "bfd8856a9b06beef2ba33246018ad3e098c2745c74d7063668dc1aaeadb7c120"
+ },
  "browser-as-you": {
   "original": "~/.claude/skills/browser-as-aidan/SKILL.md",
   "sha256": "42c952a61a72dcedef9e89988c2d5869514fa13738a89bad01793f2384c79561"
@@ -22,6 +46,10 @@
  "business-inbox": {
   "original": "~/.claude/skills/business-inbox/SKILL.md",
   "sha256": "656008d04ee35b44a9dd26100487f4af3ee6a7e333190492cb24efe33a7708e0"
+ },
+ "check-the-premise-not-adoption": {
+  "original": "~/.claude/skills/check-the-premise-not-adoption/SKILL.md",
+  "sha256": "afeaf617dce32cd063c21dfea0a9ffa0e6a3260324ca922a17fe1771209e8423"
  },
  "chrome-bookmarks": {
   "original": "~/.claude/skills/chrome-bookmarks/SKILL.md",
@@ -35,6 +63,10 @@
   "original": "~/.claude/skills/clover-api/SKILL.md",
   "sha256": "1214c4c7dcf175a7e8739b1081fed2c7d63e17909d7a01b476c1aea9482b90f2"
  },
+ "colour-tells-the-story": {
+  "original": "~/.claude/skills/colour-tells-the-story/SKILL.md",
+  "sha256": "95be1df0050db8ff5bb29de6eeb241f26abf83459779c706ac057f97c82e80ce"
+ },
  "crystallize": {
   "original": "~/.claude/skills/crystallize/SKILL.md",
   "sha256": "6a78718ec93bb68484bea5694f68c78ad1a6fefcd8332228c932aa10f55d047c"
@@ -42,6 +74,10 @@
  "distribution-channel": {
   "original": "~/.claude/skills/distribution-channel/SKILL.md",
   "sha256": "bfbf3dd87cc5124f41f0a771437b5afe581ecf1c56425997ee8b9b2c40d2fa42"
+ },
+ "draw-the-digest": {
+  "original": "~/.claude/skills/draw-the-digest/SKILL.md",
+  "sha256": "84e20a1bd559a66f514bf98e74cbd561b1d5ccc2fc14741fdbec89137375c082"
  },
  "entry-timing": {
   "original": "~/.claude/skills/entry-timing/SKILL.md",
@@ -51,6 +87,10 @@
   "original": "~/.claude/skills/execute-trade-plan/SKILL.md",
   "sha256": "6146eedd0e936c8975d6aab962a332148436c1937dadb92654b409cecff5c953"
  },
+ "find-the-spread-before-drawing": {
+  "original": "~/.claude/skills/find-the-spread-before-drawing/SKILL.md",
+  "sha256": "f062204c3bc39dfa5130e4e58ec6cd1d92aa3ce5811841d1945f2126b7f08335"
+ },
  "gcal": {
   "original": "~/.claude/skills/gcal/SKILL.md",
   "sha256": "4e58225a05bbd9b9e50a41fdcdb4f84dd02defcfe075c693de39f2be5f0b7173"
@@ -59,9 +99,25 @@
   "original": "~/.claude/skills/github-scout/SKILL.md",
   "sha256": "f1d6c640f7c13e9914c0c85e2fd9ba9ed634a8b23fa605d5101896d1b656ebf2"
  },
+ "inspect-before-you-show": {
+  "original": "~/.claude/skills/inspect-before-you-show/SKILL.md",
+  "sha256": "8bd1d1e599521ece49e5cedea2c12165b895cec2bcf63ac3f3c4c218b6f63837"
+ },
+ "interview-dont-ghostwrite": {
+  "original": "~/.claude/skills/interview-dont-ghostwrite/SKILL.md",
+  "sha256": "bd677184504be550ef0e841ec78ce445108784a6f0e0c03bb2a69bc5f680d228"
+ },
  "jobber-api": {
   "original": "~/.claude/skills/jobber-api/SKILL.md",
   "sha256": "52c86157982c9cd02ec63d9c9a52d28696c4926c5d2e1bf5c2327d74cd7bae67"
+ },
+ "judge-at-full-size": {
+  "original": "~/.claude/skills/judge-at-full-size/SKILL.md",
+  "sha256": "fb264a16fe5a181ed09b8953b8c54759be37a72fdc83793891a3c87535092b9b"
+ },
+ "lead-with-the-ceiling-raiser": {
+  "original": "~/.claude/skills/lead-with-the-ceiling-raiser/SKILL.md",
+  "sha256": "36fc280f59876b3654456a09db7a1b7c240eeaf8e1d53bec4d9e3e4dc5b21162"
  },
  "leonardo": {
   "original": "~/.claude/skills/leonardo/SKILL.md",
@@ -83,9 +139,37 @@
   "original": "~/.claude/skills/mpls-permits/SKILL.md",
   "sha256": "5140c3ac39550f262b108aad53079c76e30dec817038240138c06165338742dd"
  },
+ "never-hamstring-by-pattern": {
+  "original": "~/.claude/skills/never-hamstring-by-pattern/SKILL.md",
+  "sha256": "cabcdfde2b66661af3898b89fddf98b974e6b2e534d6d7c6adf53a3b9ebab825"
+ },
+ "no-dead-white-space": {
+  "original": "~/.claude/skills/no-dead-white-space/SKILL.md",
+  "sha256": "a9a629dfe10be7a7da0aea45db5125cbcd6b621c69082aa76e49547d473be058"
+ },
+ "no-gloss-on-their-material": {
+  "original": "~/.claude/skills/no-gloss-on-their-material/SKILL.md",
+  "sha256": "3374035799832a48df0c92e801d2185f4a67cc4c052d69e9040ace49e56e69dd"
+ },
+ "one-identity-per-publication": {
+  "original": "~/.claude/skills/one-identity-per-publication/SKILL.md",
+  "sha256": "4aff3082fd35f3f12c66b5ba4548ca31c0fcf3a421fb06fbcb6d6c9a53ca82b7"
+ },
+ "open-preloaded-with-an-example": {
+  "original": "~/.claude/skills/open-preloaded-with-an-example/SKILL.md",
+  "sha256": "d8db9bf8bf0ded4742f139abb841279a678609dec5fbc91ae829fc71f088da08"
+ },
  "pending-queue": {
   "original": "~/.claude/hooks/pending.py",
   "sha256": "da14bfa6b4d436d0639760ebf90696ba62534945f0d553e0b20890f4a46538e6"
+ },
+ "rank-the-creative-set": {
+  "original": "~/.claude/skills/rank-the-creative-set/SKILL.md",
+  "sha256": "7a21865ed777306777088dc3e1f0d30c32dab944824898b11c80a058619d2561"
+ },
+ "reading-first-layout": {
+  "original": "~/.claude/skills/reading-first-layout/SKILL.md",
+  "sha256": "08ece81c90240b4ccc65ba0c13d76c9a5175476826367d43b7a4b9f0060ccbb5"
  },
  "records-request": {
   "original": "~/.claude/skills/records-request/SKILL.md",
@@ -102,6 +186,18 @@
  "sector-acceleration": {
   "original": "~/.claude/skills/sector-acceleration/SKILL.md",
   "sha256": "30004764f02f62cc52c2acb3bfb5f802598730a165ca76858d8d649fd7a08c5d"
+ },
+ "sexy-not-scholarly": {
+  "original": "~/.claude/skills/sexy-not-scholarly/SKILL.md",
+  "sha256": "c5b359842d5b7f20f44fff5dd67938f2de452886a26d981b5fe1aed1dcb33244"
+ },
+ "ship-the-prototype-verbatim": {
+  "original": "~/.claude/skills/ship-the-prototype-verbatim/SKILL.md",
+  "sha256": "aa25ce6d40dfc00962f850583fef0e98d952130051740a9975b63c7403a673ef"
+ },
+ "show-the-quiet-option": {
+  "original": "~/.claude/skills/show-the-quiet-option/SKILL.md",
+  "sha256": "baaf125eda7b6e920febec8defda1bafe919dab6e61dd75e0da6063bbd2c2995"
  },
  "site-analytics": {
   "original": "~/.claude/skills/site-analytics/SKILL.md",
@@ -123,9 +219,21 @@
   "original": "~/Desktop/writing-topology/.claude/skills/substack-export/SKILL.md",
   "sha256": "f313c3c438a64a6825913384d27d26837e8038cc5147dfed094f80c2fb051230"
  },
+ "their-copy-verbatim": {
+  "original": "~/.claude/skills/their-copy-verbatim/SKILL.md",
+  "sha256": "8b69607899ad17f79382f77239f8c7e4b8cd431b4ffb04c590e8c21e77b38ae4"
+ },
  "thirty-day-catalyst": {
   "original": "~/.claude/skills/thirty-day-catalyst/SKILL.md",
   "sha256": "1f2cf43f57a97f82c33d0f1023437200d33bc31df40fe6d0468ed1a1867d486a"
+ },
+ "vary-the-interaction": {
+  "original": "~/.claude/skills/vary-the-interaction/SKILL.md",
+  "sha256": "6b4c12fc427fad758224d842439d0f3d00ebca75eb77d49ddeb061b01cebd39f"
+ },
+ "vary-the-premise": {
+  "original": "~/.claude/skills/vary-the-premise/SKILL.md",
+  "sha256": "1128b0ab3e40f1806387db2bf9f938cd4dbfeb4490053fc42dc2a4509ef2b72e"
  },
  "vercel-api": {
   "original": "~/.claude/skills/vercel-api/SKILL.md",

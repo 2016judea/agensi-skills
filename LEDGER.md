@@ -5,7 +5,7 @@ Every global skill, repo-local skill and hook, what happened to it, and why. Gen
 
 Creator profile: https://agensi.io/creators/brick-mortar (display name "Brick & Mortar").
 
-**Listed: 62 · Skipped: 43.** All listings are Free. Review status is as of the last
+**Listed: 76 · Skipped: 48.** All listings are Free. Review status is as of the last
 `my_skills` read; a security status of `fail` is Agensi's automated scan (env var + network
 heuristics on tools that legitimately call an API with your own key) and goes to human review.
 
@@ -19,11 +19,16 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | axioms | `~/.claude/skills/axioms` | y | https://agensi.io/skills/axioms-falsify-your-data-s-laws | live / approved | instance ledger + bricks harness (prove.py, ledger json) dropped; his quotes, store paths, product names removed |
 | beautify | `~/.claude/skills/beautify` | y | https://agensi.io/skills/beautify-prototype-ui-directions-live | live / approved | site name in a grounding note |
 | brand-direction-plates | `~/.claude/skills/brand-direction-plates` | y | https://agensi.io/skills/brand-direction-plates | live / approved | real client business name -> fictional example; delivery paths, photo-library + memory refs removed |
+| broker-diligence-prep | `small-business-intelligence-mcp:src/tools/broker_diligence_prep.ts` | y | https://agensi.io/skills/business-buyer-pre-diligence | pending / pass | written from the live tool schema + framework; names our own server on purpose |
 | browser-as-you | `~/.claude/skills/browser-as-aidan (renamed)` | y | https://agensi.io/skills/browser-as-you-drive-your-logged-in-chrome | live / approved | renamed; his accounts/emails, Substack handles, memory refs, Instagram scraping section (third-party ToS) and his directory-filing history removed; added the empty-profile + OAuth-PKCE notes from this session |
 | buffett-checklist | `~/Desktop/trading-harness/.claude/skills (public repo)` | y | https://agensi.io/skills/buffett-checklist | live / approved | already sanitised in the public harness; memory-link syntax converted |
 | build-remote-mcp-server | `~/.claude/skills/build-remote-mcp-server` | y | https://agensi.io/skills/build-a-remote-mcp-server-on-cloudflare | live / approved | project/repo names, his git emails + Vercel committer story generalised, memory refs |
 | business-inbox | `~/.claude/skills/business-inbox` | y | https://agensi.io/skills/business-inbox-to-zero-zoho | live / approved | his business email, Zoho account + folder ids, Mail.app account UUID, named counties/utilities, repo paths, his send-block history |
+| business-teardown | `small-business-intelligence-mcp:src/tools/business_teardown.ts` | y | https://agensi.io/skills/small-business-teardown | pending / pass | written from the live tool schema + framework; folds in the repo's small-business-teardown skill; names our own server on purpose |
+| chrome-bookmarks | `~/.claude/skills/chrome-bookmarks` | y | https://agensi.io/skills/chrome-bookmarks-via-applescript | pending / pass | his folders/sources and memory refs; runner script kept; generic helper example replaces the worked script of his art links |
 | claude-usage-mining | `~/.claude/skills/claude-usage-mining` | y | https://agensi.io/skills/claude-code-usage-mining | live / approved | /Users path, his usage baseline numbers, VIGIL project refs, repo names, memory refs |
+| clover-api | `~/.claude/skills/clover-api` | y | https://agensi.io/skills/clover-pos-api-and-app-market | pending / pending | login email, inbox account id, developer ids, app ids/names, his repo paths, demo video link, memory refs; console traps kept |
+| competitor-landscape | `small-business-intelligence-mcp:src/tools/competitor_landscape.ts` | y | https://agensi.io/skills/competitor-landscape-map | pending / pass | written from the live tool schema + framework; names our own server on purpose |
 | counterparty-gift | `~/.claude/skills/counterparty-gift` | y | https://agensi.io/skills/next-customers-lead-list-from-public-records | live / approved | rewritten: seven named recipient businesses, his business/site/Zoho ids, signature line, repo paths, journal/memory refs |
 | crystallize | `~/.claude/skills/crystallize` | y | https://agensi.io/skills/crystallize-turn-a-session-into-a-skill | live / approved | name, his CLAUDE.md path, GLEAN/trading refs, memory-link syntax |
 | distribution-channel | `~/.claude/skills/distribution-channel` | y | https://agensi.io/skills/distribution-channel-picker | live / approved | rewritten and condensed: his outreach ledger, revenue, named recipients (incl. people texted), his quotes, products, repo paths, memory refs; kept the method (vouchers, obligation inboxes, super users, rules) |
@@ -31,17 +36,22 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | entry-timing | `~/.claude/skills/entry-timing` | y | https://agensi.io/skills/stock-entry-timing-teardown | live / approved | rewritten: his firewall/sleeve/account refs, his RMD fills and share counts, memory links, repo paths; recognition/price_history/kalshi scripts bundled (scrubbed copies) |
 | etrade-pull | `~/Desktop/trading-harness (public) [global copy has his account details, not used]` | y | https://agensi.io/skills/e-trade-account-pull | live / approved | harness copy + bundled client scripts; no credentials (read from your .env) |
 | execute-trade-plan | `~/.claude/skills/execute-trade-plan` | y | https://agensi.io/skills/execute-a-pre-committed-trade-plan | live / approved | rewritten: all his balances, earmarks, positions, fills and journal quotes replaced with anonymised examples |
+| find-the-public-record | `small-business-intelligence-mcp:skills/find-the-public-record + data_source_atlas` | y | https://agensi.io/skills/find-the-public-record | pending / pass | rewritten from the repo skill + live framework; names our own server on purpose |
 | gcal | `~/.claude/skills/gcal` | y | https://agensi.io/skills/google-calendar-via-api | live / approved | his calendar address, GCP project id, his trading-checkpoint anecdotes and quotes, local token paths, memory/journal refs |
 | github-scout | `~/.claude/skills/github-scout` | y | https://agensi.io/skills/github-scout-find-tools-before-building | live / approved | his CLAUDE.md/BUSINESS.md tenets, launchd plist path, project names + notes paths |
 | goodreads-fetch | `~/Desktop/writing-topology/.claude/skills/goodreads-fetch (+ script)` | y | https://agensi.io/skills/goodreads-shelf-export | live / approved | his Goodreads user id default, his reading anecdotes/quotes in comments, his site page pipeline; script now requires --user-id |
 | image-riff | `~/.claude/skills/image-riff` | y | https://agensi.io/skills/image-riff-art-in-a-reference-s-style | live / approved | rewritten: his quotes, his YouTube channel handle, client name, Photos-album history, memory links, Desktop paths, artist anecdote |
 | intrinsic-value | `~/Desktop/trading-harness (public)` | y | https://agensi.io/skills/intrinsic-value-owner-earnings | live / approved | harness copy + owner_earnings.py/compare.py/sec_financials.py bundled |
+| jobber-api | `~/.claude/skills/jobber-api` | y | https://agensi.io/skills/jobber-api-and-app-marketplace | pending / pass | login email, tester account name, repo paths, memory refs |
 | just-do-it | `~/.claude/skills/okay-mom (renamed)` | y | https://agensi.io/skills/just-do-it-okay-mom | live / approved | his name; renamed from okay-mom |
 | leadership-teardown | `~/.claude/skills/leadership-teardown` | y | https://agensi.io/skills/leadership-teardown | live / approved | rewritten: named executives anonymised (incl. a third-party family anecdote), tickers/deal names generalised, his trading-profile links |
 | leonardo | `~/.claude/skills/leonardo` | y | https://agensi.io/skills/leonardo-study-sheets | live / approved | shipped SKILL.md + prompts + plate.py + CREDITS/meta; the 15 sheet images and the 245k-word notebook corpus NOT shipped (images fetched from Commons by a new fetch_sheets.py; text pointed at Project Gutenberg); his sites/brands, memory refs, paths removed |
+| local-visibility-audit | `small-business-intelligence-mcp:src/tools/local_visibility_audit.ts` | y | https://agensi.io/skills/local-visibility-audit | pending / pass | written from the live tool schema + framework; names our own server on purpose |
 | mac-menu-bar-app | `~/.claude/skills/mac-menu-bar-app` | y | https://agensi.io/skills/ship-a-native-macos-menu-bar-app | live / approved | his project (VIGIL) paths, his quotes on CI, memory refs |
 | make-art | `~/.claude/skills/make-art` | y | https://agensi.io/skills/make-art-with-gemini-image-api | live / approved | key path in his repo .env -> env var (script edited), his spend figures, house-style names, client art paths, Photos-album history, memory refs |
+| market-opportunity-scan | `small-business-intelligence-mcp:src/tools/market_opportunity_scan.ts` | y | https://agensi.io/skills/market-opportunity-scan | pending / pass | written from the live tool schema + framework; names our own server on purpose |
 | mcp-stack | `~/.claude/skills/mcp-stack` | y | https://agensi.io/skills/mcp-stack-field-guide | live / approved | rewritten: his accounts/keychain names/HF handle, local server paths, his spend, real business examples, repo + project names, memory refs |
+| mixam-order | `~/.claude/skills/mixam-order` | y | https://agensi.io/skills/mixam-print-order-prep | pending / pass | his magazines, quote/order numbers, prices paid, repo paths, his decisions on his book |
 | mobile-ui-audit | `~/.claude/skills/mobile-ui-audit` | y | https://agensi.io/skills/mobile-ui-audit-ios-android | live / approved | Vercel team id, his venv/.env paths, his alias filter in audit.py; site names, business names from his sweep; evidence screenshots dropped |
 | mpls-permits | `~/.claude/skills/mpls-permits` | y | https://agensi.io/skills/minneapolis-building-permits-query | live / approved | his repo paths, a named contractor (person), a specific address, project names |
 | order-check | `~/Desktop/trading-harness (public) [global copy not used]` | y | https://agensi.io/skills/order-check-are-my-stops-live | live / approved | harness copy + scripts; one limit price removed from a docstring |
@@ -50,15 +60,17 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | photo-touchup | `~/.claude/skills/photo-touchup` | y | https://agensi.io/skills/photo-touch-up | live / approved | photos "of Aidan", his dating-profile anecdote generalised, his paths |
 | portfolio-review | `~/Desktop/trading-harness (public) [global copy not used]` | y | https://agensi.io/skills/portfolio-review | live / approved | harness copy; example-account dollar figure removed |
 | price-history | `~/Desktop/trading-harness (public)` | y | https://agensi.io/skills/price-history-and-seasonality | live / approved | harness copy + price_history.py |
+| pricing-benchmark | `small-business-intelligence-mcp:src/tools/pricing_benchmark.ts` | y | https://agensi.io/skills/local-pricing-benchmark | pending / pass | written from the live tool schema + framework; names our own server on purpose |
 | product-paywall | `~/.claude/skills/product-paywall` | y | https://agensi.io/skills/product-paywall-with-stripe | live / approved | rewritten: his product names + sales/visitor stats, Zoho account id + send-cap paths, router URL, repo paths, his quote, outreach ledger details |
 | quote-wallpapers | `~/.claude/skills/quote-wallpapers` | y | https://agensi.io/skills/quote-wallpapers-for-iphone | live / approved | his Notion DB id, his album/phone, memory refs; hard-coded slur list in build_render_set.py replaced by a user blocklist file; make-art path configurable |
-| realized-pnl | `~/Desktop/trading-harness (public)` | y | https://agensi.io/skills/realized-p-l-and-exit-counterfactuals | rejected / scanning | harness copy + scripts; one of his trade details removed from a comment |
+| realized-pnl | `~/Desktop/trading-harness (public)` | y | https://agensi.io/skills/realized-p-l-and-exit-counterfactuals | rejected / pass | harness copy + scripts; one of his trade details removed from a comment |
 | rebalance-plan | `~/Desktop/trading-harness (public)` | y | https://agensi.io/skills/rebalance-plan | live / approved | harness copy + rebalance.py + example targets (fictional) |
 | records-request | `~/.claude/skills/records-request` | y | https://agensi.io/skills/public-records-request | live / approved | rewritten: his name/LLC/email/signature, an official's quoted reply, his quotes, repo paths, Mailgun domain, memory/journal refs |
 | reddit-mining | `~/.claude/skills/reddit-mining` | y | https://agensi.io/skills/reddit-mining-no-auth | live / approved | /Users path, his repos/projects, harness-specific notes, journal ref |
 | reel-render | `~/.claude/skills/reel-render` | y | https://agensi.io/skills/reel-render-deterministic-video-from-canvas | live / approved | his repo paths, name, business-specific reel rules |
 | reframe | `~/.claude/skills/reframe` | y | https://agensi.io/skills/reframe | live / approved | name, memory ref, okay-mom link |
 | research-paper-essay | `~/.claude/skills/research-paper-essay` | y | https://agensi.io/skills/research-paper-to-essay | live / approved | his name, byline, Substack URL, sibling skill refs |
+| review-intelligence | `small-business-intelligence-mcp:src/tools/review_intelligence.ts` | y | https://agensi.io/skills/review-intelligence | pending / pass | written from the live tool schema + framework; names our own server on purpose |
 | search-console-setup | `~/.claude/skills/search-console-setup` | y | https://agensi.io/skills/search-console-setup | live / approved | rewritten: Vercel team id + slug, GBP place id, his legal/brand name, DNS/mail topology, his sites, quotes, memory refs |
 | sec-financials | `~/Desktop/trading-harness (public) + ~/.claude/skills/sec-financials` | y | https://agensi.io/skills/sec-financials-xbrl | live / approved | used the already-public harness copy (UA from env, not his email) + one trap from the global copy, de-tickered |
 | sector-acceleration | `~/.claude/skills/sector-acceleration + ~/Desktop/trading-journal scripts` | y | https://agensi.io/skills/sector-acceleration-scan | live / approved | his repo paths, his book/firewall/JOURNAL refs, dated calls; scripts bundled (sector_momentum, kalshi_macro, harness price_history) |
@@ -66,12 +78,14 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | site-analytics | `~/.claude/skills/site-analytics` | y | https://agensi.io/skills/site-analytics-posthog-vercel | live / approved | his PostHog public key + project id + cohort + IP, his site list, opt-out host allowlist -> placeholders; Vercel pull.py (his sites) dropped |
 | skill-autoload-hook | `~/.claude/hooks/channel_skill.py + settings.json UserPromptSubmit` | y | https://agensi.io/skills/skill-autoload-hook | live / approved | hook generalised (skill + pattern configurable via env) and renamed; his quotes removed |
 | sms-native-product | `~/.claude/skills/sms-native-product` | y | https://agensi.io/skills/sms-native-product | live / approved | rewritten: his project (Call Her) name/repo/journal, his quotes, his dating-product specifics, business name, key-grep over his paths |
+| square-api | `~/.claude/skills/square-api` | y | https://agensi.io/skills/square-pos-api-and-app-marketplace | pending / pass | app ids, developer user id, sandbox location id, login email, .env names and repo paths, product name |
 | stripe-dashboard | `~/.claude/skills/stripe-dashboard` | y | https://agensi.io/skills/stripe-dashboard-operations | live / approved | both Stripe account ids, his phone digits, org/brand names, link counts, his campaign paths, memory refs |
 | substack-export | `~/Desktop/writing-topology/.claude/skills/substack-export (+ script)` | y | https://agensi.io/skills/substack-export | live / approved | his two newsletter subdomains as defaults, Notion archive workflow, his corpus notes; script now requires --sub |
 | think-big | `~/.claude/skills/think-big` | y | https://agensi.io/skills/think-big | live / approved | his project names (CNA Shield, bricks, GLEAN), memory ref |
 | thirty-day-catalyst | `~/.claude/skills/thirty-day-catalyst + ~/Desktop/trading-journal scripts` | y | https://agensi.io/skills/30-day-catalyst-screen | live / approved | his quote/thesis attribution, his HELD holdings set and KILLED research ledger emptied in screener.py, RMD/JOURNAL/RESEARCH-PLAN refs |
 | thread-wall | `~/.claude/skills/thread-wall (+ contacts/read_messages.py)` | y | https://agensi.io/skills/imessage-thread-to-wall-of-text | live / approved | a friend's name + his texting anecdote, a real phone number in the usage line, /Users path; reader bundled |
 | trade-journal | `~/Desktop/trading-harness (public)` | y | https://agensi.io/skills/trade-journal | live / approved | harness copy + JOURNAL.template.md (placeholders only) |
+| twin-cities-property-records | `small-business-intelligence-mcp:skills/twin-cities-property-record + twin_cities_* tools` | y | https://agensi.io/skills/twin-cities-property-records | pending / pass | rewritten from the repo skill + live schemas; lookup, datasets, records, bring_your_document, what_we_have_for_you in one; dead system-card link replaced by documented_at |
 | ux-gift-sweep | `~/.claude/skills/ux-gift-sweep (+ findings.md)` | y | https://agensi.io/skills/ux-gift-sweep | live / approved | his verbatim email copy replaced with a neutral template (his prose not reused), his prices, named business, his repo/ledger paths, Mailgun domain + bounce stats, memory refs |
 | vercel-api | `~/.claude/skills/vercel-api` | y | https://agensi.io/skills/vercel-api | live / approved | rewritten: team id + slug, his project list, product names, his paid-data exposure incident anonymised |
 | zoho-send-cap | `~/.claude/hooks/zoho_send_cap.py + settings.json PreToolUse` | y | https://agensi.io/skills/zoho-send-cap-hook | live / approved | hook packaged as a skill; his mailbox address, block dates, Mailgun/skill refs, his timezone removed |
@@ -85,9 +99,12 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | aidan-voice | `~/.claude/skills/aidan-voice` | n | his personal writing voice, measured off his Substack |
 | annotate-film | `~/.claude/skills/annotate-film` | n | curates his own film scans and rebuilds his personal-site gallery |
 | annotate-inspo | `~/.claude/skills/annotate-inspo` | n | his inspiration boards, his friends' board names and file-naming conventions, his personal-site lane; nothing generic survives |
+| art-source-bookmarks | `~/.claude/skills/art-source-bookmarks` | n | indexes the art in his own posts and magazine into his bookmarks; the generic half ships as chrome-bookmarks |
 | benedict-evans | `~/.claude/skills/benedict-evans` | n | persona of a real person grounded in his copyrighted essays/newsletters; corpus cannot ship |
+| browser-as-aidan (11/03 recheck) | `~/.claude/skills/browser-as-aidan` | n | already live as browser-as-you |
 | buffett-checklist (trading-journal copy) | `~/Desktop/trading-journal/.claude/skills/buffett-checklist` | n | duplicate; the public trading-harness version is listed |
 | chat-usage-report | `~/Desktop/bricks/.claude/skills/chat-usage-report` | n | usage report for his site's beta chat (visitor transcripts); repo-specific and touches visitor data |
+| compose_report / request_a_feature / start_an_engagement (MCP tools) | `small-business-intelligence-mcp:src/tools` | n | folded into the use-case skills as a finishing step / fallback, not standalone use cases |
 | contacts | `~/.claude/skills/contacts` | n | his phone book (contacts.json) and message history; the generic reader ships inside thread-wall |
 | corpus-refresh | `~/Desktop/writing-topology/.claude/skills/corpus-refresh` | n | refreshes his personal reading/writing corpus into his Notion |
 | demand-signals | `~/.claude/skills/demand-signals` | n | query guide for his private DuckDB of job postings/asks; useless without his database |
@@ -105,6 +122,7 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | make-art/glean-issue/site-analytics/the-upward-glance (writing-topology copies) | `~/Desktop/writing-topology/.claude/skills` | n | duplicates of global skills (handled above) |
 | marc-andreessen | `~/.claude/skills/marc-andreessen` | n | persona of a real person grounded in copyrighted interviews/essays; corpus cannot ship |
 | outreach-ledger | `~/.claude/skills/outreach-ledger` | n | his outreach ledger (every send + recipients); private data |
+| periodicals-edition | `~/.claude/skills/periodicals-edition` | n | build pipeline for his own book of his own writing; the generic print half ships as mixam-order |
 | pessimists-archive | `~/.claude/skills/pessimists-archive` | n | query guide for his private DuckDB; corpus is third-party clippings |
 | platform-dataset | `~/Desktop/bricks/.claude/skills/platform-dataset` | n | his data platform's build/licence pipeline; repo-specific |
 | platform-qa | `~/Desktop/bricks/.claude/skills/platform-qa` | n | QA of his live site; repo-specific |
@@ -119,6 +137,7 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | site-page | `~/Desktop/writing-topology/.claude/skills/site-page` | n | page template for his personal website |
 | study-guide | `~/Desktop/writing-topology/.claude/skills/study-guide` | n | his personal site's STUDY section |
 | study-review | `~/Desktop/writing-topology/.claude/skills/study-review` | n | his personal site's STUDY section |
+| synced | `~/.claude/skills/synced` | n | not a skill: Anthropic's built-in skills synced from claude.ai (docs, docx, pdf, xlsx...); not ours to list |
 | the-upward-glance | `~/.claude/skills/the-upward-glance (+ writing-topology copy)` | n | his personal quote collection |
 | thesis-corpus | `~/.claude/skills/thesis-corpus` | n | corpus of his own ideas from notes/ChatGPT/texts |
 | vintage-ebay-shopping | `~/.claude/skills/vintage-ebay-shopping` | n | his personal clothing taste and eBay account |

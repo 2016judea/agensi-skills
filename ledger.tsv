@@ -103,3 +103,22 @@ site-page	~/Desktop/writing-topology/.claude/skills/site-page	skip		page templat
 study-guide	~/Desktop/writing-topology/.claude/skills/study-guide	skip		his personal site's STUDY section
 study-review	~/Desktop/writing-topology/.claude/skills/study-review	skip		his personal site's STUDY section
 make-art/glean-issue/site-analytics/the-upward-glance (writing-topology copies)	~/Desktop/writing-topology/.claude/skills	skip		duplicates of global skills (handled above)
+clover-api	~/.claude/skills/clover-api	list	login email, inbox account id, developer ids, app ids/names, his repo paths, demo video link, memory refs; console traps kept	
+square-api	~/.claude/skills/square-api	list	app ids, developer user id, sandbox location id, login email, .env names and repo paths, product name	
+jobber-api	~/.claude/skills/jobber-api	list	login email, tester account name, repo paths, memory refs	
+chrome-bookmarks	~/.claude/skills/chrome-bookmarks	list	his folders/sources and memory refs; runner script kept; generic helper example replaces the worked script of his art links	
+mixam-order	~/.claude/skills/mixam-order	list	his magazines, quote/order numbers, prices paid, repo paths, his decisions on his book	
+business-teardown	small-business-intelligence-mcp:src/tools/business_teardown.ts	list	written from the live tool schema + framework; folds in the repo's small-business-teardown skill; names our own server on purpose	
+competitor-landscape	small-business-intelligence-mcp:src/tools/competitor_landscape.ts	list	written from the live tool schema + framework; names our own server on purpose	
+review-intelligence	small-business-intelligence-mcp:src/tools/review_intelligence.ts	list	written from the live tool schema + framework; names our own server on purpose	
+local-visibility-audit	small-business-intelligence-mcp:src/tools/local_visibility_audit.ts	list	written from the live tool schema + framework; names our own server on purpose	
+pricing-benchmark	small-business-intelligence-mcp:src/tools/pricing_benchmark.ts	list	written from the live tool schema + framework; names our own server on purpose	
+broker-diligence-prep	small-business-intelligence-mcp:src/tools/broker_diligence_prep.ts	list	written from the live tool schema + framework; names our own server on purpose	
+market-opportunity-scan	small-business-intelligence-mcp:src/tools/market_opportunity_scan.ts	list	written from the live tool schema + framework; names our own server on purpose	
+find-the-public-record	small-business-intelligence-mcp:skills/find-the-public-record + data_source_atlas	list	rewritten from the repo skill + live framework; names our own server on purpose	
+twin-cities-property-records	small-business-intelligence-mcp:skills/twin-cities-property-record + twin_cities_* tools	list	rewritten from the repo skill + live schemas; lookup, datasets, records, bring_your_document, what_we_have_for_you in one; dead system-card link replaced by documented_at	
+compose_report / request_a_feature / start_an_engagement (MCP tools)	small-business-intelligence-mcp:src/tools	skip		folded into the use-case skills as a finishing step / fallback, not standalone use cases
+browser-as-aidan (11/03 recheck)	~/.claude/skills/browser-as-aidan	skip		already live as browser-as-you
+art-source-bookmarks	~/.claude/skills/art-source-bookmarks	skip		indexes the art in his own posts and magazine into his bookmarks; the generic half ships as chrome-bookmarks
+periodicals-edition	~/.claude/skills/periodicals-edition	skip		build pipeline for his own book of his own writing; the generic print half ships as mixam-order
+synced	~/.claude/skills/synced	skip		not a skill: Anthropic's built-in skills synced from claude.ai (docs, docx, pdf, xlsx...); not ours to list

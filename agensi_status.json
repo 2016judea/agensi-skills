@@ -1,4 +1,88 @@
 {
+ "twin-cities-property-records": {
+  "name": "Twin Cities Property Records",
+  "url": "https://agensi.io/skills/twin-cities-property-records",
+  "review": "pending",
+  "security": "pass"
+ },
+ "find-the-public-record": {
+  "name": "Find the Public Record",
+  "url": "https://agensi.io/skills/find-the-public-record",
+  "review": "pending",
+  "security": "pass"
+ },
+ "market-opportunity-scan": {
+  "name": "Market Opportunity Scan",
+  "url": "https://agensi.io/skills/market-opportunity-scan",
+  "review": "pending",
+  "security": "pass"
+ },
+ "business-buyer-pre-diligence": {
+  "name": "Business Buyer Pre-Diligence",
+  "url": "https://agensi.io/skills/business-buyer-pre-diligence",
+  "review": "pending",
+  "security": "pass"
+ },
+ "local-pricing-benchmark": {
+  "name": "Local Pricing Benchmark",
+  "url": "https://agensi.io/skills/local-pricing-benchmark",
+  "review": "pending",
+  "security": "pass"
+ },
+ "local-visibility-audit": {
+  "name": "Local Visibility Audit",
+  "url": "https://agensi.io/skills/local-visibility-audit",
+  "review": "pending",
+  "security": "pass"
+ },
+ "review-intelligence": {
+  "name": "Review Intelligence",
+  "url": "https://agensi.io/skills/review-intelligence",
+  "review": "pending",
+  "security": "pass"
+ },
+ "competitor-landscape-map": {
+  "name": "Competitor Landscape Map",
+  "url": "https://agensi.io/skills/competitor-landscape-map",
+  "review": "pending",
+  "security": "pass"
+ },
+ "small-business-teardown": {
+  "name": "Small Business Teardown",
+  "url": "https://agensi.io/skills/small-business-teardown",
+  "review": "pending",
+  "security": "pass"
+ },
+ "mixam-print-order-prep": {
+  "name": "Mixam Print Order Prep",
+  "url": "https://agensi.io/skills/mixam-print-order-prep",
+  "review": "pending",
+  "security": "pass"
+ },
+ "chrome-bookmarks-via-applescript": {
+  "name": "Chrome Bookmarks via AppleScript",
+  "url": "https://agensi.io/skills/chrome-bookmarks-via-applescript",
+  "review": "pending",
+  "security": "pass"
+ },
+ "jobber-api-and-app-marketplace": {
+  "name": "Jobber API and App Marketplace",
+  "url": "https://agensi.io/skills/jobber-api-and-app-marketplace",
+  "review": "pending",
+  "security": "pass"
+ },
+ "square-pos-api-and-app-marketplace": {
+  "name": "Square POS API and App Marketplace",
+  "url": "https://agensi.io/skills/square-pos-api-and-app-marketplace",
+  "review": "pending",
+  "security": "pass"
+ },
+ "clover-pos-api-and-app-market": {
+  "name": "Clover POS API and App Market",
+  "url": "https://agensi.io/skills/clover-pos-api-and-app-market",
+  "review": "pending",
+  "security": "pending"
+ },
  "quote-wallpapers-for-iphone": {
   "name": "Quote Wallpapers for iPhone",
   "url": "https://agensi.io/skills/quote-wallpapers-for-iphone",
@@ -141,7 +225,8 @@
   "name": "Realized P&L and Exit Counterfactuals",
   "url": "https://agensi.io/skills/realized-p-l-and-exit-counterfactuals",
   "review": "rejected",
-  "security": "scanning"
+  "security": "pass",
+  "pending_update": "1.1"
  },
  "product-paywall-with-stripe": {
   "name": "Product Paywall with Stripe",

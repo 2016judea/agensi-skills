@@ -16,6 +16,7 @@ for p in $(/usr/bin/python3 -c "import json;print(' '.join(p['name'] for p in js
   fi
 done
 /usr/bin/python3 tools/drift.py --pending >/dev/null
+zsh tools/publish_mirror.sh || echo "public mirror not published"
 # usage snapshot: commits itself so the time series survives other sessions' work in this tree
 if /usr/bin/python3 tools/usage.py >/dev/null; then
   git add usage/agensi.tsv usage/benchmark.tsv

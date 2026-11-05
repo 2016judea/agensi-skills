@@ -20,7 +20,7 @@
   "sha256": "53ced36a81d524f723599ddee0847959be22f7067022401e04a888719a80731b"
  },
  "assessment-ratio-study": {
-  "original": "~/Desktop/bricks/.claude/skills/assessment-ratio-study/SKILL.md",
+  "original": "~/Desktop/workspace/bricks/.claude/skills/assessment-ratio-study/SKILL.md",
   "sha256": "1d8f40d5e51164c7061423ee2a9fc68b4f1ed12da855de84312b00b2e3c8bab1"
  },
  "beautify": {
@@ -216,7 +216,7 @@
   "sha256": "2f73702996781ee3ea850654cf0a07908924752f835e13530cf48f9f6454783f"
  },
  "substack-export": {
-  "original": "~/Desktop/writing-topology/.claude/skills/substack-export/SKILL.md",
+  "original": "~/Desktop/workspace/writing-topology/.claude/skills/substack-export/SKILL.md",
   "sha256": "f313c3c438a64a6825913384d27d26837e8038cc5147dfed094f80c2fb051230"
  },
  "their-copy-verbatim": {

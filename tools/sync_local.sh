@@ -3,7 +3,7 @@
 # and by hand after any publish: rebuild the marketplace, refresh it, install new plugins, update the rest,
 # then queue a pending item if any original drifted or a new global skill was never decided.
 set -u
-cd ~/Desktop/agensi-skills || exit 1
+cd ~/Desktop/workspace/agensi-skills || exit 1
 CLAUDE=${CLAUDE:-$(command -v claude || echo ~/.local/bin/claude)}
 /usr/bin/python3 tools/build_marketplace.py >/dev/null
 "$CLAUDE" plugin marketplace update brick-mortar-skills >/dev/null 2>&1

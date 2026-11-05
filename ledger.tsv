@@ -22,18 +22,18 @@ reel-render	~/.claude/skills/reel-render	list	his repo paths, name, business-spe
 mpls-permits	~/.claude/skills/mpls-permits	list	his repo paths, a named contractor (person), a specific address, project names	
 research-paper-essay	~/.claude/skills/research-paper-essay	list	his name, byline, Substack URL, sibling skill refs	
 search-console-setup	~/.claude/skills/search-console-setup	list	rewritten: Vercel team id + slug, GBP place id, his legal/brand name, DNS/mail topology, his sites, quotes, memory refs	
-sec-financials	~/Desktop/trading-harness (public) + ~/.claude/skills/sec-financials	list	used the already-public harness copy (UA from env, not his email) + one trap from the global copy, de-tickered	
-buffett-checklist	~/Desktop/trading-harness/.claude/skills (public repo)	list	already sanitised in the public harness; memory-link syntax converted	
-etrade-pull	~/Desktop/trading-harness (public) [global copy has his account details, not used]	list	harness copy + bundled client scripts; no credentials (read from your .env)	
-intrinsic-value	~/Desktop/trading-harness (public)	list	harness copy + owner_earnings.py/compare.py/sec_financials.py bundled	
-order-check	~/Desktop/trading-harness (public) [global copy not used]	list	harness copy + scripts; one limit price removed from a docstring	
-portfolio-review	~/Desktop/trading-harness (public) [global copy not used]	list	harness copy; example-account dollar figure removed	
-price-history	~/Desktop/trading-harness (public)	list	harness copy + price_history.py	
-realized-pnl	~/Desktop/trading-harness (public)	list	harness copy + scripts; one of his trade details removed from a comment	
-rebalance-plan	~/Desktop/trading-harness (public)	list	harness copy + rebalance.py + example targets (fictional)	
-trade-journal	~/Desktop/trading-harness (public)	list	harness copy + JOURNAL.template.md (placeholders only)	
-sector-acceleration	~/.claude/skills/sector-acceleration + ~/Desktop/trading-journal scripts	list	his repo paths, his book/firewall/JOURNAL refs, dated calls; scripts bundled (sector_momentum, kalshi_macro, harness price_history)	
-thirty-day-catalyst	~/.claude/skills/thirty-day-catalyst + ~/Desktop/trading-journal scripts	list	his quote/thesis attribution, his HELD holdings set and KILLED research ledger emptied in screener.py, RMD/JOURNAL/RESEARCH-PLAN refs	
+sec-financials	~/Desktop/workspace/trading-harness (public) + ~/.claude/skills/sec-financials	list	used the already-public harness copy (UA from env, not his email) + one trap from the global copy, de-tickered	
+buffett-checklist	~/Desktop/workspace/trading-harness/.claude/skills (public repo)	list	already sanitised in the public harness; memory-link syntax converted	
+etrade-pull	~/Desktop/workspace/trading-harness (public) [global copy has his account details, not used]	list	harness copy + bundled client scripts; no credentials (read from your .env)	
+intrinsic-value	~/Desktop/workspace/trading-harness (public)	list	harness copy + owner_earnings.py/compare.py/sec_financials.py bundled	
+order-check	~/Desktop/workspace/trading-harness (public) [global copy not used]	list	harness copy + scripts; one limit price removed from a docstring	
+portfolio-review	~/Desktop/workspace/trading-harness (public) [global copy not used]	list	harness copy; example-account dollar figure removed	
+price-history	~/Desktop/workspace/trading-harness (public)	list	harness copy + price_history.py	
+realized-pnl	~/Desktop/workspace/trading-harness (public)	list	harness copy + scripts; one of his trade details removed from a comment	
+rebalance-plan	~/Desktop/workspace/trading-harness (public)	list	harness copy + rebalance.py + example targets (fictional)	
+trade-journal	~/Desktop/workspace/trading-harness (public)	list	harness copy + JOURNAL.template.md (placeholders only)	
+sector-acceleration	~/.claude/skills/sector-acceleration + ~/Desktop/workspace/trading-journal scripts	list	his repo paths, his book/firewall/JOURNAL refs, dated calls; scripts bundled (sector_momentum, kalshi_macro, harness price_history)	
+thirty-day-catalyst	~/.claude/skills/thirty-day-catalyst + ~/Desktop/workspace/trading-journal scripts	list	his quote/thesis attribution, his HELD holdings set and KILLED research ledger emptied in screener.py, RMD/JOURNAL/RESEARCH-PLAN refs	
 portfolio-journal	~/.claude/skills/portfolio-journal	skip		superseded by trade-journal (public harness); the rest is his positions, tickers held, fills and repo paths
 entry-timing	~/.claude/skills/entry-timing	list	rewritten: his firewall/sleeve/account refs, his RMD fills and share counts, memory links, repo paths; recognition/price_history/kalshi scripts bundled (scrubbed copies)	
 execute-trade-plan	~/.claude/skills/execute-trade-plan	list	rewritten: all his balances, earmarks, positions, fills and journal quotes replaced with anonymised examples	
@@ -83,26 +83,26 @@ quote-wallpapers	~/.claude/skills/quote-wallpapers	list	his Notion DB id, his al
 annotate-inspo	~/.claude/skills/annotate-inspo	skip		his inspiration boards, his friends' board names and file-naming conventions, his personal-site lane; nothing generic survives
 lomo-likes	~/.claude/skills/lomo-likes	skip		scrapes his own Lomography likes by reusing his Cloudflare clearance cookie (46MB of others' photos); bot-wall circumvention on a third-party site, not distributable
 instagram-pull	~/.claude/skills/instagram-pull (appeared mid-session)	skip		pulls his own Instagram account's photos to his site; his handle and personal archive
-assessment-ratio-study	~/Desktop/bricks/.claude/skills/assessment-ratio-study	list	his county data paths/recipe, memory refs, peer-session anecdote; IAAO method generalised	
-substack-export	~/Desktop/writing-topology/.claude/skills/substack-export (+ script)	list	his two newsletter subdomains as defaults, Notion archive workflow, his corpus notes; script now requires --sub	
-goodreads-fetch	~/Desktop/writing-topology/.claude/skills/goodreads-fetch (+ script)	list	his Goodreads user id default, his reading anecdotes/quotes in comments, his site page pipeline; script now requires --user-id	
-agent-voice-training	~/Desktop/bricks/.claude/skills/agent-voice-training	skip		trains his business's chat agent against its own prompt, transcripts and copy rules; repo-specific
-chat-usage-report	~/Desktop/bricks/.claude/skills/chat-usage-report	skip		usage report for his site's beta chat (visitor transcripts); repo-specific and touches visitor data
-platform-dataset	~/Desktop/bricks/.claude/skills/platform-dataset	skip		his data platform's build/licence pipeline; repo-specific
-platform-qa	~/Desktop/bricks/.claude/skills/platform-qa	skip		QA of his live site; repo-specific
-platform-tool	~/Desktop/bricks/.claude/skills/platform-tool	skip		productionising tools on his site; repo-specific
-evans-lens	~/Desktop/trading-journal/.claude/skills/evans-lens	skip		lens built on a real analyst's (Benedict Evans) published work, applied to his portfolio
-buffett-checklist (trading-journal copy)	~/Desktop/trading-journal/.claude/skills/buffett-checklist	skip		duplicate; the public trading-harness version is listed
-intrinsic-value (trading-journal/global copies)	~/Desktop/trading-journal + ~/.claude/skills	skip		duplicate; the public trading-harness version is listed
-sec-financials (trading-journal copy)	~/Desktop/trading-journal/.claude/skills/sec-financials	skip		duplicate; listed once
+assessment-ratio-study	~/Desktop/workspace/bricks/.claude/skills/assessment-ratio-study	list	his county data paths/recipe, memory refs, peer-session anecdote; IAAO method generalised	
+substack-export	~/Desktop/workspace/writing-topology/.claude/skills/substack-export (+ script)	list	his two newsletter subdomains as defaults, Notion archive workflow, his corpus notes; script now requires --sub	
+goodreads-fetch	~/Desktop/workspace/writing-topology/.claude/skills/goodreads-fetch (+ script)	list	his Goodreads user id default, his reading anecdotes/quotes in comments, his site page pipeline; script now requires --user-id	
+agent-voice-training	~/Desktop/workspace/bricks/.claude/skills/agent-voice-training	skip		trains his business's chat agent against its own prompt, transcripts and copy rules; repo-specific
+chat-usage-report	~/Desktop/workspace/bricks/.claude/skills/chat-usage-report	skip		usage report for his site's beta chat (visitor transcripts); repo-specific and touches visitor data
+platform-dataset	~/Desktop/workspace/bricks/.claude/skills/platform-dataset	skip		his data platform's build/licence pipeline; repo-specific
+platform-qa	~/Desktop/workspace/bricks/.claude/skills/platform-qa	skip		QA of his live site; repo-specific
+platform-tool	~/Desktop/workspace/bricks/.claude/skills/platform-tool	skip		productionising tools on his site; repo-specific
+evans-lens	~/Desktop/workspace/trading-journal/.claude/skills/evans-lens	skip		lens built on a real analyst's (Benedict Evans) published work, applied to his portfolio
+buffett-checklist (trading-journal copy)	~/Desktop/workspace/trading-journal/.claude/skills/buffett-checklist	skip		duplicate; the public trading-harness version is listed
+intrinsic-value (trading-journal/global copies)	~/Desktop/workspace/trading-journal + ~/.claude/skills	skip		duplicate; the public trading-harness version is listed
+sec-financials (trading-journal copy)	~/Desktop/workspace/trading-journal/.claude/skills/sec-financials	skip		duplicate; listed once
 etrade-pull/order-check/portfolio-review (global copies)	~/.claude/skills	skip		duplicates carrying his account details; the public trading-harness versions are listed
-corpus-refresh	~/Desktop/writing-topology/.claude/skills/corpus-refresh	skip		refreshes his personal reading/writing corpus into his Notion
-intellectual-history-analysis	~/Desktop/writing-topology/.claude/skills/intellectual-history-analysis	skip		analysis of his own reading and writing life
-primary-source-library	~/Desktop/writing-topology/.claude/skills/primary-source-library	skip		full-text library of the books he has read (copyrighted texts)
-site-page	~/Desktop/writing-topology/.claude/skills/site-page	skip		page template for his personal website
-study-guide	~/Desktop/writing-topology/.claude/skills/study-guide	skip		his personal site's STUDY section
-study-review	~/Desktop/writing-topology/.claude/skills/study-review	skip		his personal site's STUDY section
-make-art/glean-issue/site-analytics/the-upward-glance (writing-topology copies)	~/Desktop/writing-topology/.claude/skills	skip		duplicates of global skills (handled above)
+corpus-refresh	~/Desktop/workspace/writing-topology/.claude/skills/corpus-refresh	skip		refreshes his personal reading/writing corpus into his Notion
+intellectual-history-analysis	~/Desktop/workspace/writing-topology/.claude/skills/intellectual-history-analysis	skip		analysis of his own reading and writing life
+primary-source-library	~/Desktop/workspace/writing-topology/.claude/skills/primary-source-library	skip		full-text library of the books he has read (copyrighted texts)
+site-page	~/Desktop/workspace/writing-topology/.claude/skills/site-page	skip		page template for his personal website
+study-guide	~/Desktop/workspace/writing-topology/.claude/skills/study-guide	skip		his personal site's STUDY section
+study-review	~/Desktop/workspace/writing-topology/.claude/skills/study-review	skip		his personal site's STUDY section
+make-art/glean-issue/site-analytics/the-upward-glance (writing-topology copies)	~/Desktop/workspace/writing-topology/.claude/skills	skip		duplicates of global skills (handled above)
 clover-api	~/.claude/skills/clover-api	list	login email, inbox account id, developer ids, app ids/names, his repo paths, demo video link, memory refs; console traps kept	
 square-api	~/.claude/skills/square-api	list	app ids, developer user id, sandbox location id, login email, .env names and repo paths, product name	
 jobber-api	~/.claude/skills/jobber-api	list	login email, tester account name, repo paths, memory refs	
@@ -122,43 +122,43 @@ browser-as-aidan (11/03 recheck)	~/.claude/skills/browser-as-aidan	skip		already
 art-source-bookmarks	~/.claude/skills/art-source-bookmarks	skip		indexes the art in his own posts and magazine into his bookmarks; the generic half ships as chrome-bookmarks
 periodicals-edition	~/.claude/skills/periodicals-edition	skip		build pipeline for his own book of his own writing; the generic print half ships as mixam-order
 synced	~/.claude/skills/synced	skip		not a skill: Anthropic's built-in skills synced from claude.ai (docs, docx, pdf, xlsx...); not ours to list
-dropbox-token	~/Desktop/bricks/.claude/skills/dropbox-token (deleted; from git)	list	repo .env path generalised to ENV_FILE; 'used by' links to retired skills removed	
-gemini-web-search	~/Desktop/bricks/.claude/skills/gemini-web-search (deleted; from git)	list	repo paths, 'in this repo' routing rule, links to retired skills removed; model list made env-overridable	
-vercel-env	~/Desktop/bricks/.claude/skills/vercel-env (deleted; from git)	list	default project name, real env var ids/values, feature history removed; team-scope support added	
-federal-labor-data	~/Desktop/bricks/.claude/skills/federal-labor-data (deleted; from git)	list	link to his personal-Substack issue removed	
-worth-it	~/Desktop/bricks/.claude/skills/worth-it (deleted; from git)	list	his name and calibration anecdotes generalised	
-vice-president	~/Desktop/bricks/.claude/skills/vice-president (deleted; from git)	list	his name/CEO framing, memory refs, repo-specific skill names removed	
-overnight-job	~/Desktop/bricks/.claude/skills/overnight-job (deleted; from git)	list	his name, dated run, vendor trial and repo-specific rules removed	
-test-it	~/Desktop/bricks/.claude/skills/test-it (deleted; from git)	list	his site URL, repo scripts and WORKING-MEMORY ref removed; worked example anonymised	
+dropbox-token	~/Desktop/workspace/bricks/.claude/skills/dropbox-token (deleted; from git)	list	repo .env path generalised to ENV_FILE; 'used by' links to retired skills removed	
+gemini-web-search	~/Desktop/workspace/bricks/.claude/skills/gemini-web-search (deleted; from git)	list	repo paths, 'in this repo' routing rule, links to retired skills removed; model list made env-overridable	
+vercel-env	~/Desktop/workspace/bricks/.claude/skills/vercel-env (deleted; from git)	list	default project name, real env var ids/values, feature history removed; team-scope support added	
+federal-labor-data	~/Desktop/workspace/bricks/.claude/skills/federal-labor-data (deleted; from git)	list	link to his personal-Substack issue removed	
+worth-it	~/Desktop/workspace/bricks/.claude/skills/worth-it (deleted; from git)	list	his name and calibration anecdotes generalised	
+vice-president	~/Desktop/workspace/bricks/.claude/skills/vice-president (deleted; from git)	list	his name/CEO framing, memory refs, repo-specific skill names removed	
+overnight-job	~/Desktop/workspace/bricks/.claude/skills/overnight-job (deleted; from git)	list	his name, dated run, vendor trial and repo-specific rules removed	
+test-it	~/Desktop/workspace/bricks/.claude/skills/test-it (deleted; from git)	list	his site URL, repo scripts and WORKING-MEMORY ref removed; worked example anonymised	
 tech-economist	~/.claude/skills/benedict-evans	list	abstracted from a real-person persona; no name, no corpus, no quotes; frameworks paraphrased in our own words; CC BY 4.0	
 industrial-design-critic	~/.claude/skills/jony-ive	list	abstracted from a real-person persona; no name, no corpus, no quotes; frameworks paraphrased in our own words; CC BY 4.0	
-product-visionary	~/Desktop/bricks/.claude/skills/steve-jobs (deleted; from git)	list	abstracted from a real-person persona; no name, no corpus, no quotes; frameworks paraphrased in our own words; CC BY 4.0	
-sales-closer	~/Desktop/bricks/.claude/skills/jordan-belfort (deleted; from git)	list	abstracted from a real-person persona; no name, no corpus, no quotes; method paraphrased with an ethics-first rule; CC BY 4.0	
-trade-vocabulary	~/Desktop/bricks/.claude/skills/trade-vocabulary (deleted; from git)	list	house brand, product names and benchmark-file path removed; lexicon recipe generalised	
-html-to-press-pdf	~/Desktop/bricks/.claude/skills/html-to-press-pdf (deleted; from git)	list	shipped as-is (already generic); stray .gitignore removed	
-corpus-signal-mining	~/Desktop/bricks/.claude/skills/corpus-signal-mining (deleted; from git)	list	his findings corpus + harness paths removed; new generic mine_rules.py and backtest.py written and tested	
-ascii-charts	~/Desktop/bricks/.claude/skills/ascii-charts (deleted; from git)	list	his issue numbers, dates, his reactions, Substack-post paths removed; script shipped with import path fixed	
+product-visionary	~/Desktop/workspace/bricks/.claude/skills/steve-jobs (deleted; from git)	list	abstracted from a real-person persona; no name, no corpus, no quotes; frameworks paraphrased in our own words; CC BY 4.0	
+sales-closer	~/Desktop/workspace/bricks/.claude/skills/jordan-belfort (deleted; from git)	list	abstracted from a real-person persona; no name, no corpus, no quotes; method paraphrased with an ethics-first rule; CC BY 4.0	
+trade-vocabulary	~/Desktop/workspace/bricks/.claude/skills/trade-vocabulary (deleted; from git)	list	house brand, product names and benchmark-file path removed; lexicon recipe generalised	
+html-to-press-pdf	~/Desktop/workspace/bricks/.claude/skills/html-to-press-pdf (deleted; from git)	list	shipped as-is (already generic); stray .gitignore removed	
+corpus-signal-mining	~/Desktop/workspace/bricks/.claude/skills/corpus-signal-mining (deleted; from git)	list	his findings corpus + harness paths removed; new generic mine_rules.py and backtest.py written and tested	
+ascii-charts	~/Desktop/workspace/bricks/.claude/skills/ascii-charts (deleted; from git)	list	his issue numbers, dates, his reactions, Substack-post paths removed; script shipped with import path fixed	
 tool-skill-template	harvest-harness:free/skills/tool-skill-template	list	tenet references to his CLAUDE.md replaced; fill guide added	
-copy-voice	~/Desktop/bricks/.claude/skills/copy-voice (deleted; from git)	list	house brand, a real bar name in an example, retired-skill links removed	
-prospect-discovery	~/Desktop/bricks/.claude/skills/prospect-discovery (deleted; from git)	list	Notion DB id, site paths, house product routing generalised	
-flip-deal-feed	~/Desktop/bricks/.claude/skills/flip-deal-feed (deleted; from git)	list	his family, a relative's name, real addresses and MN suburbs removed; scripts' demo data replaced with fictional listings	
-cre-broker-brief	~/Desktop/bricks/.claude/skills/cre-broker-brief (deleted; from git)	list	real broker and brokerage, a real property, repo generator and Dropbox paths removed; rewritten generic	
-broker-prospecting-dossier	~/Desktop/bricks/.claude/skills/broker-prospecting-dossier (deleted; from git)	list	real owner LLC and its address, broker name, paid-API key path removed; rewritten generic	
-broker-listing-report	~/Desktop/bricks/.claude/skills/broker-listing-report (deleted; from git)	list	Notion DB id, site form, pipeline function names, Dropbox paths, his delivery process removed	
-strategic-brief	~/Desktop/bricks/.claude/skills/strategic-brief (deleted; from git)	list	two real target companies, repo pipeline and 36KB branded template (house CSS) dropped; rewritten generic	
-small-business-pulse	~/Desktop/bricks/.claude/skills/small-business-pulse (deleted; from git)	list	dates and retired-skill links removed; Reddit host updated to the archive the listed reddit-mining uses	
-role-litmus	~/Desktop/bricks/.claude/skills/role-litmus (deleted; from git)	list	his site, roles, repo scripts, memory refs and his quotes removed; Reddit-quoting personas replaced by a template; paradigms.md kept with citations	
-simulate-campaign	~/Desktop/bricks/.claude/skills/simulate-campaign (deleted; from git)	list	persona-* folded in as personas/; real-sounding business names, MN towns and a real broker's name replaced; backtest caveat added	
-engagement-outreach	~/Desktop/bricks/.claude/skills/engagement-outreach (deleted; from git)	list	named lenders, real people, his mailbox ids, his campaign ledger and quotes removed; prospect-dm-outreach's fact ladder folded in	
+copy-voice	~/Desktop/workspace/bricks/.claude/skills/copy-voice (deleted; from git)	list	house brand, a real bar name in an example, retired-skill links removed	
+prospect-discovery	~/Desktop/workspace/bricks/.claude/skills/prospect-discovery (deleted; from git)	list	Notion DB id, site paths, house product routing generalised	
+flip-deal-feed	~/Desktop/workspace/bricks/.claude/skills/flip-deal-feed (deleted; from git)	list	his family, a relative's name, real addresses and MN suburbs removed; scripts' demo data replaced with fictional listings	
+cre-broker-brief	~/Desktop/workspace/bricks/.claude/skills/cre-broker-brief (deleted; from git)	list	real broker and brokerage, a real property, repo generator and Dropbox paths removed; rewritten generic	
+broker-prospecting-dossier	~/Desktop/workspace/bricks/.claude/skills/broker-prospecting-dossier (deleted; from git)	list	real owner LLC and its address, broker name, paid-API key path removed; rewritten generic	
+broker-listing-report	~/Desktop/workspace/bricks/.claude/skills/broker-listing-report (deleted; from git)	list	Notion DB id, site form, pipeline function names, Dropbox paths, his delivery process removed	
+strategic-brief	~/Desktop/workspace/bricks/.claude/skills/strategic-brief (deleted; from git)	list	two real target companies, repo pipeline and 36KB branded template (house CSS) dropped; rewritten generic	
+small-business-pulse	~/Desktop/workspace/bricks/.claude/skills/small-business-pulse (deleted; from git)	list	dates and retired-skill links removed; Reddit host updated to the archive the listed reddit-mining uses	
+role-litmus	~/Desktop/workspace/bricks/.claude/skills/role-litmus (deleted; from git)	list	his site, roles, repo scripts, memory refs and his quotes removed; Reddit-quoting personas replaced by a template; paradigms.md kept with citations	
+simulate-campaign	~/Desktop/workspace/bricks/.claude/skills/simulate-campaign (deleted; from git)	list	persona-* folded in as personas/; real-sounding business names, MN towns and a real broker's name replaced; backtest caveat added	
+engagement-outreach	~/Desktop/workspace/bricks/.claude/skills/engagement-outreach (deleted; from git)	list	named lenders, real people, his mailbox ids, his campaign ledger and quotes removed; prospect-dm-outreach's fact ladder folded in	
 spec-site-sale	~/.claude/skills/spec-site-sale (deleted; from git)	list	named dispensaries, his mailbox id, memory refs and an anecdote about him removed; honesty guard kept	
 vertical-market-agent	~/.claude/skills/vertical-market-agent (deleted; from git)	list	his products, county/city names, real streets and buildings, repo paths and memory refs removed; condensed	
 sba-loans	bricks:.claude/skills/sba-loans	list	his DuckDB, MN statute and data store names, named defendants removed; measured results kept anonymised	
 melville-annotated-shakespeare	~/.claude/skills/melville-annotated-shakespeare (deleted; from git)	list	his name, memory refs, taste notes removed; scripts fetch at use time; licence note added	
-deep-dive-report	~/Desktop/bricks/.claude/skills/deep-dive-report (deleted; from git)	list	pipeline code, Dropbox paths and a real family business reference removed	
-sector-enrichment	~/Desktop/bricks/.claude/skills/sector-enrichment (deleted; from git)	list	repo data paths, Chroma/DuckDB store names, retired-skill links removed	
-meta-ads-launch	~/Desktop/bricks/.claude/skills/sector-to-meta-ad (deleted; from git)	list	his ad account, page and pixel ids, founder copy, Twin Cities targeting removed; meta-carousel-ad and meta-ad-headline-refresh folded in	
-meta-ad-performance	~/Desktop/bricks/.claude/skills/meta-ad-performance (deleted; from git)	list	ad account, pixel and campaign ids removed; new generic meta_ads_report.py (env-driven, paged Stripe) written	
-sector-playbook-pilot	~/Desktop/bricks/.claude/skills/sector-playbook-pilot (deleted; from git)	list	reference city, repo scripts, Dropbox/Stripe ids removed	
+deep-dive-report	~/Desktop/workspace/bricks/.claude/skills/deep-dive-report (deleted; from git)	list	pipeline code, Dropbox paths and a real family business reference removed	
+sector-enrichment	~/Desktop/workspace/bricks/.claude/skills/sector-enrichment (deleted; from git)	list	repo data paths, Chroma/DuckDB store names, retired-skill links removed	
+meta-ads-launch	~/Desktop/workspace/bricks/.claude/skills/sector-to-meta-ad (deleted; from git)	list	his ad account, page and pixel ids, founder copy, Twin Cities targeting removed; meta-carousel-ad and meta-ad-headline-refresh folded in	
+meta-ad-performance	~/Desktop/workspace/bricks/.claude/skills/meta-ad-performance (deleted; from git)	list	ad account, pixel and campaign ids removed; new generic meta_ads_report.py (env-driven, paged Stripe) written	
+sector-playbook-pilot	~/Desktop/workspace/bricks/.claude/skills/sector-playbook-pilot (deleted; from git)	list	reference city, repo scripts, Dropbox/Stripe ids removed	
 built-in-browser	~/.claude/skills/.trash/1791477037436-14869-Q2cyb0/built-in-browser	skip		third-party: Anthropic's own desktop-app skill (proprietary licence), found in ~/.claude/skills/.trash
 chrome-browser	~/.claude/skills/.trash/1791477037436-14869-7px2Hd/chrome-browser	skip		third-party: Anthropic's own Claude-in-Chrome skill (proprietary licence), in .trash
 computer-use	~/.claude/skills/.trash/1791477037436-14869-lWzFev/computer-use	skip		third-party: Anthropic's own computer-use skill (proprietary licence), in .trash
@@ -172,48 +172,48 @@ google-workspace	~/.claude/skills/synced/3735f553-a71b-4dc4-8008-795672ba5246_d9
 import-memory	~/.claude/skills/synced/3735f553-a71b-4dc4-8008-795672ba5246_d9f449e8-d776-4d92-b37d-e563e209e9ee/import-memory	skip		third-party: Anthropic built-in synced from claude.ai
 morning	~/.claude/skills/synced/3735f553-a71b-4dc4-8008-795672ba5246_d9f449e8-d776-4d92-b37d-e563e209e9ee/morning	skip		third-party: Anthropic built-in synced from claude.ai
 skill-creator	~/.claude/skills/synced/3735f553-a71b-4dc4-8008-795672ba5246_d9f449e8-d776-4d92-b37d-e563e209e9ee/skill-creator	skip		third-party: Anthropic's skill-creator (Apache 2.0, already free from Anthropic)
-skill	~/Desktop/make-art/skill	skip		near-duplicate: the make-art repo's own copy of make-art, already listed
+skill	~/Desktop/workspace/make-art/skill	skip		near-duplicate: the make-art repo's own copy of make-art, already listed
 okay-mom	~/.claude/skills/okay-mom (deleted; from git)	skip		near-duplicate: already listed as just-do-it
-mobile-qa	~/Desktop/bricks/.claude/skills/mobile-qa (deleted; from git)	skip		near-duplicate of listed mobile-ui-audit (overflow + contrast at phone width)
-posthog-analytics	~/Desktop/bricks/.claude/skills/posthog-analytics (deleted; from git)	skip		near-duplicate of listed site-analytics; the rest is one site's script and report format
-advertising-metrics-update	~/Desktop/bricks/.claude/skills/advertising-metrics-update (deleted; from git)	skip		near-duplicate: earlier name of posthog-analytics
-city-reel	~/Desktop/bricks/.claude/skills/city-reel (deleted; from git)	skip		bound to his reels channel and Photos delivery; the render mechanics ship as reel-render
-steve-jobs	~/Desktop/bricks/.claude/skills/steve-jobs (deleted; from git)	skip		real-person persona: shipped instead as the nameless archetype product-visionary
-jordan-belfort	~/Desktop/bricks/.claude/skills/jordan-belfort (deleted; from git)	skip		real-person persona: shipped instead as the nameless archetype sales-closer
-creative-inspiration	~/Desktop/writing-topology/.claude/skills/creative-inspiration (deleted; from git)	skip		his personal quote collection; nothing generic survives
-batch-territory-sell	~/Desktop/bricks/.claude/skills/batch-territory-sell (deleted; from git)	skip		bound to the retired report pipeline and one sales rep's territory; nothing generic survives
-bricks-manual-report	~/Desktop/bricks/.claude/skills/bricks-manual-report (deleted; from git)	skip		wrapper for the retired branded-report pipeline; method covered by deep-dive-report/strategic-brief
-market-intelligence-report	~/Desktop/bricks/.claude/skills/market-intelligence-report (deleted; from git)	skip		runbook for the retired $99 report engine (repo script + Opus pipeline); nothing generic survives
-sector-intelligence-report	~/Desktop/bricks/.claude/skills/sector-intelligence-report (deleted; from git)	skip		runbook for a retired repo agent (community_history.py); nothing generic survives
-pipeline-troubleshoot	~/Desktop/bricks/.claude/skills/pipeline-troubleshoot (deleted; from git)	skip		debug guide for one retired repo script
-dashboard-tool-qa	~/Desktop/bricks/.claude/skills/dashboard-tool-qa (deleted; from git)	skip		QA harness for six retired repo APIs
-findings-corpus	~/Desktop/bricks/.claude/skills/findings-corpus (deleted; from git)	skip		query guide for his private findings corpus
-intake-pipeline	~/Desktop/bricks/.claude/skills/intake-pipeline (deleted; from git)	skip		bound to his intake Google Form and a sales client
-intake-report	~/Desktop/bricks/.claude/skills/intake-report (deleted; from git)	skip		bound to the retired $24.99 /intake/ product; its generic rules are in copy-voice and strategic-brief
-intake-status	~/Desktop/bricks/.claude/skills/intake-status (deleted; from git)	skip		checks his intake form/Stripe for orders; nothing generic
-prospect-twopager	~/Desktop/bricks/.claude/skills/prospect-twopager (deleted; from git)	skip		bound to the retired report pipeline; generic copy rules ship in copy-voice
-report-quality-check	~/Desktop/bricks/.claude/skills/report-quality-check (deleted; from git)	skip		rubric for the retired branded report; generic rules ship in copy-voice and deep-dive-report
-daily-summary	~/Desktop/bricks/.claude/skills/daily-summary (deleted; from git)	skip		reads his sales group text and inbox; private data, nothing generic
-sales-chat	~/Desktop/bricks/.claude/skills/sales-chat (deleted; from git)	skip		reads one private group text thread
-mailer-qr-stats	~/Desktop/bricks/.claude/skills/mailer-qr-stats (deleted; from git)	skip		checks his own mailer payment links; nothing generic beyond meta-ad-performance's Stripe count
-sector-mailer	~/Desktop/bricks/.claude/skills/sector-mailer (deleted; from git)	skip		discontinued product (marked DEPRECATED 2026-07-21)
-substack-post	~/Desktop/bricks/.claude/skills/substack-post (deleted; from git)	skip		discontinued product (marked DEPRECATED 2026-07-21)
-newsletter-trust-sequence	~/Desktop/bricks/.claude/skills/newsletter-trust-sequence (deleted; from git)	skip		bound to his prospect list and retired mailers; the generic sequence ships as sector-playbook-pilot
-warm-lead-primer	~/Desktop/bricks/.claude/skills/warm-lead-primer (deleted; from git)	skip		bound to the retired phone-sales channel and pipeline; the generic page-form-checkout shape ships as product-paywall
-instagram-starter-posts	~/Desktop/bricks/.claude/skills/instagram-starter-posts (deleted; from git)	skip		bound to the retired report pipeline and his account; nothing generic beyond simulate-campaign/meta-ads-launch
-personal-data-essay	~/Desktop/bricks/.claude/skills/personal-data-essay (deleted; from git)	skip		near-duplicate of listed research-paper-essay + small-business-pulse; the rest is his personal Substack
-deal-feed-outreach	~/Desktop/bricks/.claude/skills/deal-feed-outreach (deleted; from git)	skip		one LinkedIn campaign's named targets; ledger standard for LinkedIn outreach (linkedin-message); the generic method is distribution-channel
-prospect-dm-outreach	~/Desktop/bricks/.claude/skills/prospect-dm-outreach (deleted; from git)	skip		folded into engagement-outreach (the single-fact fallback ladder)
-meta-carousel-ad	~/Desktop/bricks/.claude/skills/meta-carousel-ad (deleted; from git)	skip		folded into meta-ads-launch
-meta-ad-headline-refresh	~/Desktop/bricks/.claude/skills/meta-ad-headline-refresh (deleted; from git)	skip		folded into meta-ads-launch
-sector-to-meta-ad	~/Desktop/bricks/.claude/skills/sector-to-meta-ad (deleted; from git)	skip		shipped as meta-ads-launch
-persona-dave	~/Desktop/bricks/.claude/skills/persona-dave (deleted; from git)	skip		folded into simulate-campaign as personas/dave.md (fictional, place names removed)
-persona-jake	~/Desktop/bricks/.claude/skills/persona-jake (deleted; from git)	skip		folded into simulate-campaign as personas/jake.md (fictional, place names removed)
-persona-maria	~/Desktop/bricks/.claude/skills/persona-maria (deleted; from git)	skip		folded into simulate-campaign as personas/maria.md (fictional, place names removed)
-persona-tony	~/Desktop/bricks/.claude/skills/persona-tony (deleted; from git)	skip		folded into simulate-campaign as personas/tony.md (fictional, place names removed)
-persona-yara	~/Desktop/bricks/.claude/skills/persona-yara (deleted; from git)	skip		folded into simulate-campaign as personas/yara.md (fictional, place names removed)
-persona-acquirer	~/Desktop/bricks/.claude/skills/persona-acquirer (deleted; from git)	skip		folded into simulate-campaign as personas/acquirer.md (fictional, place names removed)
-persona-broker	~/Desktop/bricks/.claude/skills/persona-broker (deleted; from git)	skip		folded into simulate-campaign as personas/broker.md (fictional, place names removed)
+mobile-qa	~/Desktop/workspace/bricks/.claude/skills/mobile-qa (deleted; from git)	skip		near-duplicate of listed mobile-ui-audit (overflow + contrast at phone width)
+posthog-analytics	~/Desktop/workspace/bricks/.claude/skills/posthog-analytics (deleted; from git)	skip		near-duplicate of listed site-analytics; the rest is one site's script and report format
+advertising-metrics-update	~/Desktop/workspace/bricks/.claude/skills/advertising-metrics-update (deleted; from git)	skip		near-duplicate: earlier name of posthog-analytics
+city-reel	~/Desktop/workspace/bricks/.claude/skills/city-reel (deleted; from git)	skip		bound to his reels channel and Photos delivery; the render mechanics ship as reel-render
+steve-jobs	~/Desktop/workspace/bricks/.claude/skills/steve-jobs (deleted; from git)	skip		real-person persona: shipped instead as the nameless archetype product-visionary
+jordan-belfort	~/Desktop/workspace/bricks/.claude/skills/jordan-belfort (deleted; from git)	skip		real-person persona: shipped instead as the nameless archetype sales-closer
+creative-inspiration	~/Desktop/workspace/writing-topology/.claude/skills/creative-inspiration (deleted; from git)	skip		his personal quote collection; nothing generic survives
+batch-territory-sell	~/Desktop/workspace/bricks/.claude/skills/batch-territory-sell (deleted; from git)	skip		bound to the retired report pipeline and one sales rep's territory; nothing generic survives
+bricks-manual-report	~/Desktop/workspace/bricks/.claude/skills/bricks-manual-report (deleted; from git)	skip		wrapper for the retired branded-report pipeline; method covered by deep-dive-report/strategic-brief
+market-intelligence-report	~/Desktop/workspace/bricks/.claude/skills/market-intelligence-report (deleted; from git)	skip		runbook for the retired $99 report engine (repo script + Opus pipeline); nothing generic survives
+sector-intelligence-report	~/Desktop/workspace/bricks/.claude/skills/sector-intelligence-report (deleted; from git)	skip		runbook for a retired repo agent (community_history.py); nothing generic survives
+pipeline-troubleshoot	~/Desktop/workspace/bricks/.claude/skills/pipeline-troubleshoot (deleted; from git)	skip		debug guide for one retired repo script
+dashboard-tool-qa	~/Desktop/workspace/bricks/.claude/skills/dashboard-tool-qa (deleted; from git)	skip		QA harness for six retired repo APIs
+findings-corpus	~/Desktop/workspace/bricks/.claude/skills/findings-corpus (deleted; from git)	skip		query guide for his private findings corpus
+intake-pipeline	~/Desktop/workspace/bricks/.claude/skills/intake-pipeline (deleted; from git)	skip		bound to his intake Google Form and a sales client
+intake-report	~/Desktop/workspace/bricks/.claude/skills/intake-report (deleted; from git)	skip		bound to the retired $24.99 /intake/ product; its generic rules are in copy-voice and strategic-brief
+intake-status	~/Desktop/workspace/bricks/.claude/skills/intake-status (deleted; from git)	skip		checks his intake form/Stripe for orders; nothing generic
+prospect-twopager	~/Desktop/workspace/bricks/.claude/skills/prospect-twopager (deleted; from git)	skip		bound to the retired report pipeline; generic copy rules ship in copy-voice
+report-quality-check	~/Desktop/workspace/bricks/.claude/skills/report-quality-check (deleted; from git)	skip		rubric for the retired branded report; generic rules ship in copy-voice and deep-dive-report
+daily-summary	~/Desktop/workspace/bricks/.claude/skills/daily-summary (deleted; from git)	skip		reads his sales group text and inbox; private data, nothing generic
+sales-chat	~/Desktop/workspace/bricks/.claude/skills/sales-chat (deleted; from git)	skip		reads one private group text thread
+mailer-qr-stats	~/Desktop/workspace/bricks/.claude/skills/mailer-qr-stats (deleted; from git)	skip		checks his own mailer payment links; nothing generic beyond meta-ad-performance's Stripe count
+sector-mailer	~/Desktop/workspace/bricks/.claude/skills/sector-mailer (deleted; from git)	skip		discontinued product (marked DEPRECATED 2026-07-21)
+substack-post	~/Desktop/workspace/bricks/.claude/skills/substack-post (deleted; from git)	skip		discontinued product (marked DEPRECATED 2026-07-21)
+newsletter-trust-sequence	~/Desktop/workspace/bricks/.claude/skills/newsletter-trust-sequence (deleted; from git)	skip		bound to his prospect list and retired mailers; the generic sequence ships as sector-playbook-pilot
+warm-lead-primer	~/Desktop/workspace/bricks/.claude/skills/warm-lead-primer (deleted; from git)	skip		bound to the retired phone-sales channel and pipeline; the generic page-form-checkout shape ships as product-paywall
+instagram-starter-posts	~/Desktop/workspace/bricks/.claude/skills/instagram-starter-posts (deleted; from git)	skip		bound to the retired report pipeline and his account; nothing generic beyond simulate-campaign/meta-ads-launch
+personal-data-essay	~/Desktop/workspace/bricks/.claude/skills/personal-data-essay (deleted; from git)	skip		near-duplicate of listed research-paper-essay + small-business-pulse; the rest is his personal Substack
+deal-feed-outreach	~/Desktop/workspace/bricks/.claude/skills/deal-feed-outreach (deleted; from git)	skip		one LinkedIn campaign's named targets; ledger standard for LinkedIn outreach (linkedin-message); the generic method is distribution-channel
+prospect-dm-outreach	~/Desktop/workspace/bricks/.claude/skills/prospect-dm-outreach (deleted; from git)	skip		folded into engagement-outreach (the single-fact fallback ladder)
+meta-carousel-ad	~/Desktop/workspace/bricks/.claude/skills/meta-carousel-ad (deleted; from git)	skip		folded into meta-ads-launch
+meta-ad-headline-refresh	~/Desktop/workspace/bricks/.claude/skills/meta-ad-headline-refresh (deleted; from git)	skip		folded into meta-ads-launch
+sector-to-meta-ad	~/Desktop/workspace/bricks/.claude/skills/sector-to-meta-ad (deleted; from git)	skip		shipped as meta-ads-launch
+persona-dave	~/Desktop/workspace/bricks/.claude/skills/persona-dave (deleted; from git)	skip		folded into simulate-campaign as personas/dave.md (fictional, place names removed)
+persona-jake	~/Desktop/workspace/bricks/.claude/skills/persona-jake (deleted; from git)	skip		folded into simulate-campaign as personas/jake.md (fictional, place names removed)
+persona-maria	~/Desktop/workspace/bricks/.claude/skills/persona-maria (deleted; from git)	skip		folded into simulate-campaign as personas/maria.md (fictional, place names removed)
+persona-tony	~/Desktop/workspace/bricks/.claude/skills/persona-tony (deleted; from git)	skip		folded into simulate-campaign as personas/tony.md (fictional, place names removed)
+persona-yara	~/Desktop/workspace/bricks/.claude/skills/persona-yara (deleted; from git)	skip		folded into simulate-campaign as personas/yara.md (fictional, place names removed)
+persona-acquirer	~/Desktop/workspace/bricks/.claude/skills/persona-acquirer (deleted; from git)	skip		folded into simulate-campaign as personas/acquirer.md (fictional, place names removed)
+persona-broker	~/Desktop/workspace/bricks/.claude/skills/persona-broker (deleted; from git)	skip		folded into simulate-campaign as personas/broker.md (fictional, place names removed)
 ask-the-style-question	~/.claude/skills/ask-the-style-question	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
 vary-the-premise	~/.claude/skills/vary-the-premise	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	
 vary-the-interaction	~/.claude/skills/vary-the-interaction	list	his name, his quotes' attribution, product names and memory links removed; instances generalised	

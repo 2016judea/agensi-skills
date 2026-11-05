@@ -80,7 +80,7 @@ if "--pending" in sys.argv and (drifted or new):
     if not any(i.get("id") == iid for i in items):
         items.append({"id": iid, "due": today, "project": "agensi-skills",
                       "what": f"Skills to re-publish: {len(drifted)} drifted, {len(new)} never decided",
-                      "how": "cd ~/Desktop/agensi-skills && python3 tools/drift.py; follow the skill-publishing "
+                      "how": "cd ~/Desktop/workspace/agensi-skills && python3 tools/drift.py; follow the skill-publishing "
                              "skill (re-scrub drifted copies, update_skill, drift.py --mark; list or skip new ones), "
                              "then python3 tools/build_marketplace.py, commit, push."})
         json.dump(items, open(pf, "w"), indent=1)

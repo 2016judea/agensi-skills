@@ -3,8 +3,8 @@
 # index and which installs as a Claude Code plugin marketplace. Only gated, listed skills go out; the scrub
 # tooling, ledger and submissions stay in this private repo. Run by sync_local.sh after each sync.
 set -eu
-cd ~/Desktop/agensi-skills
-M=~/Desktop/brick-mortar-skills
+cd ~/Desktop/workspace/agensi-skills
+M=~/Desktop/workspace/brick-mortar-skills
 for d in skills/*/; do tools/gate.sh "$d" >/dev/null || { echo "gate failed: $d — mirror not published"; exit 1; }; done
 [ -d $M/.git ] || git clone -q https://github.com/2016judea/brick-mortar-skills.git $M
 rsync -a --delete --exclude .git --exclude __pycache__ --exclude '*.pyc' skills/ $M/skills/

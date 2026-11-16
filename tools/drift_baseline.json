@@ -133,7 +133,7 @@
  },
  "mobile-ui-audit": {
   "original": "~/.claude/skills/mobile-ui-audit/SKILL.md",
-  "sha256": "3217177f8586c49ead3d218393c935be3bbf2814e588d78c9c16f3e1f371aecf"
+  "sha256": "c6e3693c61f75b68338ca48393c999ffd84995a9a77ab99c8ca679836bfdf361"
  },
  "mpls-permits": {
   "original": "~/.claude/skills/mpls-permits/SKILL.md",

@@ -15,7 +15,10 @@ Publishing pages that carry a real company's name without permission is legitima
 **only** while it cannot be mistaken for their real site. Every skin ships with:
 
 - a persistent visible line: *"Independent concept by <you>. Not affiliated with <them>."*
-- `<meta name="robots" content="noindex,nofollow">` **and** a robots.txt disallowing everything
+- `<meta name="robots" content="noindex,nofollow">` **and** an `X-Robots-Tag: noindex, nofollow` header. **Do not**
+  blanket-`Disallow` in robots.txt: Slack, X, LinkedIn and Facebook check it before drawing a link preview
+  (iMessage borrows their user-agents), so the link you send shows up bare. Allow those bots by name and let
+  noindex keep search engines out.
 - demo inventory labelled as demo data
 - their colours and type *referenced*, **never their logo reproduced as if licensed** (a clearly
   marked placeholder wordmark with their real name)

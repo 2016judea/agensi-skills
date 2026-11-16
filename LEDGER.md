@@ -5,7 +5,7 @@ Every global skill, repo-local skill and hook, what happened to it, and why. Gen
 
 Creator profile: https://agensi.io/creators/brick-mortar (display name "Brick & Mortar").
 
-**Listed: 164 · Skipped: 103.** All listings are Free. Review status is as of the last
+**Listed: 164 · Skipped: 104.** All listings are Free. Review status is as of the last
 `my_skills` read; a security status of `fail` is Agensi's automated scan (env var + network
 heuristics on tools that legitimately call an API with your own key) and goes to human review.
 
@@ -236,6 +236,7 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | meta-ad-headline-refresh | `~/Desktop/workspace/bricks/.claude/skills/meta-ad-headline-refresh (deleted; from git)` | n | folded into meta-ads-launch |
 | meta-carousel-ad | `~/Desktop/workspace/bricks/.claude/skills/meta-carousel-ad (deleted; from git)` | n | folded into meta-ads-launch |
 | mobile-qa | `~/Desktop/workspace/bricks/.claude/skills/mobile-qa (deleted; from git)` | n | near-duplicate of listed mobile-ui-audit (overflow + contrast at phone width) |
+| model-site | `~/.claude/skills/model-site` | n | built on another real person's photos via a signed-in Instagram session and his own pitch; the generic parts already ship as spec-site-sale + mobile-ui-audit (2026-11-16) |
 | morning | `~/.claude/skills/synced/3735f553-a71b-4dc4-8008-795672ba5246_d9f449e8-d776-4d92-b37d-e563e209e9ee/morning` | n | third-party: Anthropic built-in synced from claude.ai |
 | newsletter-trust-sequence | `~/Desktop/workspace/bricks/.claude/skills/newsletter-trust-sequence (deleted; from git)` | n | bound to his prospect list and retired mailers; the generic sequence ships as sector-playbook-pilot |
 | okay-mom | `~/.claude/skills/okay-mom (deleted; from git)` | n | near-duplicate: already listed as just-do-it |

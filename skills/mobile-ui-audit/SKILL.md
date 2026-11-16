@@ -66,6 +66,20 @@ Single-page apps whose views render client-side: `--crawl` only sees the sitemap
 the real view URLs directly (e.g. `/?view=<id>`). A deliberately locked shell
 (`html{overflow:hidden}` with an inner scroller) reports as INFO, not FAIL.
 
+## Traps the audit cannot see, found by scripted taps
+
+- **A click handler delegated to `document` never hears a tap on a plain `<img>` on iOS.** Safari only
+  turns a tap into a click on an element it treats as clickable: a link, a button, `cursor:pointer`, or
+  something with its own listener. `cursor:zoom-in` does not count. Playwright WebKit with the iPhone profile
+  reproduces it (`locator.tap()` → no click), while `click()` and Chromium both pass, so test with `tap()`.
+  Fix: attach the listener to each element, and add `tabindex=0` and `role=button`.
+- **A swipe needs touch events.** iOS cancels the pointer stream when a pan starts. Use `touchstart`/`touchend`
+  on phones and pointer events for a mouse only. Prove it with CDP `Input.dispatchTouchEvent` on Chromium
+  (Pixel 5); a Playwright mouse drag proves nothing here.
+- **`robots.txt` `Disallow: /` kills link previews.** Slack, X, LinkedIn and Facebook check it, and iMessage
+  borrows their user-agents. On a noindex site, allow those bots and let the noindex meta and `X-Robots-Tag`
+  header keep search engines out.
+
 ## When the audit says ok and the phone still disagrees
 
 The next tier is a real Mobile Safari: **a headless iOS simulator driven by

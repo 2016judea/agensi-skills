@@ -265,3 +265,4 @@ mac-calendar	agensi-skills/skills/mac-calendar (new, built for Agensi)	list	buil
 mac-reminders	agensi-skills/skills/mac-reminders (new, built for Agensi)	list	built public from the start; lists read live, reminder queries tested on a synthetic copy of the store (Mac had 0 reminders)	
 mac-safari-history	agensi-skills/skills/mac-safari-history (new, built for Agensi)	list	built public from the start; tested live on History.db + Bookmarks.plist, synthetic examples only	
 mac-screen-time	agensi-skills/skills/mac-screen-time (new, built for Agensi)	list	built public from the start; tested live on knowledgeC.db, generic app names in examples	
+model-site	~/.claude/skills/model-site	skip		built on another real person's photos via a signed-in Instagram session and his own pitch; the generic parts already ship as spec-site-sale + mobile-ui-audit (2026-11-16)

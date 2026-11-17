@@ -53,6 +53,13 @@ def main():
             ok = isinstance(conf, dict) and conf.get("status") not in ("error",) and "error" not in conf
             rec = {"skill": skill, "status": "submitted" if ok else "confirm_failed", "draft_id": prev["draft_id"],
                    "detail": conf if isinstance(conf, dict) else str(conf)[:500], "t": time.time()}
+        if rec["status"] == "submitted":
+            # Agensi attaches paid data tools it thinks the files call for (11/16: a Reddit proxy on
+            # reddit-mining, Google Maps on browser-as-you). We never proxy third-party data: clear them.
+            slug = (conf.get("listing_url") or "").rstrip("/").rsplit("/", 1)[-1]
+            t = agensi.call("skill_tools", {"skill_slug": slug}) if slug else None
+            if isinstance(t, dict) and t.get("tools"):
+                rec["tools_cleared"] = agensi.call("set_skill_tools", {"skill_slug": slug, "tools": []})
         open(LOG, "a").write(json.dumps(rec) + "\n")
         print(rec["status"], skill, json.dumps(rec.get("detail"))[:200])
         time.sleep(4)

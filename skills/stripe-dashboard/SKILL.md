@@ -35,7 +35,20 @@ In an OTP widget, click the first box and `keyboard.press("Digit<n>")` per digit
 If you script it, run the whole wizard as one browser-automation script (one connect per
 launch) and have it poll a `code.txt` so a human or another tool can supply the code.
 Restricted key of choice: **"Full access — except sensitive operations"** (no payouts or
-transfers).
+transfers). The path (2026-11): Developers → API keys → *Create secret key* → **"Building your
+own integration"** → that permission preset → name it → *Create key* → the verification
+above. Find each step's control by `innerText` over `button,a,[role=button],[role=radio],label`;
+the wizard's controls are not all `<button>`s. If the **Workbench** side panel opens, it covers
+the dialog; close it first.
+
+## Rule 2b — a new account under an organization
+
+Account switcher → *New account* creates a sibling account that shares the organization's legal
+entity (no second identity verification). It still has its own **activation** (bank, public
+details, statement descriptor) and its own capabilities. Read `GET /v1/account` →
+`capabilities` before moving payment links onto it: one new account had its capabilities
+**paused** on a past-due task, and a payment link there failed with "No valid payment method
+types". Keep those links on an active account until the new one reads active.
 
 ## Rule 3 — dashboard mechanics that actually work
 

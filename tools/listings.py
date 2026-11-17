@@ -58,6 +58,7 @@ L = {
  "think-big": ("Think Big", ["business-strategy", "strategy", "valuation"]),
  "thirty-day-catalyst": ("30-Day Catalyst Screen", ["stock-analysis", "investing", "trading"]),
  "thread-wall": ("iMessage Thread to Wall of Text", ["macos", "writing", "productivity"]),
+ "tool-launch": ("Tool Launch: Idea to Live and Found in One Session", ["go-to-market", "mcp", "seo"]),
  "trade-journal": ("Trade Journal", ["trading-journal", "investing", "risk-management"]),
  "ux-gift-sweep": ("UX Gift Sweep", ["web-audit", "outreach", "small-business"]),
  "vercel-api": ("Vercel API", ["deployment", "api", "web-development"]),

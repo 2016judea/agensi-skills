@@ -189,6 +189,12 @@ and can take minutes. Don't poll it in a tight loop — read the file once.
 
 **Read the output by grepping for context, not by loading the raw JSON.**
 
+**Run one process per subreddit, in parallel.** A single 12-sub run spent its whole first
+stretch on one very busy sub (about 22,000 posts in the window) and hit connection resets.
+Twelve background jobs, one `--subreddits` value each, each writing its own
+`pull_<sub>.json`, all finished in about 10 minutes. Merge the files locally. A sub that
+returns `[]` is an archive gap, not a finding.
+
 ## Picking subreddits and queries
 
 - **Short, 1–2 word keywords beat exact phrases.** Matching is a literal

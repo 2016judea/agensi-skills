@@ -60,6 +60,14 @@ dated event inside the window, which in practice means an **earnings print**. Tw
   forward P/E must be below trailing, checked against current company guidance from a
   second source. `recognition.py` explains why automating it off one feed is unsafe.
 - **A high rank is a reason to research, never a buy.**
+- **For a second-order thesis ("X happens, so Y's quarter shows it"), count orders before
+  running the recognition test.** Size the effect against the line item it would move, using
+  generous inputs. If the generous case still sits inside the company's own guidance range,
+  the market isn't missing it, and it doesn't matter. Worked example (2026-11-08): "a big
+  video-game launch means more food-delivery orders" came out to about 4M orders, about $19M,
+  about 0.4% of a $4.8B quarter, while the delivery company's own quarterly guidance range was
+  about 3% of order volume. The first-order name (the game's publisher) was 19 Buy / 0 Sell and
+  up 13% into its print, so it was fully priced. The trade died in two numbers.
 
 ## Residue
 

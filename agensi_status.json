@@ -1103,5 +1103,11 @@
   "url": "https://agensi.io/skills/vercel-env-vars-via-api",
   "review": "live",
   "security": "approved"
+ },
+ "tool-launch-idea-to-live-and-found-in-one-session": {
+  "name": "Tool Launch: Idea to Live and Found in One Session",
+  "url": "https://agensi.io/skills/tool-launch-idea-to-live-and-found-in-one-session",
+  "review": "pending",
+  "security": "pass"
  }
 }

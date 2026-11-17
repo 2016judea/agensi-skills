@@ -96,7 +96,12 @@ known gap. Never smooth over the part that failed.
    fire? Wrong-but-plausible phrasings are the usual failure. Widen until it
    catches them.
 
-10. **Report what landed.** The files written, one line each, and the single thing
+10. **Publish it, if you share skills.** When a public or team copy of your skills exists (a
+    shared repo, a plugin marketplace, a skill listing), scrub the new or changed skill into it
+    and re-publish now. A skill only you can use gets a written skip reason instead. Without
+    this step the shared set silently goes stale.
+
+11. **Report what landed.** The files written, one line each, and the single thing
     the skill now knows that cost the most to learn.
 
 ## The other direction: retiring skills

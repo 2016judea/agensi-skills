@@ -68,6 +68,14 @@ relationship with the planner is worth forty with couples, and it renews itself.
 the buyer (a subreddit, a directory) is a platform, not a super user. And the super user's
 clients must be YOUR buyer class.
 
+**On a marketplace, the super users are the listing owners.** Each listing fronts its own crowd:
+on a clipping-campaign marketplace, one campaign owner alone fronted more than 7,000 clippers.
+Find the owners from the listing data itself, rank them by how many buyers each fronts, open on
+their own listing (its title, rate and count, refreshed from live data minutes before sending),
+and verify every contact route on the owner's own page. Never pattern-guess an address. A
+store's or marketplace's own support or contact channel often reaches the owner with no
+purchase needed.
+
 ## Rules, each with its why
 
 1. **Email works as a first touch when it opens on the reader's own record.** What fails is the
@@ -119,6 +127,11 @@ clients must be YOUR buyer class.
 16. **Don't text prospects from a personal phone number.** A prospect who has it can reach that
     person there forever. Use a business channel (a marketplace relay, a business page message,
     their contact form), or hold the row.
+17. **A first touch is about 45 words.** Their record, one line on what you made, the link, and a
+    soft ask. Proof, price and terms live on a tracked page behind the link, never in the email
+    body (for a paid product, rule 12's one price line moves to that page). Cut credentials,
+    offers and meeting asks too. *Why:* a first touch earns a click, not a decision. Price, offers
+    or a call request in the email turn it into a negotiation before they have read anything.
 
 ## Procedure
 
@@ -137,3 +150,13 @@ clients must be YOUR buyer class.
 7. At day 3, read visits by day and by `/for/<token>/` path (see `site-analytics`), then log
    every touch and reply kind. At day 60, read one table per channel, super users counted as
    their own channel.
+
+## Community launch posts: platform rules that bit (2026-11)
+
+- **Read a community's sidebar rules before drafting.** One niche subreddit's rules banned the
+  launch's exact topic; the post was written, then dropped.
+- **A Show HN from a 1-karma account was [flagged] and dead within a minute.** Post from an
+  account with history, or email the moderators (hn@ycombinator.com) first. Never repost a dead
+  item. HN's API hides a dead item's text, so an empty `text` doesn't mean the body failed to
+  post.
+- **On X, post as a brand account under a handle the owner chose**, never a pseudonym persona.

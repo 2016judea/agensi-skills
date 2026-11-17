@@ -141,3 +141,11 @@ and the live production URL was checked post-deploy.
 
 - `artifact-design` — load before building any prototype Artifact; covers
   design-system-honoring, typography, and avoiding generic "AI-slop" looks.
+
+## The working-style skills this composes
+
+One practice each; use them inside a beautify run: `ask-the-style-question`, `vary-the-premise`,
+`vary-the-interaction`, `judge-at-full-size`, `rank-the-creative-set`, `inspect-before-you-show`,
+`breadth-after-a-miss`, `ship-the-prototype-verbatim`, `show-the-quiet-option`, `colour-tells-the-story`,
+`open-preloaded-with-an-example`. Magazines add `reading-first-layout`, `no-dead-white-space`,
+`art-is-chosen-not-filler`, `sexy-not-scholarly`, `one-identity-per-publication`.

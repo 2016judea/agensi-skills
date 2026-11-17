@@ -144,6 +144,20 @@ being *early* on structural theses: size at entry, don't chase once it's consens
   say plainly that small-n is data-mining. Check whether a lopsided month is just the
   name's beta to a market-wide seasonal. Never let a seasonal override a thesis; at most
   it is a pre-commitment device ("red in this month is expected, not information").
+- **Is a sentiment discount closing?** Use this whenever pass 2 lands on "no overhang → the
+  de-rate is narrative", because that verdict says the gap closes only when opinion changes.
+  This measures whether it is changing. The lens that settles it is the **multiple
+  decomposition**: (1 + price change) = (1 + forward-EPS-estimate change) × (1 + change in
+  price / forward EPS). The multiple term is the sentiment. NVDA on 2026-11-16, over 90 days:
+  price −28.9% = EPS estimate +23.2% and multiple −42.3%, so the whole fall was opinion while
+  estimates rose. Estimate history for 7/30/60/90 days ago is in yfinance's `eps_trend`. The
+  confirming lenses: options (~30-day skew = 10% OTM put IV minus 10% OTM call IV, plus put/call
+  open interest), the analyst mix series from `recognition.py`, short interest against the prior
+  report, StockTwits' self-labelled bull share, and a financial-sentiment model (e.g. the open
+  FinBERT) over weekly Google News headlines. Want a direction that agrees across lenses, not
+  one number. **Options and StockTwits have no free history, so one read is a snapshot: log a
+  row each time and re-run at every tranche gate.** GDELT's API was IP-throttled on 2026-11-16;
+  don't retry it. (Not bundled; the lenses are the method.)
 - **Sector context first:** `sector-acceleration`. **Positions:** `etrade-pull`.
 
 ## Output shape

@@ -5,7 +5,7 @@ Every global skill, repo-local skill and hook, what happened to it, and why. Gen
 
 Creator profile: https://agensi.io/creators/brick-mortar (display name "Brick & Mortar").
 
-**Listed: 164 · Skipped: 104.** All listings are Free. Review status is as of the last
+**Listed: 165 · Skipped: 104.** All listings are Free. Review status is as of the last
 `my_skills` read; a security status of `fail` is Agensi's automated scan (env var + network
 heuristics on tools that legitimately call an API with your own key) and goes to human review.
 
@@ -164,6 +164,7 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | think-big | `~/.claude/skills/think-big` | y | https://agensi.io/skills/think-big | live / approved | his project names (CNA Shield, bricks, GLEAN), memory ref |
 | thirty-day-catalyst | `~/.claude/skills/thirty-day-catalyst + ~/Desktop/workspace/trading-journal scripts` | y | https://agensi.io/skills/30-day-catalyst-screen | live / approved | his quote/thesis attribution, his HELD holdings set and KILLED research ledger emptied in screener.py, RMD/JOURNAL/RESEARCH-PLAN refs |
 | thread-wall | `~/.claude/skills/thread-wall (+ contacts/read_messages.py)` | y | https://agensi.io/skills/imessage-thread-to-wall-of-text | live / approved | a friend's name + his texting anecdote, a real phone number in the usage line, /Users path; reader bundled |
+| tool-launch | `~/.claude/skills/tool-launch` | y | https://agensi.io/skills/tool-launch-idea-to-live-and-found-in-one-session | pending / pass | his product name and domain, his accounts, handles and mailboxes, /Users and memory paths, CLAUDE.md/BUSINESS.md refs, submission IDs, named outreach counts; the trademark example generalised; kept the method and the dated 2026-11 directory facts as a table |
 | tool-skill-template | `harvest-harness:free/skills/tool-skill-template` | y | https://agensi.io/skills/tool-skill-template | live / approved | tenet references to his CLAUDE.md replaced; fill guide added |
 | trade-journal | `~/Desktop/workspace/trading-harness (public)` | y | https://agensi.io/skills/trade-journal | live / approved | harness copy + JOURNAL.template.md (placeholders only) |
 | trade-vocabulary | `~/Desktop/workspace/bricks/.claude/skills/trade-vocabulary (deleted; from git)` | y | https://agensi.io/skills/trade-vocabulary-for-operator-copy | live / approved | house brand, product names and benchmark-file path removed; lexicon recipe generalised |

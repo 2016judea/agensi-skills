@@ -139,6 +139,12 @@ window pops tabs ("Open the app") in front of whoever is at the machine.
   (tax country, EIN as 9 digits, legal name, address), Identity (name, **DOB YYYY-MM-DD**,
   home address, phone, email), Contact Info, then "Verify Your Account". No document upload
   for a US developer.
+- **Checking verification status:** headless login works end to end (fresh profile,
+  `#signOnButton`, Authenticator App, a `pyotp` code). Then Account (top-right) → Developer
+  Settings = `/global-developer-home/NA/prod/settings/info`; the status sits in the
+  `developer-home/<developer id>/settings/info` iframe and reads "VERIFYING ACCOUNT" until
+  approved. My Apps shows each app's approval status. One account was still verifying on day 10
+  (2026-11), so plan for verification taking weeks, not days.
 
 Keep app ids, secrets, TOTP seeds and login passwords in a gitignored `.env`, never in a skill.
 

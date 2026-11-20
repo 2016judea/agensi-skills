@@ -5,7 +5,7 @@ Every global skill, repo-local skill and hook, what happened to it, and why. Gen
 
 Creator profile: https://agensi.io/creators/brick-mortar (display name "Brick & Mortar").
 
-**Listed: 165 · Skipped: 104.** All listings are Free. Review status is as of the last
+**Listed: 166 · Skipped: 105.** All listings are Free. Review status is as of the last
 `my_skills` read; a security status of `fail` is Agensi's automated scan (env var + network
 heuristics on tools that legitimately call an API with your own key) and goes to human review.
 
@@ -103,6 +103,7 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | mixam-order | `~/.claude/skills/mixam-order` | y | https://agensi.io/skills/mixam-print-order-prep | live / approved | his magazines, quote/order numbers, prices paid, repo paths, his decisions on his book |
 | mobile-ui-audit | `~/.claude/skills/mobile-ui-audit` | y | https://agensi.io/skills/mobile-ui-audit-ios-android | live / approved | Vercel team id, his venv/.env paths, his alias filter in audit.py; site names, business names from his sweep; evidence screenshots dropped |
 | mpls-permits | `~/.claude/skills/mpls-permits` | y | https://agensi.io/skills/minneapolis-building-permits-query | live / approved | his repo paths, a named contractor (person), a specific address, project names |
+| museum-open-access | `~/.claude/skills/museum-open-access` | y | https://agensi.io/skills/museum-open-access-art | submitted | grounding path, repo/route paths, product and publication names, house-skill refs |
 | never-hamstring-by-pattern | `~/.claude/skills/never-hamstring-by-pattern` | y | https://agensi.io/skills/never-hamstring-an-idea-by-pattern | live / approved | his name, his quotes' attribution, product names and memory links removed; instances generalised |
 | no-dead-white-space | `~/.claude/skills/no-dead-white-space` | y | https://agensi.io/skills/no-dead-white-space | live / approved | his name, his quotes' attribution, product names and memory links removed; instances generalised |
 | no-gloss-on-their-material | `~/.claude/skills/no-gloss-on-their-material` | y | https://agensi.io/skills/no-gloss-on-their-material | live / approved | his name, his quotes' attribution, product names and memory links removed; instances generalised |
@@ -218,6 +219,7 @@ heuristics on tools that legitimately call an API with your own key) and goes to
 | glean-issue | `~/.claude/skills/glean-issue (+ writing-topology copy)` | n | his printed magazine pipeline, site, archive and readers |
 | google-workspace | `~/.claude/skills/synced/3735f553-a71b-4dc4-8008-795672ba5246_d9f449e8-d776-4d92-b37d-e563e209e9ee/google-workspace` | n | third-party: Anthropic built-in synced from claude.ai |
 | grill-me | `~/.claude/skills/grill-me` | n | third-party skill (Matt Pocock's grill-me); not ours to list |
+| heistclips-status | `~/.claude/skills/heistclips-status` | n | one private product dashboard and board; artifact ids, repo paths and his accounts are the whole skill |
 | import-memory | `~/.claude/skills/synced/3735f553-a71b-4dc4-8008-795672ba5246_d9f449e8-d776-4d92-b37d-e563e209e9ee/import-memory` | n | third-party: Anthropic built-in synced from claude.ai |
 | instagram-pull | `~/.claude/skills/instagram-pull (appeared mid-session)` | n | pulls his own Instagram account's photos to his site; his handle and personal archive |
 | instagram-starter-posts | `~/Desktop/workspace/bricks/.claude/skills/instagram-starter-posts (deleted; from git)` | n | bound to the retired report pipeline and his account; nothing generic beyond simulate-campaign/meta-ads-launch |

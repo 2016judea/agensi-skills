@@ -5,6 +5,28 @@ description: Operate your own Stripe account(s) — via the API where it works a
 
 # Stripe: API first, dashboard for the rest
 
+## Rule 0 — every checkout wears the product's brand and emails an invoice
+
+When one Stripe account sells several products, the buyer should see the product they clicked
+"order" on, not the parent company. A checkout page or card statement under an unfamiliar name
+looks like a redirect to the wrong merchant, and buyers leave.
+- **Branding per product.** Create a Checkout Session with
+  `branding_settings[display_name|background_color|button_color|icon|logo]`. Upload the icon and
+  logo to *that* account as files (`purpose=business_icon` / `business_logo`) and pass their ids.
+  Add `payment_intent_data[statement_descriptor_suffix]` for the card line.
+- **Payment links can't take `branding_settings`.** A product that needs its own look gets a small
+  session-creating endpoint on its site. Its old link can stay active as a fallback.
+- **The account still owns** the receipt sender name and the statement prefix (dashboard only,
+  Rule 1). Sell each product from the account whose name sits closest to it.
+- **Don't open a new account per product by reflex.** A burst of new sibling accounts drew a
+  risk review that closed one for good (appeal denied), and the owner moved those products back
+  onto one account.
+- **Every payment emails a paid invoice.** Set `invoice_creation[enabled]=true` on each one-time
+  session and payment link, and keep successful-payment emails ON (Rule 3). Stripe only emails
+  the invoice when that toggle is on. Fee: 0.4% of the payment, capped at $2.
+- **Check:** create a session, read back `branding_settings` and `invoice_creation.enabled`, then
+  expire it (`/v1/checkout/sessions/{id}/expire`, no charge). Test mode sends no email.
+
 ## Rule 1 — split the work by what the API can touch
 
 **The API can:** products, prices, payment links (create/update/deactivate, incl.

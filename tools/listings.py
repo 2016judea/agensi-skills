@@ -52,6 +52,7 @@ L = {
  "session-intent": ("Session Intent Scoring (PostHog)", ["product-analytics", "ux-research", "conversion-optimization"]),
  "site-analytics": ("Site Analytics (PostHog + Vercel)", ["product-analytics", "monitoring", "web-development"]),
  "skill-autoload-hook": ("Skill Autoload Hook", ["hooks", "claude-code", "context-management"]),
+ "museum-open-access": ("Museum Open-Access Art", ["art", "api", "public-domain"]),
  "sms-native-product": ("SMS-Native Product", ["mobile", "compliance", "architecture"]),
  "stripe-dashboard": ("Stripe Dashboard Operations", ["ecommerce", "api", "automation"]),
  "substack-export": ("Substack Export", ["newsletter", "content", "python"]),

@@ -213,7 +213,7 @@
  },
  "stripe-dashboard": {
   "original": "~/.claude/skills/stripe-dashboard/SKILL.md",
-  "sha256": "fa5fb550dc955c183c5d9ca8197c08138726c5a2e695320c739853a0751c0000"
+  "sha256": "4a941f7ac0c5d74f5931113926bc0f247db10dd8f0f412fd3838cc1992a22171"
  },
  "substack-export": {
   "original": "~/Desktop/workspace/writing-topology/.claude/skills/substack-export/SKILL.md",

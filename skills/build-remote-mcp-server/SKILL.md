@@ -145,6 +145,24 @@ from the docs alone.
   where gotcha #2 was actually caught. If there's a rate-limit/auth/policy
   seam that isn't active by default, flip it on locally and call a tool
   past the limit before calling the build done.
+- **End to end as the client, on a stranger's real data, by someone other
+  than the builder.** Walk the whole flow the way the client model would,
+  in order, against the live endpoint, then open what the last tool hands
+  back (a page, a link, a file) and look at it. In one build, the
+  builder's run on the owner's own data passed. A second run on a
+  stranger's publication found three defects in the first render:
+  website footers printed into the product, text set over artwork, and a
+  third-party record filed under the wrong author. The owner's data had
+  none of those quirks.
+  - Choose the test subject *after* reading a couple of its records.
+    The first pick in that run turned out to be link roundups, a poor
+    fit for the product.
+  - Tag test traffic (a header the server logs as `test`), so your own
+    calls don't count as demand.
+  - If the result renders a third-party CDN's images in headless Chrome,
+    set a normal browser user agent first. Some CDNs refuse
+    HeadlessChrome, and that shows up as a CORS error and an empty page
+    real users never see.
 
 ## Directory Connectors submission
 

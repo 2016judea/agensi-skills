@@ -267,3 +267,4 @@ mac-safari-history	agensi-skills/skills/mac-safari-history (new, built for Agens
 mac-screen-time	agensi-skills/skills/mac-screen-time (new, built for Agensi)	list	built public from the start; tested live on knowledgeC.db, generic app names in examples	
 model-site	~/.claude/skills/model-site	skip		built on another real person's photos via a signed-in Instagram session and his own pitch; the generic parts already ship as spec-site-sale + mobile-ui-audit (2026-11-16)
 tool-launch	~/.claude/skills/tool-launch	list	his product name and domain, his accounts, handles and mailboxes, /Users and memory paths, CLAUDE.md/BUSINESS.md refs, submission IDs, named outreach counts; the trademark example generalised; kept the method and the dated 2026-11 directory facts as a table	
+heistclips-status	~/.claude/skills/heistclips-status	skip		one private product dashboard and board; artifact ids, repo paths and his accounts are the whole skill

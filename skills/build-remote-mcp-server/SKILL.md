@@ -28,6 +28,14 @@ from the docs alone.
 - **Zod v4** for input/output schemas.
 - **Workers KV** (free tier) if you need any kind of usage tracking —
   no Durable Objects, no database, no external API calls from the server.
+- **No model calls on the server.** The client already runs a model, so
+  leave the reasoning (choosing, ranking, matching, summarising,
+  drafting) to it, on the user's own usage. Tools return data and
+  computed results, and guidance on what to do with them goes in the
+  server `instructions`. This keeps the cost of a stranger's tool call
+  near zero, so the free tier holds however much use it gets. Offline
+  jobs you run yourself (a data refresh) are fine; this applies to the
+  request path.
 
 ## Gotchas (read this before writing code)
 
